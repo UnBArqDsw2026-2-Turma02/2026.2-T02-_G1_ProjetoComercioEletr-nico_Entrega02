@@ -1,23 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Alltletic - Comércio Eletrônico</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="Projeto de Arquitetura e Desenho de Software - Grupo 1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Tema Base Docsify (Verde Padrão #42b983) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+
+  <style>
+    :root {
+      --theme-color: #42b983;
+    }
+
+    /* Remoção completa dos ícones de pasta/documento e marcadores */
+    .sidebar-nav ul, 
+    .sidebar-nav ul li {
+      list-style-type: none !important;
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+    }
+
+    .sidebar-nav ul li::before,
+    .sidebar-nav ul li a::before,
+    .sidebar-nav .folder::before,
+    .sidebar-nav .file::before,
+    .sidebar-nav .app-sub-sidebar::before {
+      display: none !important;
+      content: "" !important;
+    }
+
+    /* Indentação dos subníveis */
+    .sidebar-nav ul ul {
+      padding-left: 14px !important;
+    }
+
+    /* Estilo dos blocos/retângulos */
+    .sidebar-nav a,
+    .sidebar-nav span {
+      display: block !important;
+      border-radius: 6px !important;
+      padding: 6px 10px !important;
+      margin: 2px 0 !important;
+      transition: background-color 0.2s ease, color 0.2s ease !important;
+      color: #2c3e50 !important;
+      text-decoration: none !important;
+    }
+
+    .sidebar-nav strong {
+      font-weight: 700 !important;
+    }
+
+    /* Hover */
+    .sidebar-nav a:hover,
+    .sidebar-nav span:hover {
+      background-color: #f1f3f5 !important;
+      color: #42b983 !important;
+    }
+
+    /* Item SELECIONADO: Retângulo cinza escuro fixo + Texto Verde */
+    .sidebar-nav li.active > a,
+    .sidebar-nav li.active > a strong {
+      background-color: #e9ecef !important;
+      color: #42b983 !important;
+      font-weight: bold !important;
+      border-right: none !important;
+    }
+
+    /* Esconde todos os submenus por padrão */
+    .sidebar-nav li ul {
+      display: none !important;
+    }
+
+    /* Exibe o submenu apenas quando o item pai estiver aberto ou ativo */
+    .sidebar-nav li.open > ul,
+    .sidebar-nav li.active > ul {
+      display: block !important;
+    }
+
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      name: 'Alltletic - Comércio Eletrônico',
+      repo: 'https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02',
       loadSidebar: true,
-      name: 'Repositorio Template',
-      repo: 'https://github.com/UnBArqDsw2025-1-Turma01/RepositorioTemplateEntrega1'
+      homepage: 'pagina-inicial.md',
+      nameLink: '#/pagina-inicial.md',
+      sidebarDisplayLevel: 0,
+      subMaxLevel: 2,
+      auto2top: true,
+      
+      search: {
+        placeholder: 'Pesquisar...',
+        noData: 'Nenhum resultado encontrado!'
+      },
+
+      plugins: [
+        function(hook) {
+          hook.doneEach(function() {
+            document.querySelectorAll('.sidebar-nav li').forEach(function(li) {
+              if (li.querySelector('ul')) {
+                // Força começar recolhido se não for o ativo
+                if (!li.classList.contains('active')) {
+                  li.classList.add('collapse');
+                  li.classList.remove('open');
+                }
+                var a = li.querySelector('a');
+                if (a && !a.hasAttribute('data-initialized')) {
+                  a.setAttribute('data-initialized', 'true');
+                  a.addEventListener('click', function(e) {
+                    li.classList.toggle('collapse');
+                    li.classList.toggle('open');
+                  });
+                }
+              }
+            });
+          });
+        }
+      ]
     }
   </script>
-  <!-- Docsify v4 -->
+  
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>

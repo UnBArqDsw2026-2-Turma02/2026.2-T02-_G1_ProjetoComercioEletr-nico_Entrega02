@@ -1,13 +1,23 @@
-<!-- docs/_sidebar.md -->
+* [**Apresentação do Projeto**](pagina-inicial.md)
 
-- [Home](/docs)
-- [Projetos](/docs/Projeto/Projeto.md)
+* [**Módulo I - Base**](modulo-1/apresentacao-modulo-01.md)
+  * [Subequipe 01](modulo-1/subequipe-01.md)
+  * [Subequipe 02](modulo-1/subequipe-02.md)
+  * [Subequipe 03](modulo-1/subequipe-03.md)
 
-- **Base**
-  - [1. Desenho de Software (Modelagem)](/docs/Base/1.Modelagem.md)
-  - Relatórios
-      - [1.1.1. SubEquipe_01](/docs/Base/Relatórios/1.1.1.SubEquipe_01.md)
-      - [1.1.2. SubEquipe_02](/docs/Base/Relatórios/1.1.2.SubEquipe_02.md)
-      - [1.1.3. SubEquipe_03](/docs/Base/Relatórios/1.1.3.SubEquipe_03.md)
-  - [1.2. Participações - Modelagem](/docs/Base/1.2.ParticipacoesModelagem.md)
-  - [1.3. Iniciativas Extras - Modelagem](/docs/Base/1.3.IniciativasExtras.md)
+* [**Módulo II - Desenho de Software**](modulo-2/apresentacao-modulo-02.md)
+  * [Subequipe 01](modulo-2/subequipe-01/apresentacao-01.md)
+    * [Foco 01](modulo-2/subequipe-01/foco-01.md)
+    * [Foco 02](modulo-2/subequipe-01/foco-02.md)
+    * [Foco 03](modulo-2/subequipe-01/foco-03.md)
+  * [Subequipe 02](modulo-2/subequipe-02/apresentacao-02.md)
+    * [Foco 01](modulo-2/subequipe-02/foco-01.md)
+    * [Foco 02](modulo-2/subequipe-02/foco-02.md)
+    * [Foco 03](modulo-2/subequipe-02/foco-03.md)
+  * [Subequipe 03](modulo-2/subequipe-03/apresentacao-03.md)
+    * [Foco 01](modulo-2/subequipe-03/foco-01.md)
+    * [Foco 02](modulo-2/subequipe-03/foco-02.md)
+    * [Foco 03](modulo-2/subequipe-03/foco-03.md)
+
+* [**Iniciativas Extras**](iniciativas-extras.md)
+  * [Reuniões Gerais](extras/reunioes.md)
