@@ -9,7 +9,6 @@
   
   <!-- Tema Base Docsify (Verde Padrão #42b983) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 
   <style>
     :root {
@@ -69,18 +68,6 @@
       font-weight: bold !important;
       border-right: none !important;
     }
-
-    /* Esconde todos os submenus por padrão */
-    .sidebar-nav li ul {
-      display: none !important;
-    }
-
-    /* Exibe o submenu apenas quando o item pai estiver aberto ou ativo */
-    .sidebar-nav li.open > ul,
-    .sidebar-nav li.active > ul {
-      display: block !important;
-    }
-
   </style>
 </head>
 <body>
@@ -92,43 +79,17 @@
       loadSidebar: true,
       homepage: 'pagina-inicial.md',
       nameLink: '#/pagina-inicial.md',
-      sidebarDisplayLevel: 0,
-      subMaxLevel: 2,
+      subMaxLevel: 0,
       auto2top: true,
       
       search: {
         placeholder: 'Pesquisar...',
         noData: 'Nenhum resultado encontrado!'
-      },
-
-      plugins: [
-        function(hook) {
-          hook.doneEach(function() {
-            document.querySelectorAll('.sidebar-nav li').forEach(function(li) {
-              if (li.querySelector('ul')) {
-                // Força começar recolhido se não for o ativo
-                if (!li.classList.contains('active')) {
-                  li.classList.add('collapse');
-                  li.classList.remove('open');
-                }
-                var a = li.querySelector('a');
-                if (a && !a.hasAttribute('data-initialized')) {
-                  a.setAttribute('data-initialized', 'true');
-                  a.addEventListener('click', function(e) {
-                    li.classList.toggle('collapse');
-                    li.classList.toggle('open');
-                  });
-                }
-              }
-            });
-          });
-        }
-      ]
+      }
     }
   </script>
   
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
