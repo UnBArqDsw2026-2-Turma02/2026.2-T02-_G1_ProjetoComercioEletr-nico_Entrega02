@@ -1,68 +1,64 @@
-# SubEquipe_03
-O relatório deverá conter a estrutura de focos estabelecida a seguir, bem como versionamentos, metodologia e participantes por foco.
-Não omitir tópicos.
+# Visão Geral e Gestão - Subequipe 03
 
-## Focos do Relatório:
-### FOCO_01: Modelagem Estática
-Entrega Mínima: um modelo estático, na notação UML.
-Mira-se no MM no FOCO, com a entrega mínima.
-### Participantes no Foco_01
-| Nome do Membro |
+### Apresentação da Subequipe
 
-EXEMPLO:
-| Fulano 
-### Metodologia do Foco_01
-Espaço para contar um pouco sobre como ocorreu o trabalho em equipe. Vídeos ajudam aqui.
-### Modelo Estático
-Modelo estático na notação UML.
-#
+A Subequipe 03 é responsável pelo desenvolvimento e documentação dos modelos de arquitetura orientados à notação UML para o projeto, que tem como objeto de estudo o Fluxo de Navegação C: Carrinho de Compras, Checkout e Pagamentos, com ênfase no apoio de IA.
 
-### FOCO_02: Modelagem Dinâmica
-Entrega Mínima: um modelo dinâmico, na notação UML.
-Mira-se no MM no FOCO, com a entrega mínima.
-### Participantes no Foco_02
-| Nome do Membro |
+Abaixo estão apresentados os membros integrados no ciclo de desenvolvimento.
 
-EXEMPLO:
-| Fulano |
-### Metodologia do Foco_02
-Espaço para contar um pouco sobre como ocorreu o trabalho em equipe. Vídeos ajudam aqui.
-### Modelo Dinâmico
-Modelo dinâmico na notação UML.
+| Foto | Nome | GitHub |
+| :---: | :--- | :---: |
+| <img src="https://github.com/Camile0318.png" width="80" style="border-radius: 50%;"> | **Camile Barbosa Gonzaga de Oliveira** | [Camile0318](https://github.com/Camile0318) |
+| <img src="https://github.com/LeticiaSantosss.png" width="80" style="border-radius: 50%;"> | **Letícia de Carvalho dos Santos** | [@LeticiaSantosss](https://github.com/LeticiaSantosss) |
+| <img src="https://github.com/Katuner.png" width="80" style="border-radius: 50%;"> | **Lucas Oliveira Meireles** | [Katuner](https://github.com/Katuner) |
+| <img src="https://github.com/radamesGuerra.png" width="80" style="border-radius: 50%;"> | **Rafaela Andrea Radames Guerra** | [radamesGuerra](https://github.com/radamesGuerra) |
 
-#
-### FOCO_03: IA Generativa
-Entrega Mínima: pontos de vista de cada membro da equipe sobre as lições aprendidas e uso da IA Generativa.
-TODOS DEVEM PARTICIPAR!
-### Participantes no Foco_03
-| Nome do Membro | Lições Aprendidas | Uso da IA Generativa (SENSO CRÍTICO) |
+---
 
-EXEMPLO:
-| Fulano | Compreendi sobre a notação UML, tanto em termos estático, com a modelagem de um Diagrama de Classes; quanto em termos dinâmico, com a modelagem de um Diagrama de Estados. | A IA Generativa ajudou a esboçar um primeiro nível de modelagem, mas demandou vários refinamentos para que a notação fosse atendida em suas diretrizes mínimas. O relatório revela as referências consultadas.
+### Fluxo de Trabalho & Metodologia
 
-#
-## Versionamentos
-|Nome do Membro | Contribuição | Data
+Para garantir a qualidade dos artefatos, rastreabilidade e embasamento teórico exigidos nas diretrizes do projeto, a equipe adaptou rotinas do **Scrum** combinadas com a organização visual do **Kanban** e práticas de **Desenvolvimento Colaborativo (Pair Modeling)**.
 
-EXEMPLO:
-| Fulano  |  1. Elaboração do Diagrama de Classes & Elaboração do Diagrama de Estados & Ponto de Vista sobre o Uso de IA Generativa | XX/XX/XXXX
-OBS: TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NA ENTREGA.
+#### Práticas Adotadas:
 
---
-# Observações: 
-Entregável: Relatório, documentado no GitPages, revelando:
-## Entrega Mínima (por subgrupo da equipe): um modelo estático na notação UML, um modelo dinâmico na notação UML, e pontos de vista de cada membro da equipe sobre as lições aprendidas e uso da IA Generativa. Mira-se no MM, com a entrega mínima.
+- **Co-criação Síncrona & *Pair Modeling*:** Desenvolvimento dos diagramas UML realizado em reuniões curtas e simultâneas via ferramentas colaborativas em tempo real. Cada membro contribui ativamente na construção do mesmo modelo.
+- **Divisão Modular da Documentação:** A elaboração dos relatórios e textos explicativos é fatiada em seções claras (Introdução, Objetivo, Metodologia, Modelagem e Conclusão), garantindo autonomia e responsabilidade individual sobre as partes.
+- **Revisão em Pares (*Peer Review*):** Adoção de fluxo estrito de revisão cruzada no Git. O conteúdo produzido por um participante é obrigatoriamente auditado e revisado por outro membro antes da inclusão final na Wiki/GitPages.
+- **Uso Crítico de IA Generativa:** Utilização de ferramentas de IA para refinamento textual e validação de consistência dos artefatos. Todos os *prompts* e decisões baseadas em IA são documentados de forma crítica.
+- **Evidências e Rastreabilidade:**
+  - Registros de reuniões por meio de **Atas de Reunião** estruturadas e gravação dos encontros síncronos.
+  - Validação teórica embasada na literatura clássica de Notação UML (*Fowler, Booch, Larman*).
 
-## Como ir além, para conseguir menções superiores?
-Embasar cada artefato gerado e cada decisão tomada na literatura;
-Manter rastros claros para o trabalho em equipe (ex. vídeos das reuniões e atas bem elaboradas), evidenciando práticas metodológicas (ex. reuniões periódicas das metodologias ágeis; checklists; debates, e assim vai);
-Usar os vários recursos de modelagem da notação UML, e
-Reportar os pontos de vista de forma fundamentada, clara e com senso crítico.
+#### Rastro de reuniões
 
-## 📌A ideia não é quantidade, e sim qualidade do que é entregue.
+| Data | Pauta / Objetivo | Ata da Reunião | Gravação |
+| :---: | :--- | :---: | :---: |
+| - | - | [Ata de reunião](links/ata01.md) | [Vídeo da Reunião](https://youtube.com/...) |
 
-## Apresentação:
-Apresentação (para a professora) explicando o artefato elaborado, com: (i) rastro claro aos membros participantes (MOSTRAR QUADRO DE PARTICIPAÇÕES & COMMITS); (ii) justificativas & senso crítico sobre o trabalho realizado, e (iii) comentários gerais sobre o trabalho em equipe. Tempo da Apresentação: +/- 10min. Recomendação: Apresentar diretamente via Wiki ou GitPages do Projeto. Baixar os conteúdos com antecedência, evitando problemas de internet no momento de exposição nas Dinâmicas de Avaliação.
+---
 
-A Wiki ou GitPages do Projeto deve conter, PARA CADA SUBGRUPO, um tópico dedicado ao relatório com a entrega mínima, versionamentos, referências, e demais detalhamentos gerados pela equipe nesse escopo.
-Demais orientações disponíveis nas Diretrizes (vide Aprender3).
+### Matriz Geral de Contribuições
+
+Consolidado da atuação de cada participante, detalhando o foco assumido e os artefatos sob responsabilidade direta.
+
+| Membro | Foco Principal | Artefato(s) Assumido(s) | Commits & Evidências |
+| :--- | :--- | :--- | :---: |
+| **Camile Barbosa Gonzaga de Oliveira** | - | - | [Commits](https://github.com/...) |
+| **Letícia de Carvalho dos Santos** | - | - | [Commits](https://github.com/...) |
+| **Lucas Oliveira Meireles** | - | - | [Commits](https://github.com/...) |
+| **Rafaela Andrea Radames Guerra** | - | - | [Commits](https://github.com/...) |
+
+---
+
+### Referências Bibliográficas
+
+1. **FOWLER, Martin.** *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. 3ª ed. Addison-Wesley, 2003.
+2. **LARMAN, Craig.** *Utilizando UML e Padrões: Uma Introdução à Análise e ao Projeto Orientados a Objetos e ao Desenvolvimento Iterativo*. 3ª ed. Bookman, 2007.
+3. **PRESSMAN, Roger S.; MAXIM, Bruce R.** *Engenharia de Software: Uma Abordagem Profissional*. 8ª ed. McGraw-Hill, 2016.
+
+---
+> **Histórico de Versões**
+> 
+> | Versão | Data | Descrição | Autores | Revisor |
+> | :---: | :---: | :--- | :--- | :---: |
+> | 0.1 | 12/09/2026 | Criação e Estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile0318](https://github.com/Camile0318) |

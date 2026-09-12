@@ -1,5 +1,5 @@
 
-# Reuniões Gerais
+## Reuniões Gerais
 
 Registro e formalização dos alinhamentos internos, definições de arquitetura, divisões de trabalho e acompanhamento de entregas.
 
@@ -27,7 +27,7 @@ Registro e formalização dos alinhamentos internos, definições de arquitetura
 
 ---
 
-# Mapeamento de Disponibilidade (When2meet)
+## Mapeamento de Disponibilidade (When2meet)
 
 Para consolidar o alinhamento de horários e a organização da equipe, utilizamos a plataforma **When2meet** para mapear a disponibilidade de todos os integrantes. O mapa de calor gerado ilustra visualmente os horários em que há maior sobreposição coletiva, facilitando o agendamento de reuniões e sessões de trabalho conjuntas.
 
