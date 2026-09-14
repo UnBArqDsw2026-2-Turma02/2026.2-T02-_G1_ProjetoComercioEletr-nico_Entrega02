@@ -24,9 +24,9 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 ## 3. Modelo UML
 
 ### 3.1. Diagrama
-![Diagrama de Classes](../../assets/images/diagrama-classes-subequipe3.svg)
+![Diagrama de Classes](../../assets/images/diagrama-classes-subequipe3.jpg)
 
-> **Recurso Utilizado:** Mermaid, exportado como SVG após sessão de *Pair Modeling*.
+> **Recurso Utilizado:** Mermaid, copiado como JPG após sessão de *Pair Modeling*.
 
 Fonte editável: [`diagrama-classes-subequipe3.mmd`](../../assets/images/diagrama-classes-subequipe3.mmd ':ignore'))
 
