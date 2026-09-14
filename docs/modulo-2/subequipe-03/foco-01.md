@@ -1,4 +1,4 @@
-# Modelo Estático - Diagrama de Classes]
+# Modelo Estático - Diagrama de Classes
 
 > **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de Rich Picture, SIG (NFR Framework) e Engenharia Reversa do fluxo de pagamento (checkout, orquestrador, gateway/adquirente, marketplace e logística), conduzido pela Subequipe 03 no Módulo 1 — ver [Módulo 1 — Subequipe 03](../../modulo-1/subequipe-03.md).
 > 
