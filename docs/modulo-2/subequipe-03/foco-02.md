@@ -1,5 +1,7 @@
 # Modelo Dinâmico - Diagrama de Sequência
 
+> **Nota de rastreabilidade:** O modelo dinâmico deste diagrama reaproveita o fluxo de pagamento já mapeado no BPMN e na Engenharia Reversa do Módulo 1 (autorização de cartão, confirmação assíncrona de Pix/boleto, split de marketplace), detalhando agora a troca de mensagens entre os atores — ver [Módulo 1 — Subequipe 03](../../modulo-1/subequipe-03.md).
+
 ## 1. Introdução & Objetivo
 [Descreva brevemente o artefato dinâmico, seu propósito na representação do comportamento temporal/troca de mensagens do sistema e o fluxo que ele modela.]
 
