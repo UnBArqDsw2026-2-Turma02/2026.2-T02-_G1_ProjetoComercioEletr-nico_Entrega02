@@ -24,10 +24,13 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 ## 3. Modelo UML
 
 ### 3.1. Diagrama
-![Diagrama UML](caminho_para_imagem_ou_embed_mermaid)
+![Diagrama de Classes](../../assets/images/diagrama-classes-subequipe3.svg)
 
-> **Recurso Utilizado:** Ferramenta colaborativa [Miro / Lucidchart / Draw.io] durante sessão de *Pair Modeling* no dia DD/MM/2026.
+> **Recurso Utilizado:** Mermaid, exportado como SVG após sessão de *Pair Modeling*.
 
+Fonte editável: [`diagrama-classes-subequipe3.mmd`](../../assets/images/diagrama-classes-subequipe3.mmd ':ignore'))
+
+> **Recurso Utilizado:** Mermaid, refinado com apoio de IA Generativa durante sessão de *Pair Modeling*.
 ### 3.2. Elementos e Recursos da Notação Utilizados
 * **[Elemento 1, ex: Múltiplicidade / Agregação]:** [Explicação de onde e por que foi aplicado no diagrama].
 * **[Elemento 2, ex: Mensagens Síncronas]:** [Explicação do uso do recurso na notação].
