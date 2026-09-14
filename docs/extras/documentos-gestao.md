@@ -11,7 +11,7 @@ Registro e formalização dos alinhamentos internos, definições de arquitetura
 * **Participantes:** Dylan Portela, Mariana Ribeiro, Nayra Silva, Rafaela Andrea, Samuel Felipe, Uires Carlos.
 * **Redação/Autoria:** Rafaela Andrea
 * **Links Úteis:**
-  * [Ata Detalhada em PDF](../assets/documents/ata-reuniao-01.pdf ':ignore')
+  * [Ata Detalhada em PDF](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/ata-reuniao-01.pdf ':ignore')
   * [Gravação da Reunião (Vídeo)]()
 
 ---
