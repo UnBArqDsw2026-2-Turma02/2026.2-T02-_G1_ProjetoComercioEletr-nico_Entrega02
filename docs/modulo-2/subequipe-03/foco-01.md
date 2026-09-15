@@ -24,6 +24,8 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 ## 3. Modelo UML
 
 ### 3.1. Diagrama
+![](../../assets/images/diagrama-classes-subequipe3.jpg)
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Camile Barbosa Gonzaga de Oliveira, 2026.</sub></p>
 
 ```mermaid
 classDiagram
@@ -168,9 +170,69 @@ Cada elemento do modelo foi fundamentado na literatura de Engenharia de Software
 
 > Nota: as referências a Larman (2007) e Fowler (2003) acima resumem os conceitos (GRASP e recomendações de modelagem de eventos/histórico) com minhas palavras — não são citações literais com número de página. Antes de submeter, vale conferir a página exata na edição que vocês estão usando (*Applying UML and Patterns*, Larman, e *UML Distilled*, Fowler) para citar com precisão.
 ---
+
+## 5. Participação e Rastreabilidade do Artefato — Caso de Uso
+
+| Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
+| :--- | :--- | :--- | :---: |
+| **Introdução & Objetivos** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
+| **Identificação de Atores e Casos de Uso** | Leticia | [Nome do Revisor] | [Commit](https://github.com/...) |
+| **Modelagem das Relações (include/extend)** | [Nome da Colega] | [Nome do Revisor] | [Commit](https://github.com/...) |
+| **Uso da IA Generativa & Validação** | Leticia | [Nome do Revisor] | [Commit](https://github.com/...) |
+| **Lições Aprendidas & Conclusão** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
+
+## 6. Modelo UML — Caso de Uso
+
+### 6.1. Diagrama
+![](../../assets/images/Diagrama_de_caso_de_uso.png)
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Letícia de Carvalho dos Santos, 2026.</sub></p>
+
+**Recurso utilizado:** apoio de IA Generativa durante sessão de brainstorming sobre granularidade de casos de uso.
+
+
+
+ ## 7. Introdução & Objetivo — Diagrama de Caso de Uso
+
+Este artefato tem como objetivo identificar **quem** interage com o sistema de pagamento da Decathlon e **quais objetivos** cada ator busca alcançar ao interagir com ele — sem detalhar ainda a ordem ou as condições desses fluxos (isso é papel do diagrama de atividades/sequência, tratado em outro artefato). O diagrama delimita a fronteira do sistema de pagamento, separando o que é responsabilidade desse subsistema do que pertence a outros domínios do e-commerce (carrinho, pedidos, logística).
+
+---
+
+### 8.Atores e Casos de Uso Identificados
+
+| Ator | Tipo | Casos de uso relacionados |
+| :--- | :--- | :--- |
+| **Cliente** | Primário | Selecionar forma de pagamento, Inserir dados do cartão, Confirmar dados de pagamento, Notificar cliente sobre status do pagamento, Cancelar pagamento |
+| **Banco** | Secundário | Validar dados de pagamento, Autorizar pagamento |
+| **Gateway de pagamento** | Secundário | Autorizar pagamento, Conciliar pagamento |
+| **Financeiro Decathlon** | Secundário | Conciliar pagamento |
+
+> O caso de uso **Analisar risco de fraude** foi mantido sem ator dedicado — entende-se que é lógica interna do próprio sistema de pagamento, disparada durante a autorização, e não uma entidade externa separada.
+
+### 8.1. Elementos e Recursos da Notação Utilizados
+
+* **Ator (boneco palito):** representa um papel externo ao sistema que interage com ele para atingir um objetivo — não necessariamente uma pessoa (ex.: `Banco` e `Gateway de pagamento` são sistemas externos modelados como atores).
+* **Caso de uso (elipse):** representa um objetivo completo e de valor para o ator, não um passo isolado de tela. Por isso, casos de uso muito granulares (ex.: um por campo de formulário) foram evitados nesta versão.
+* **Fronteira do sistema (retângulo):** delimita o que pertence ao subsistema de Pagamento — funcionalidades como aplicação de cupom (domínio de Carrinho/Precificação) e cancelamento de pedido completo (domínio de Pedidos) foram deliberadamente deixadas fora dessa fronteira.
+* **Ator primário vs. secundário:** `Cliente` é o ator primário (quem inicia a interação buscando um objetivo); `Banco`, `Gateway de pagamento` e `Financeiro Decathlon` são atores secundários (o sistema precisa deles para cumprir o objetivo do ator primário, mas não são quem inicia a interação).
+
+---
+
+## 9. Embasamento Teórico e Decisões de Projeto — Caso de Uso
+
+- **Decisão de Modelagem 01 — Nível de granularidade dos casos de uso (nível de objetivo do usuário):** Optamos por casos de uso que representam objetivos completos do ator (ex.: *Autorizar pagamento*) em vez de decompor cada passo de formulário em um caso de uso separado.
+  - **Fundamentação:** Segue a orientação de Cockburn (2000, *Writing Effective Use Cases*) sobre níveis de caso de uso — um caso de uso deve ser escrito, preferencialmente, no "nível do usuário" (*user-goal level*), que representa uma tarefa completa e de valor, e não no "nível de subfunção", que corresponde a passos internos de uma tarefa maior.
+
+- **Decisão de Modelagem 02 — Delimitação da fronteira do sistema de pagamento:** Casos de uso como aplicação de cupom de desconto e cancelamento de pedido completo foram deixados fora do escopo deste diagrama.
+  - **Fundamentação:** Reflete o princípio de *Alta Coesão* (GRASP, Larman 2007) aplicado no nível de subsistema — um diagrama de caso de uso deve refletir a responsabilidade de um único subsistema; funcionalidades que pertencem a outro domínio (Carrinho, Pedidos) devem ser modeladas em seus próprios diagramas, mesmo quando relacionadas.
+
+- **Decisão de Modelagem 03 — Ator sem caso de uso próprio para "Analisar risco de fraude":** Optamos por não criar um ator "Sistema Antifraude" separado.
+  - **Fundamentação:** Um ator deve representar uma entidade **externa** ao sistema modelado (Cockburn, 2000). Como a análise de fraude é executada internamente pelo próprio sistema de pagamento (não por um sistema terceiro independente), ela permanece como caso de uso interno, tipicamente acessado via `«include»` a partir de *Autorizar pagamento*.
+
+---
 > **Histórico de Versões**
 > 
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
 > | 0.1 | 12/09/2026 | Criação e Estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile0318](https://github.com/Camile0318) |
 > | 0.2 | 14/09/2026 | Criação do diagrama de classes e finalização dos tópicos 3.2 a 4| [Camile0318](https://github.com/Camile0318)  | [LeticiaSantosss](https://github.com/LeticiaSantosss) |
+0.3 | 14/09/2026 | Criação dos comonentes do diagrama de caso de uso| [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss)|[Camile Barbosa Gonzaga de Oliveira](https://github.com/Camile0318) 
