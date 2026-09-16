@@ -10,7 +10,7 @@ Abaixo estão apresentados os membros integrados no ciclo de desenvolvimento.
 | :---: | :--- | :---: |
 | <img src="https://github.com/dylancavalcante.png" width="80" style="border-radius: 50%;"> | **Dylan Portela Cavalcante** | [dylancavalcante](https://github.com/dylancavalcante) |
 | <img src="https://github.com/membro 2.png" width="80" style="border-radius: 50%;"> | **membro 2** | [membro 2](https://github.com/) |
-| <img src="https://github.com/Katuner.png" width="80" style="border-radius: 50%;"> | **membro 3** | [membro 3](https://github.com/membro3) |
+| <img src="https://github.com/membro3.png" width="80" style="border-radius: 50%;"> | **membro 3** | [membro 3](https://github.com/membro3) |
 
 
 ---

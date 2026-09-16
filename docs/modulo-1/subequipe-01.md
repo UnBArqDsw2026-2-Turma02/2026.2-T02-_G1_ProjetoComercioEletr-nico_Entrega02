@@ -11,7 +11,7 @@
 
 Utilizou-se a técnica do Rich Picture para mapear o ecossistema de login no e-commerce da Decathlon. O objetivo foi visualizar a dinâmica entre os atores (inserir autores) e destacar (problematica).
 
-Análise do Ponto Crítico: 
+Análise do Ponto Crítico::
 
 *inserir pontos criticos
 
