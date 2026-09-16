@@ -1,6 +1,6 @@
 # Modelo Estático - Diagrama de Classes
 
-> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de Rich Picture, SIG (NFR Framework) e Engenharia Reversa do fluxo de pagamento (checkout, orquestrador, gateway/adquirente, marketplace e logística), conduzido pela Subequipe 01 no Módulo 1 — ver [Módulo 1 — Subequipe 01](../../modulo-1/subequipe-01.md).
+> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de Rich Picture, SIG (NFR Framework) e Engenharia Reversa do fluxo de login, Perfil de Usuário e Segurança, conduzido pela Subequipe 01 no Módulo 1 — ver [Módulo 1 — Subequipe 01](../../modulo-1/subequipe-01.md).
 > 
 ## 1. Introdução & Objetivo
 [Descreva brevemente o artefato, seu propósito no contexto do sistema e qual problema ele visa resolver dentro da arquitetura.]
