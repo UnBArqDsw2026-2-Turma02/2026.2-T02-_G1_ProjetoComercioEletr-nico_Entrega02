@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Rich picture de pagamento](../assets/images/rich_picture_subgrupo3.png)
+![Rich picture de pagamento](../assets/images/)
 <p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: .</sub></p>
 
 
@@ -11,7 +11,7 @@
 
 Utilizou-se a técnica do Rich Picture para mapear o ecossistema de login no e-commerce da Decathlon. O objetivo foi visualizar a dinâmica entre os atores (inserir autores) e destacar (problematica).
 
-Análise do Ponto Crítico: 
+Análise do Ponto Crítico::
 
 *inserir pontos criticos
 
@@ -44,7 +44,7 @@ O SIG foi construído a partir das preocupações identificadas no Rich Picture.
 
 <p align="center"><b>Figura 2</b> — SIG do Fluxo A na notação do NFR Framework</p>
 
-![SIG](../assets/images/sig_pagamento_nuvens.png)
+![SIG](../assets/images/)
 
 <p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: , 2026.</sub></p>
 
@@ -78,7 +78,7 @@ Modelagem do processo de pagamento do checkout da Decathlon Brasil, elaborada em
 
 <p align="center"><b>Figura 1</b> — Diagrama BPMN - login da Decathlon Brasil
 
-![BPMN](../assets/images/bpmn_subgrupo3.svg)
+![BPMN](../assets/images/)
 
 <p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: , 2026.</sub></p>
 
