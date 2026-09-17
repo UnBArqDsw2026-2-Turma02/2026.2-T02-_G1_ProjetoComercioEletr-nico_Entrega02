@@ -1,10 +1,25 @@
 # Apresentação do Projeto
 
--
+Esta página reúne a documentação do projeto Alltletic, que é uma plataforma de comércio eletrônico voltada para a prática esportiva, desenvolvida com base na experiência e nas principais características observadas no e-commerce da Decathlon. A plataforma tem como objetivo oferecer aos usuários uma experiência simples, segura e intuitiva para acesso à conta, gerenciamento do perfil e interação com os recursos relacionados à prática esportiva.
+
+Neste projeto, são considerados aspectos como usabilidade, segurança, privacidade, confiança do usuário, experiência do usuário e acessibilidade, buscando equilibrar mecanismos de proteção com uma experiência de uso clara e eficiente. Dessa forma, o Althetic utiliza os requisitos identificados durante a análise dos fluxos escolhidos do sistema Decathlon como referência para propor uma experiência centrada no usuário.
 
 ## Apresentação da Equipe
 
--
+Abaixo está os integrantes do grupo:
+
+| Foto | Nome | GitHub |
+| :---: | :--- | :---: |
+| <img src="https://github.com/github.png" width="50px"> | Camile Barbosa | [@Camile0318](https://github.com/Camile0318) |
+| <img src="https://github.com/github.png" width="50px"> | Dylan Portela | [@dylancavalcante](https://github.com/dylancavalcante) |
+| <img src="https://github.com/github.png" width="50px"> | Diassis Bezerra | [@diaxiz](https://github.com/diaxiz) |
+| <img src="https://github.com/github.png" width="50px"> | Letícia Carvalho | [@LeticiaSantosss](https://github.com/LeticiaSantosss) |
+| <img src="https://github.com/github.png" width="50px"> | Lucas Oliveira | [@Katuner](https://github.com/katuner) |
+| <img src="https://github.com/github.png" width="50px"> | Mariana Ribeiro | [@marianagonzaga0](https://github.com/marianagonzaga0) |
+| <img src="https://github.com/github.png" width="50px"> | Nayra Silva | [@NayraNery127](https://github.com/NayraNery127) |
+| <img src="https://github.com/github.png" width="50px"> | Rafaela Andrea | [@radamesGuerra](https://github.com/radamesGuerra) |
+| <img src="https://github.com/github.png" width="50px"> | Samuel Felipe | [@TerminaKng05](https://github.com/TerminaKng05) |
+| <img src="https://github.com/github.png" width="50px"> | Uires Carvalho | [@uires2023](https://github.com/uires2023) |
 
 ## Ferramentas Utilizadas
 
@@ -28,3 +43,4 @@ Durante o desenvolvimento do projeto **Allthetic**, foram utilizadas diferentes 
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
 > | 0.1 | 17/09/2026 | Criação e Estruturação da página | [Samuel Felipe](https://github.com/TerminaKng05) | não revisado |
+> | 0.2 | 17/09/2026 | Adição da apresentação sobre o projeto e a equipe | [Samuel Felipe](https://github.com/TerminaKng05) | não revisado |
