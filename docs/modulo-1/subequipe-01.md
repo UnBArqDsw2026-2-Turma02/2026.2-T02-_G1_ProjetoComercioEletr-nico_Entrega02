@@ -41,7 +41,6 @@ Os principais pontos críticos identificados no Rich Picture foram:
 
 # NFR Framework
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
 O SIG foi construído a partir das preocupações identificadas no Rich Picture e nos resultados da avaliação do Fluxo A. O softgoal superior é **Experiência de uso segura e confiável — Decathlon**. Ele foi decomposto em três preocupações principais que devem ser consideradas conjuntamente: **Usabilidade**, **Segurança** e **Confiança**.
 
 A preocupação com **Privacidade** também está presente na modelagem, principalmente por meio do softgoal **Confidencialidade dos dados**, refinado a partir de Segurança, e de **Transparência**, refinada a partir de Confiança.
@@ -143,7 +142,7 @@ Modelagem dos processos de autenticação e gerenciamento de conta da Decathlon 
 ### Diagrama 1: Login
 
 <p align="center">
-    <img src="../assets/images/Login%281%29.png" alt="Diagrama BPMN do fluxo de login" width="100%">
+    <img src="../assets/images/Login9.png" alt="Diagrama BPMN do fluxo de login" width="100%">
 </p>
 
 <p align="center">
