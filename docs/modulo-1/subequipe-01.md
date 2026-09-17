@@ -1,3 +1,35 @@
+# Introdução 
+
+A análise de um sistema complexo exige diferentes formas de representação, uma vez que uma única perspectiva não é suficiente para evidenciar todos os elementos envolvidos em seu funcionamento. Nesse sentido, a documentação desenvolvida neste trabalho reúne diferentes modelos capazes de representar o sistema em níveis distintos de abstração, desde a visão geral das relações entre os envolvidos até o detalhamento das funcionalidades, processos e interações.
+
+Para isso, foram utilizadas técnicas de modelagem que se complementam ao longo da análise. Cada representação possui uma finalidade específica e contribui para a construção de uma visão mais abrangente do objeto estudado, permitindo relacionar aspectos funcionais e não funcionais e destacar questões associadas à segurança, privacidade e usabilidade.
+
+Assim, os modelos apresentados a seguir organizam os resultados obtidos durante a análise e fornecem diferentes perspectivas sobre o funcionamento do sistema, servindo como base para as demais etapas do trabalho.
+
+# Metodologia
+
+A metodologia adotada foi baseada em Engenharia Reversa, utilizando como objeto de análise os fluxos de autenticação e gerenciamento de conta do e-commerce da Decathlon Brasil. O trabalho buscou compreender o comportamento do sistema a partir da perspectiva do usuário, identificar os principais atores, interações, processos e aspectos de qualidade envolvidos, e representar os resultados por meio de diferentes técnicas de modelagem.
+
+Inicialmente, foi realizada a observação dos fluxos de autenticação e gerenciamento de conta, contemplando login convencional, login social, cadastro, recuperação e alteração de senha, logout e gerenciamento do perfil. Durante essa etapa, foram registradas as ações realizadas pelo usuário, as respostas apresentadas pelo sistema, as transições entre telas, os mecanismos de validação, as mensagens de retorno e os comportamentos considerados relevantes para a análise.
+
+A partir das informações levantadas, foi elaborado o Rich Picture, utilizado para representar de maneira sistêmica o contexto analisado. O modelo permitiu identificar os principais atores, elementos, relações, interações e pontos críticos relacionados ao processo de autenticação e gerenciamento de conta. Entre os aspectos observados, foram considerados fatores relacionados à usabilidade, segurança, privacidade, consistência das interfaces e feedback ao usuário.
+
+Posteriormente, os processos identificados foram formalizados por meio da notação BPMN 2.0 (Business Process Model and Notation). Utilizando as raias (pools/lanes) de Usuário e Sistema para representar a divisão de responsabilidades entre as ações humanas e as operações sistêmicas, os gateways foram aplicados para estruturar decisões e caminhos alternativos. Os principais fluxos mapeados com essa notação estão detalhados a seguir:
+
+Fluxo de Login: Conforme ilustrado na Figura 3, o processo é iniciado pelo usuário ao inserir seus dados de acesso. O sistema, em sua raia, recebe e analisa essas informações. Um gateway de decisão avalia se as credenciais estão corretas: em caso afirmativo, o sistema redireciona o usuário para a tela principal, concedendo o acesso; caso contrário, o fluxo retorna para a etapa de inserção de dados.
+
+Fluxo de Recuperação de Senha: O diagrama correspondente demonstra o cenário em que o usuário solicita a recuperação informando o e-mail associado à conta. O sistema verifica se o e-mail existe na base de dados. Se o e-mail não existir, o processo é encerrado. Se for validado, o sistema envia um link de redefinição. A partir desse link, o usuário cadastra uma nova senha, o sistema atualiza o registro no banco de dados e a credencial é restaurada com sucesso.
+
+Fluxo de Cadastro: Representado no Diagrama 3, este fluxo tem início quando o usuário preenche seus dados de registro. Após o envio, o sistema assume a validação das informações e do e-mail. Um gateway decide os próximos passos com base na validade dos dados inseridos: caso não sejam válidos, ocorre um retorno sistêmico para revalidação; se estiverem corretos, o sistema registra o novo usuário no banco de dados e o cadastro é dado como concluído.
+
+Os pontos críticos e preocupações de qualidade identificados durante a análise desses fluxos foram utilizados como base para a construção do NFR Framework (Non-Functional Requirements Framework). A partir das evidências observadas, foram definidos softgoals relacionados principalmente à Usabilidade, Segurança e Confiança, além de aspectos voltados à privacidade e transparência. Esses softgoals foram refinados em preocupações mais específicas e relacionados a operacionalizações, claims e possíveis contribuições positivas ou negativas.
+
+A análise também buscou estabelecer a rastreabilidade entre as observações realizadas e os requisitos não funcionais identificados. Dessa forma, os comportamentos observados no sistema foram relacionados aos problemas ou expectativas representados no Rich Picture, posteriormente aos softgoals do NFR Framework e, por fim, às respectivas operacionalizações e evidências. Essa abordagem permitiu conectar diretamente os resultados da Engenharia Reversa às preocupações de qualidade sistêmica.
+
+Por fim, foi elaborado o Diagrama de Sequência, utilizando os fluxos analisados como base para representar a ordem temporal das interações entre o usuário e os componentes envolvidos. O diagrama complementará os modelos desenvolvidos ao detalhar as trocas de mensagens e a comunicação entre os participantes durante a execução das funcionalidades.
+
+Dessa forma, a metodologia integra diferentes perspectivas de modelagem: o Rich Picture representa o contexto e as relações do domínio; o BPMN formaliza os processos e suas regras de negócio; o NFR Framework organiza os requisitos não funcionais e suas métricas de qualidade; e o Diagrama de Sequência mapeia a dinâmica temporal das interações. A utilização conjunta desses artefatos permite uma análise profunda e abrangente do fluxo de autenticação e gerenciamento de conta do sistema estudado.
+
 # Rich Picture
 
 <div align="center">
@@ -315,3 +347,4 @@ O mapeamento seguiu o fluxo operacional executado pelo cliente final:
 > | :----: | :--------: | :------------------------------------------------------------------------------------ | :----------------- | :----------: |
 > |   0.1  | 16/09/2026 | Criação da página                                                                     | [Dylan Cavalcante] | não revisado |
 > |   0.2  | 16/09/2026 | Preenchimento dos conteúdos de Rich Picture, NFR Framework, BPMN e Engenharia Reversa | [Dylan Cavalcante] | não revisado |
+> |   0.3  | 17/09/2026 |Preenchimento dos conteúdos da introdução e metodologia                                | [Mariana Ribeiro]  | não revisado |
