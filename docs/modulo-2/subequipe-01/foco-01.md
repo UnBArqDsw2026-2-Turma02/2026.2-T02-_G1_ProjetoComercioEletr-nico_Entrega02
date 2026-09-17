@@ -33,11 +33,11 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 
 | Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
 | :--- | :--- | :--- | :---: |
-| **Introdução, objetivos e metodologia** | Dylan Portela Cavalcante e Samuel Felipe Lira de Souza | A definir | A definir |
-| **Modelagem Síncrona (Diagrama)** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | A definir | A definir |
-| **Embasamento Teórico & Literatura** | Dylan Cavalcante e Mariana Ribeiro Santana Gonzaga | A definir | A definir |
-| **Uso da IA Generativa & Validação** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | A definir | A definir |
-| **Lições Aprendidas & Conclusão** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | A definir | A definir |
+| **Introdução, objetivos e metodologia** | Dylan Portela Cavalcante e Samuel Felipe Lira de Souza | Samuel Felipe Lira | [PR #12](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/12) |
+| **Modelagem Síncrona (Diagrama)** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga |Mariana Ribeiro Santana Gonzaga | [PR #6](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/6) |
+| **Embasamento Teórico & Literatura** | Dylan Cavalcante e Mariana Ribeiro Santana Gonzaga | Mariana Ribeiro Santana Gonzaga | A definir |
+| **Uso da IA Generativa & Validação** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Samuel Felipe Lira | A definir |
+| **Lições Aprendidas & Conclusão** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Dylan Portela Cavalcante | A definir |
 
 A autoria e as evidências de revisão/commit deverão ser atualizadas pela equipe após a execução efetiva das atividades de co-criação e *peer review*.
 
