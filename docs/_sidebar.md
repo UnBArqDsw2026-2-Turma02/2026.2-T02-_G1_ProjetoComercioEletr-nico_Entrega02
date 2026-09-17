@@ -22,3 +22,4 @@
 * [**Iniciativas Extras**](iniciativas-extras.md)
   * [Documentos de Gestão](extras/documentos-gestao.md)
   * [Relatórios e Estudos Complementares](extras/relatorios-complementares.md)
+  * [Subequipe 1: MosCoW (Product Backlog)](extras/subequipe01_product_backlog.md)

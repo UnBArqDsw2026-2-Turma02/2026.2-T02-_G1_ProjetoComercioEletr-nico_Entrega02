@@ -1,6 +1,6 @@
 # Modelo Estático - Diagrama de Classes
 
-> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de **Engenharia Reversa do Fluxo A**, consolidado nos artefatos de **Rich Picture, BPMN e NFR Framework/SIG** [Módulo 1 — Subequipe 01], e utiliza como unidade de rastreabilidade os itens do **Product Backlog** derivados desses artefatos. O modelo representa uma estrutura estática **proposta para o domínio** de autenticação e gerenciamento de conta do e-commerce da Decathlon Brasil.
+> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de **Engenharia Reversa do Fluxo A**, consolidado nos artefatos de [**Rich Picture, BPMN e NFR Framework/SIG**](/../../modulo-1/subequipe-01.md), e utiliza como unidade de rastreabilidade os itens do [**Product Backlog**](../../extras/subequipe01_product_backlog.md) derivados desses artefatos. O modelo representa uma estrutura estática **proposta para o domínio** de autenticação e gerenciamento de conta do e-commerce da Decathlon Brasil.
 
 ---
 
@@ -51,13 +51,13 @@ A construção do modelo estático foi realizada de forma incremental, utilizand
 
 Inicialmente foram analisados:
 
-1. **Rich Picture:** utilizado para identificar atores, elementos do domínio, relações, problemas e expectativas presentes no ecossistema de autenticação e gerenciamento da conta.
+1. [**Rich Picture**](../../modulo-1/subequipe-01.md): utilizado para identificar atores, elementos do domínio, relações, problemas e expectativas presentes no ecossistema de autenticação e gerenciamento da conta.
 
-2. **BPMN:** utilizado para identificar as etapas, decisões e responsabilidades presentes nos fluxos de **login, cadastro e recuperação/alteração de senha**.
+2. [**BPMN**](../../modulo-1/subequipe-01.md): utilizado para identificar as etapas, decisões e responsabilidades presentes nos fluxos de **login, cadastro e recuperação/alteração de senha**.
 
-3. **NFR Framework/SIG:** utilizado para identificar as preocupações de qualidade e os comportamentos necessários para atender aos requisitos de **segurança, usabilidade, confiança, consistência e feedback**.
+3. [**NFR Framework/SIG**](../../modulo-1/subequipe-01.md): utilizado para identificar as preocupações de qualidade e os comportamentos necessários para atender aos requisitos de **segurança, usabilidade, confiança, consistência e feedback**.
 
-4. **Product Backlog:** utilizado para transformar os achados anteriores em itens funcionais e não funcionais priorizados, que posteriormente foram utilizados como referência para identificar os conceitos e classes do domínio.
+4. [**Product Backlog**](../../extras/subequipe01_product_backlog.md): utilizado para transformar os achados anteriores em itens funcionais e não funcionais priorizados, que posteriormente foram utilizados como referência para identificar os conceitos e classes do domínio.
 
 ### 3.2. Identificação das classes
 
@@ -209,25 +209,25 @@ classDiagram
 
 ### 4.2. Rastreabilidade com o Product Backlog
 
-A construção do diagrama foi orientada pelos itens do Product Backlog identificados durante a análise. Cada grupo de classes representa uma ou mais funcionalidades rastreadas aos artefatos anteriores.
+A construção do diagrama foi orientada pelos itens do [**Product Backlog do Fluxo A**](../../extras/subequipe01_product_backlog.md) identificados durante a análise. Cada grupo de classes representa uma ou mais funcionalidades rastreadas aos artefatos anteriores.
 
-| Item do Backlog | Funcionalidade                            | Classes relacionadas                                   |
-| --------------- | ----------------------------------------- | ------------------------------------------------------ |
-| **PB-01**       | Login com e-mail e senha                  | `Conta`, `Credencial`, `Sessao`                        |
-| **PB-02**       | Login social                              | `AutenticacaoSocial`, `ProvedorSocial`, `Conta`        |
-| **PB-03**       | Proteção contra enumeração de usuários    | `Conta`                                                |
-| **PB-04**       | Cadastro de conta                         | `Usuario`, `Conta`, `Perfil`, `Credencial`             |
-| **PB-05**       | Recuperação de senha                      | `RecuperacaoSenha`, `Conta`                            |
-| **PB-06**       | Alteração de senha                        | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
-| **PB-07**       | Encerramento de sessão                    | `Sessao`, `Conta`, `Dispositivo`                       |
-| **PB-08**       | Gerenciamento do perfil                   | `Usuario`, `Perfil`                                    |
-| **PB-09**       | Proteção das informações da conta         | `Conta`, `Perfil`, `Credencial`                        |
-| **PB-10**       | Gerenciamento de dispositivos             | `Dispositivo`, `Sessao`                                |
-| **PB-11**       | Preferências de comunicação               | `PreferenciaComunicacao`                               |
-| **PB-12**       | Consistência após alteração da senha      | `Conta`, `Perfil`, `Credencial`                        |
-| **PB-13**       | Notificações sobre ações críticas         | `NotificacaoSeguranca`                                 |
-| **PB-14**       | Informações sobre atividades de segurança | `Sessao`, `NotificacaoSeguranca`                       |
-| **PB-15**       | Gerenciamento de vínculos sociais         | `AutenticacaoSocial`, `ProvedorSocial`                 |
+| Item do Backlog | Funcionalidade | Classes relacionadas |
+| --- | --- | --- |
+| [**PB-01**](../../extras/subequipe01_product_backlog.md) | Login com e-mail e senha | `Conta`, `Credencial`, `Sessao` |
+| [**PB-02**](../../extras/subequipe01_product_backlog.md) | Login social | `AutenticacaoSocial`, `ProvedorSocial`, `Conta` |
+| [**PB-03**](../../extras/subequipe01_product_backlog.md) | Proteção contra enumeração de usuários | `Conta` |
+| [**PB-04**](../../extras/subequipe01_product_backlog.md) | Cadastro de conta | `Usuario`, `Conta`, `Perfil`, `Credencial` |
+| [**PB-05**](../../extras/subequipe01_product_backlog.md) | Recuperação de senha | `RecuperacaoSenha`, `Conta` |
+| [**PB-06**](../../extras/subequipe01_product_backlog.md) | Alteração de senha | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
+| [**PB-07**](../../extras/subequipe01_product_backlog.md) | Encerramento de sessão | `Sessao`, `Conta`, `Dispositivo` |
+| [**PB-08**](../../extras/subequipe01_product_backlog.md) | Gerenciamento do perfil | `Usuario`, `Perfil` |
+| [**PB-09**](../../extras/subequipe01_product_backlog.md) | Proteção das informações da conta | `Conta`, `Perfil`, `Credencial` |
+| [**PB-10**](../../extras/subequipe01_product_backlog.md) | Gerenciamento de dispositivos | `Dispositivo`, `Sessao` |
+| [**PB-11**](../../extras/subequipe01_product_backlog.md) | Preferências de comunicação | `PreferenciaComunicacao` |
+| [**PB-12**](../../extras/subequipe01_product_backlog.md) | Consistência após alteração da senha | `Conta`, `Perfil`, `Credencial` |
+| [**PB-13**](../../extras/subequipe01_product_backlog.md) | Notificações sobre ações críticas | `NotificacaoSeguranca` |
+| [**PB-14**](../../extras/subequipe01_product_backlog.md) | Informações sobre atividades de segurança | `Sessao`, `NotificacaoSeguranca` |
+| [**PB-15**](../../extras/subequipe01_product_backlog.md) | Gerenciamento de vínculos sociais | `AutenticacaoSocial`, `ProvedorSocial` |
 
 ### 4.3. Relacionamentos e multiplicidades
 
@@ -284,21 +284,23 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 
 ### 5.4. Rastreabilidade resumida
 
-| Artefato-base           | Evidência / preocupação              | Backlog | Elementos UML                                          |
-| ----------------------- | ------------------------------------ | ------- | ------------------------------------------------------ |
-| **BPMN — Login**        | Validação de credenciais             | PB-01   | `Conta`, `Credencial`, `Sessao`                        |
-| **Rich Picture / SIG**  | Login social                         | PB-02   | `AutenticacaoSocial`, `ProvedorSocial`                 |
-| **NFR / SIG**           | Prevenção de enumeração de usuários  | PB-03   | `Conta`                                                |
-| **BPMN — Cadastro**     | Registro de novo usuário             | PB-04   | `Usuario`, `Conta`, `Perfil`, `Credencial`             |
-| **BPMN — Recuperação**  | Recuperação por e-mail               | PB-05   | `RecuperacaoSenha`                                     |
-| **NFR / Claim**         | Alteração de senha                   | PB-06   | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
-| **Rich Picture / BPMN** | Gestão da sessão                     | PB-07   | `Sessao`, `Dispositivo`                                |
-| **Rich Picture**        | Gerenciamento do perfil              | PB-08   | `Usuario`, `Perfil`                                    |
-| **NFR / SIG**           | Proteção das informações             | PB-09   | `Conta`, `Perfil`, `Credencial`                        |
-| **Rich Picture**        | Dispositivos conectados              | PB-10   | `Dispositivo`, `Sessao`                                |
-| **Rich Picture**        | Preferências                         | PB-11   | `PreferenciaComunicacao`                               |
-| **NFR / Claim**         | Consistência após alteração de senha | PB-12   | `Conta`, `Perfil`, `Credencial`                        |
-| **NFR / Claim**         | Feedback sobre ação crítica          | PB-13   | `NotificacaoSeguranca`                                 |
+| Artefato-base | Evidência / preocupação | Backlog | Elementos UML |
+| --- | --- | --- | --- |
+| [**BPMN — Login**](../modulo-1/subequipe-01.md) | Validação de credenciais | [**PB-01**](./subequipe01_product_backlog.md) | `Conta`, `Credencial`, `Sessao` |
+| [**Rich Picture / SIG**](../modulo-1/subequipe-01.md) | Login social | [**PB-02**](./subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
+| [**NFR / SIG**](../modulo-1/subequipe-01.md) | Prevenção de enumeração de usuários | [**PB-03**](./subequipe01_product_backlog.md) | `Conta` |
+| [**BPMN — Cadastro**](../modulo-1/subequipe-01.md) | Registro de novo usuário | [**PB-04**](./subequipe01_product_backlog.md) | `Usuario`, `Conta`, `Perfil`, `Credencial` |
+| [**BPMN — Recuperação**](../modulo-1/subequipe-01.md) | Recuperação por e-mail | [**PB-05**](./subequipe01_product_backlog.md) | `RecuperacaoSenha` |
+| [**NFR / Claim**](../modulo-1/subequipe-01.md) | Alteração de senha | [**PB-06**](./subequipe01_product_backlog.md) | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
+| [**Rich Picture / BPMN**](../modulo-1/subequipe-01.md) | Gestão da sessão | [**PB-07**](./subequipe01_product_backlog.md) | `Sessao`, `Dispositivo` |
+| [**Rich Picture**](../modulo-1/subequipe-01.md) | Gerenciamento do perfil | [**PB-08**](./subequipe01_product_backlog.md) | `Usuario`, `Perfil` |
+| [**NFR / SIG**](../modulo-1/subequipe-01.md) | Proteção das informações | [**PB-09**](./subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
+| [**Rich Picture**](../modulo-1/subequipe-01.md) | Dispositivos conectados | [**PB-10**](./subequipe01_product_backlog.md) | `Dispositivo`, `Sessao` |
+| [**Rich Picture**](../modulo-1/subequipe-01.md) | Preferências | [**PB-11**](./subequipe01_product_backlog.md) | `PreferenciaComunicacao` |
+| [**NFR / Claim**](../modulo-1/subequipe-01.md) | Consistência após alteração de senha | [**PB-12**](./subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
+| [**NFR / Claim**](../modulo-1/subequipe-01.md) | Feedback sobre ação crítica | [**PB-13**](./subequipe01_product_backlog.md) | `NotificacaoSeguranca` |
+| [**NFR / Confiança**](../modulo-1/subequipe-01.md) | Atividades de segurança e transparência | [**PB-14**](./subequipe01_product_backlog.md) | `Sessao`, `NotificacaoSeguranca` |
+| [**Rich Picture / Login social**](../modulo-1/subequipe-01.md) | Gerenciamento de vínculos sociais | [**PB-15**](./subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
 
 > **Nota:** O modelo representa uma **visão de análise do domínio**. Classes técnicas relacionadas à implementação, persistência, APIs, controladores e infraestrutura deverão ser detalhadas posteriormente na etapa de design.
 
@@ -312,11 +314,11 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 
 [3] SINGH, Pratima; TRIPATHI, Anil Kumar. **Treating NFR as First Grade for Its Testability**. *Journal of Software Engineering and Applications*, v. 5, 2012.
 
-[4] **Foco 01 — Rich Picture e NFR Framework do Fluxo A**. Artefato elaborado pela Subequipe 01.
+[4] [**Foco 01 — Rich Picture e NFR Framework do Fluxo A**](../modulo-1/subequipe-01.md). Artefato elaborado pela Subequipe 01.
 
-[5] **Foco 02 — Engenharia Reversa e BPMN**. Artefato elaborado pela Subequipe 01.
+[5] [**Foco 02 — Engenharia Reversa e BPMN**](../modulo-1/subequipe-01.md). Artefato elaborado pela Subequipe 01.
 
-[6] **Product Backlog do Fluxo A**. Artefato elaborado pela Subequipe 01.
+[6] [**Product Backlog do Fluxo A**](./subequipe01_product_backlog.md). Artefato elaborado pela Subequipe 01.
 
 ---
 
