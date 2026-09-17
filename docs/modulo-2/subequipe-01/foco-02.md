@@ -26,6 +26,13 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 
 ### 4.1. Diagrama
 
+O diagrama a seguir detalha o processo de login do usuário no sistema de loja comercial digital, sendo o diagrama produzido o de sequência:
+
+![Diagrama de Sequência](../../assets/images/diagramasequenciasubgrupo1.png)
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Samuel Felipe Lira de Souza,  e 2026.</sub></p>
+
+**Recurso utilizado:** Mermaid, com refinamento do modelo a partir dos artefatos de **Rich Picture, BPMN, NFR Framework/SIG e Product Backlog**.
+
 
 ### 4.2. Elementos e Recursos da Notação Utilizados
 
@@ -41,4 +48,5 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
 > | 0.1 | 16/09/2026 | Criação e Estruturação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
+> | 0.2 | 17/09/2026 | Adição do diagrama do modelo dinâmico | [Samuel Felipe](https://github.com/TerminaKng05) | não revisado |
 
