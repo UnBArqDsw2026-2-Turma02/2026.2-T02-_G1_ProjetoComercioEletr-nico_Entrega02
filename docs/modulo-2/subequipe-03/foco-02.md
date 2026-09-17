@@ -1,11 +1,10 @@
 # Modelo Dinâmico - Diagrama de Sequência
 
-> **Nota de rastreabilidade:** O modelo dinâmico deste diagrama reaproveita o fluxo de pagamento já mapeado no BPMN e na Engenharia Reversa do Módulo 1 (autorização de cartão, confirmação assíncrona de Pix/boleto, split de marketplace), detalhando agora a troca de mensagens entre os atores — ver [Módulo 1 — Subequipe 03](../../modulo-1/subequipe-03.md).
-
-# Modelagem Dinâmica — Arquitetura de Software
+> **Nota de rastreabilidade:** O modelo dinâmico deste diagrama reaproveita e detalha o fluxo de pagamento previamente mapeado nas etapas de BPMN e Engenharia Reversa (incluindo autorização de cartão, confirmação assíncrona de Pix/boleto e split de marketplace). Este artefato refina essa lógica, demonstrando formalmente a troca de mensagens e a temporalidade entre a interface e os componentes do sistema — para mais detalhes, consulte a documentação da [Subequipe 03](../../modulo-1/subequipe-03.md).
 
 ## Introdução
-No contexto da arquitetura de software para sistemas complexos e distribuídos, a modelagem dinâmica é fundamental para compreender a interação e o comportamento dos componentes ao longo do tempo. 
+
+No contexto da arquitetura de software para sistemas complexos e distribuídos, a modelagem dinâmica é fundamental para compreender a interação e o comportamento dos componentes ao longo do tempo. Enquanto a modelagem estática define a estrutura do sistema, os aspectos dinâmicos revelam como os dados trafegam e como as regras de negócio são executadas em tempo real.
 
 Para mapear essa complexidade no ecossistema de e-commerce da Decathlon, utiliza-se o Diagrama de Sequência como artefato principal para representar a ordem das ações do sistema. Com base na inspeção do site e no mapeamento dos casos de uso, este diagrama detalha a troca de mensagens entre a tela do usuário, o sistema principal do e-commerce (VTEX) e os serviços de apoio (como IA, Cashback e Frete), mostrando como as responsabilidades estão divididas e como cada parte se comunica.
 
@@ -29,9 +28,9 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 
 | Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
 | :--- | :--- | :--- | :---: |
-| **Introdução & Objetivos** | [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile0318](https://github.com/Camile0318) | [Commit](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/11) |
-| **Modelagem Síncrona (Diagrama)** | [Leticia Santos](https://github.com/LeticiaSantosss) e [Membro B] | [Camile0318](https://github.com/Camile0318) | [Ata/Reunião](https://...) |
-| **Embasamento Teórico & Literatura** | [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile0318](https://github.com/Camile0318) | [Commit](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/11) |
+| **Introdução & Objetivos** | [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) | [Commit](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/11) |
+| **Modelagem Síncrona (Diagrama)** | [Leticia Santos](https://github.com/LeticiaSantosss) e [Membro B] | [Camile Barbosa](https://github.com/Camile0318) | [Ata/Reunião](https://...) |
+| **Embasamento Teórico & Literatura** | [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) | [Commit](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/11) |
 | **Uso da IA Generativa & Validação** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
 | **Lições Aprendidas & Conclusão** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
 
@@ -41,7 +40,7 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 
 ### 3.1. Diagrama
 ![Diagrama de Sequência](../../assets/images/DiagramaSequenciaFluxoC.png)
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Letícia de Carvalho dos Santos, Rafaela Andrea , 2026.</sub></p>
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Letícia de Carvalho dos Santos, Rafaela Andrea, 2026.</sub></p>
 
 > **Recurso Utilizado:** Ferramenta colaborativa [Miro / Lucidchart / Draw.io / Mermaid] durante sessão de *Pair Modeling* no dia DD/MM/2026.
 
@@ -62,11 +61,15 @@ Cada elemento da modelagem dinâmica foi fundamentado na literatura de Engenhari
 
 * **Decisão de Comportamento 02: Desacoplamento da Camada de Apresentação via Orquestração Centralizada**
   * **Aplicação:** Chamadas a serviços especializados — como a consulta de promoções (`PROM`), motores de recomendação, cálculo de frete/logística ou gateways de pagamento e antifraude — são orquestradas diretamente pelo núcleo da plataforma (`VTEX`), e jamais disparadas diretamente pela interface do usuário (`UI`).
-  * **Fundamentação:** Conforme Larman (2007), a aplicação dos padrões GRASP *Controller* e *Low Coupling* (Baixo Acoplamento) estabelece que a camada de apresentação não deve orquestrar regras de negócio do domínio. Delegar a orquestração dos serviços periféricos para o núcleo transacional centraliza o controle de estado no *backend*, garante a integridade das transações e reduz a vulnerabilidade da aplicação.
+  * **Fundamentação:** Conforme Larman (2007), a aplicação dos padrões GRASP *Controller* e *Low Coupling* (Baixo Acoplamento) establishes que a camada de apresentação não deve orquestrar regras de negócio do domínio. Delegar a orquestração dos serviços periféricos para o núcleo transacional centraliza o controle de estado no *backend*, garante a integridade das transações e reduz a vulnerabilidade da aplicação.
 
+---
 
 **Consolidação Arquitetural do Fluxo:**
 A modelagem dinâmica reflete o padrão de comunicação do e-commerce, onde o cliente interage diretamente com a interface, mas toda a inteligência e validação de regras de negócio são centralizadas no núcleo transacional (`VTEX`). Este atua como orquestrador síncrono e assíncrono dos serviços periféricos (Inteligência Artificial, Promoções, Logística e Gateways), garantindo que a interface receba apenas o estado consolidado da aplicação após a execução de todas as regras de domínio.
+
+**Consolidação do Fluxo de Carrinho:**
+Representa a visão consolidada do fluxo de carrinho, mostrando como as interações do cliente (seleção de produto, adição, alteração e remoção de itens) disparam tanto a busca por recomendações via IA quanto a consulta ao módulo de Promoções para recálculo de cashback. A VTEX atua como orquestradora central, consultando o serviço PROM sempre que o `orderForm` é atualizado, antes de retornar o carrinho atualizado para a UI.
 
 ---
 
@@ -74,5 +77,5 @@ A modelagem dinâmica reflete o padrão de comunicação do e-commerce, onde o c
 > 
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
-> | 0.1 | 12/09/2026 | Criação e Estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile0318](https://github.com/Camile0318) |
-> | 0.2 | 17/09/2026 | Contribuição no diagrama de sequencia modulo 1 e 2 e elaboração dos tópicos 1 e 4| [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile0318](https://github.com/Camile0318) |
+> | 0.1 | 12/09/2026 | Criação e Estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) |
+> | 0.2 | 17/09/2026 | Contribuição dos módulos 1 e 2 do diagrama de sequência, Elaboração dos tópicos 1 e 4 | [Leticia Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) |
