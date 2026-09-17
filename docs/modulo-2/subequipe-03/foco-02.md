@@ -40,8 +40,7 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 ## 3. Modelo UML
 
 ### 3.1. Diagrama
-![Diagrama de Sequência](../../assets/images/DiagramaSequenciaFluxoC.png)
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 3: Letícia de Carvalho dos Santos, Rafaela Andrea , 2026.</sub></p>
+![Diagrama de Sequência](caminho_para_imagem_ou_embed_mermaid)
 
 > **Recurso Utilizado:** Ferramenta colaborativa [Miro / Lucidchart / Draw.io / Mermaid] durante sessão de *Pair Modeling* no dia DD/MM/2026.
 
