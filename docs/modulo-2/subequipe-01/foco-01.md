@@ -303,6 +303,11 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 | [**Rich Picture / Login social**](../modulo-1/subequipe-01.md) | Gerenciamento de vínculos sociais | [**PB-15**](./subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
 
 > **Nota:** O modelo representa uma **visão de análise do domínio**. Classes técnicas relacionadas à implementação, persistência, APIs, controladores e infraestrutura deverão ser detalhadas posteriormente na etapa de design.
+---
+
+## 6. Uso de Inteligência Artificial Generativa
+
+ > Durante a elaboração deste artefato, foi utilizada **Inteligência Artificial Generativa (ChatGPT, da OpenAI)** como ferramenta de apoio ao processo de engenharia de software.
 
 ---
 
@@ -319,6 +324,8 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 [5] [**Foco 02 — Engenharia Reversa e BPMN**](../modulo-1/subequipe-01.md). Artefato elaborado pela Subequipe 01.
 
 [6] [**Product Backlog do Fluxo A**](./subequipe01_product_backlog.md). Artefato elaborado pela Subequipe 01.
+
+[7] OPENAI. *ChatGPT*. Disponível em: https://chatgpt.com/. Acesso em: 17 set. 2026.
 
 ---
 
