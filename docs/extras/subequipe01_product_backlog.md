@@ -1,6 +1,6 @@
 # Product Backlog - Fluxo A
 
-> **Nota de rastreabilidade:** O Product Backlog apresentado neste documento foi elaborado a partir dos achados do **Rich Picture**, dos fluxos modelados em **BPMN** e das preocupações de qualidade identificadas no **NFR Framework e no SIG** do Fluxo A. Os itens foram organizados segundo a técnica de priorização **MoSCoW**, com o objetivo de representar de forma estruturada as funcionalidades e necessidades relevantes para o ecossistema de login e gerenciamento de conta do e-commerce da Decathlon Brasil.
+> **Nota de rastreabilidade:** O Product Backlog apresentado neste documento foi elaborado a partir dos achados do [**Rich Picture**](../modulo-1/subequipe-01.md), dos fluxos modelados em **BPMN** e das preocupações de qualidade identificadas no [**NFR Framework e no SIG**](../modulo-1/subequipe-01.md) do Fluxo A. Os itens foram organizados segundo a técnica de priorização **MoSCoW**, com o objetivo de representar de forma estruturada as funcionalidades e necessidades relevantes para o ecossistema de login e gerenciamento de conta do e-commerce da Decathlon Brasil.
 
 ---
 
@@ -47,9 +47,9 @@ A construção do Product Backlog seguiu cinco etapas.
 
 As necessidades foram obtidas a partir dos artefatos anteriormente produzidos:
 
-* **Rich Picture**, para identificação dos atores, expectativas, problemas e relações;
-* **BPMN**, para identificação das atividades e decisões dos processos;
-* **NFR Framework/SIG**, para identificação das preocupações de qualidade, refinamentos, operacionalizações e claims.
+* [**Rich Picture**](../modulo-1/subequipe-01.md), para identificação dos atores, expectativas, problemas e relações;
+* [**BPMN**](../modulo-1/subequipe-01.md), para identificação das atividades e decisões dos processos;
+* [**NFR Framework/SIG**](../modulo-1/subequipe-01.md), para identificação das preocupações de qualidade, refinamentos, operacionalizações e claims.
 
 ### 3.2. Conversão das necessidades em itens de backlog
 
