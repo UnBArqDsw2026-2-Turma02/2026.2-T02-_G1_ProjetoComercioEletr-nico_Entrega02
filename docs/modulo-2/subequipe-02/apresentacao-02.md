@@ -4,7 +4,7 @@
 **Escopo:** Fluxo B — Busca de Produtos, Carrinho e Compra  
 **Integrantes:** [Diassis Bezerra Nascimento](https://github.com/Diaxiz), [Nayra Silva Nery](https://github.com/NayraNery127) e [Uires Carlos de Oliveira](https://github.com/uires2023).
 
-Este é o relatório da Entrega 2 na estrutura de focos indicada no template da disciplina. A [Visão Geral e Gestão](Visao_Geral_Gestao_Subequipe_02.md) apresenta a organização da subequipe; os três focos e seus artefatos são documentados abaixo.
+Este é o relatório da Entrega 2 na estrutura de focos indicada no template da disciplina. **Os três integrantes elaboraram e revisaram em conjunto os quatro diagramas apresentados.** Os três focos e seus artefatos são documentados abaixo.
 
 > **Natureza dos modelos:** são propostas conceituais elaboradas a partir da engenharia reversa. Não representam a arquitetura interna oficial da Decathlon. Regras comerciais específicas devem ser identificadas como observadas, documentadas ou apenas hipotéticas.
 
@@ -18,13 +18,13 @@ Este é o relatório da Entrega 2 na estrutura de focos indicada no template da 
 
 | Nome do membro | Participação no foco | Evidência |
 | :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Descrever a contribuição individual efetiva na elaboração ou revisão dos modelos estáticos. | Inserir link de commit ou histórico. |
-| Nayra Silva Nery | Descrever a contribuição individual efetiva na elaboração ou revisão dos modelos estáticos. | Inserir link de commit ou histórico. |
-| Uires Carlos de Oliveira | Revisão e ajustes no Diagrama de Componentes, incluindo portas e interfaces. Complementar com os demais ajustes realizados. | Inserir link de commit ou histórico. |
+| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes. | Inserir link de commit ou histórico. |
+| Nayra Silva Nery | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes. | Inserir link de commit ou histórico. |
+| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes, incluindo ajustes de portas e interfaces. | Inserir link de commit ou histórico. |
 
 ### Metodologia do Foco_01
 
-1. A equipe usou os achados do **Rich Picture** e da engenharia reversa da Entrega 1 para delimitar funcionalidades relativas à página inicial, aos produtos, ao carrinho e à compra.
+1. Os três integrantes trabalharam em conjunto na construção e revisão dos dois modelos. A equipe usou os achados do **Rich Picture** e da engenharia reversa da Entrega 1 para delimitar funcionalidades relativas à página inicial, aos produtos, ao carrinho e à compra.
 2. O Diagrama de Classes organiza conceitos do domínio, como produto, categoria, promoção, cliente, carrinho e pedido. O Diagrama de Componentes organiza subsistemas conceituais, responsabilidades e interfaces.
 3. A notação UML foi confrontada com os materiais da disciplina: relações e multiplicidades no modelo de classes; componentes, portas, interfaces fornecidas e requeridas no modelo de componentes.
 4. As observações de acessibilidade registradas no **SIG/NFR da Entrega 1** foram mantidas como preocupação do modelo. Detalhes da arquitetura interna que não podem ser observados foram identificados como conceituais.
@@ -35,9 +35,11 @@ Este é o relatório da Entrega 2 na estrutura de focos indicada no template da 
 
 #### Diagrama de Classes
 
-O modelo de classes apresenta conceitos ligados ao catálogo e às promoções, à compra e às funcionalidades de clube e cartão-presente. No arquivo preparado pela equipe há uma aba de visão geral e abas com os diagramas de classes. A aba de visão geral é **auxiliar**; os modelos UML de classes estão nas abas específicas.
+O modelo de classes apresenta conceitos ligados ao catálogo e às promoções, à compra e às funcionalidades de clube e cartão-presente. A imagem abaixo corresponde à **aba de visão geral**, que organiza essas áreas e indica onde encontrar os diagramas no arquivo editável.
 
-**Arquivo editável:** `Modelo_Estatico_Decathlon.drawio` — inserir o link e a imagem da versão final publicada no repositório.
+![Visão geral auxiliar do modelo de classes da Subequipe 02](../../assets/images/Diagrama_classes_subequipe2.jpg)
+
+**Atenção:** a imagem acima é um mapa auxiliar, não o Diagrama de Classes UML. Os diagramas de classes propriamente ditos estão nas **abas 2, 3 e 4** de `Modelo_Estatico_Decathlon.drawio`. Para apresentar esse segundo modelo estático no GitPages, publicar o arquivo editável e inserir também as imagens exportadas dessas abas.
 
 Antes de publicar, conferir as regras específicas registradas no modelo, como validade e quantidade de cartões-presente, e indicar sua fonte ou tratá-las como hipóteses de modelagem.
 
@@ -45,9 +47,9 @@ Antes de publicar, conferir as regras específicas registradas no modelo, como v
 
 O modelo organiza **Loja Virtual Decathlon**, **Estoque** e **Pedidos e Pagamento**, com componentes como Busca e Catálogo, Carrinho, Autenticação, Controle de Estoque, Checkout e Pedidos, Pagamento e Clientes. As portas e interfaces indicam serviços oferecidos ou necessários nas relações entre esses componentes.
 
-![Diagrama de Componentes — Decathlon](diagramas/diagrama-componentes-decathlon.png)
+![Diagrama de Componentes da Subequipe 02](../../assets/images/Diagrama_componentes_subequipe2.jpg)
 
-[Abrir o Diagrama de Componentes editável](diagramas/diagrama-componentes-decathlon.drawio).
+**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Componentes, caso ele seja publicado no repositório.
 
 **Justificativa da dupla modelagem:** Classes detalha entidades e relações do domínio; Componentes apresenta módulos conceituais e suas interfaces. A presença dos dois modelos vai além do mínimo de um diagrama estático.
 
@@ -61,13 +63,13 @@ O modelo organiza **Loja Virtual Decathlon**, **Estoque** e **Pedidos e Pagament
 
 | Nome do membro | Participação no foco | Evidência |
 | :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Descrever a contribuição individual efetiva na elaboração ou revisão dos modelos dinâmicos. | Inserir link de commit ou histórico. |
-| Nayra Silva Nery | Descrever a contribuição individual efetiva na elaboração ou revisão dos modelos dinâmicos. | Inserir link de commit ou histórico. |
-| Uires Carlos de Oliveira | Revisão e ajustes no Diagrama de Sequência, incluindo mensagens e caminhos alternativos. Complementar com os demais ajustes realizados. | Inserir link de commit ou histórico. |
+| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades. | Inserir link de commit ou histórico. |
+| Nayra Silva Nery | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades. | Inserir link de commit ou histórico. |
+| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades, incluindo ajustes de mensagens e caminhos alternativos. | Inserir link de commit ou histórico. |
 
 ### Metodologia do Foco_02
 
-1. O **BPMN da Entrega 1** serviu de referência para identificar tarefas, decisões e caminhos alternativos da busca até a compra.
+1. Os três integrantes construíram e revisaram os modelos dinâmicos em conjunto. O **BPMN da Entrega 1** serviu de referência para identificar tarefas, decisões e caminhos alternativos da busca até a compra.
 2. No Diagrama de Sequência foram representadas mensagens entre Cliente, Interface da Loja, Catálogo, Estoque, Carrinho, Checkout e Pedidos e Pagamento. O modelo inclui repetição da visualização de produtos e alternativas de disponibilidade e pagamento.
 3. No Diagrama de Atividades foram representadas as ações do usuário e do sistema na **navegação por modalidade**, até a seleção de uma categoria, campanha ou item.
 4. Os dois modelos foram analisados conforme sua finalidade e a notação apresentada nos materiais de modelagem dinâmica da disciplina.
@@ -80,15 +82,17 @@ O modelo organiza **Loja Virtual Decathlon**, **Estoque** e **Pedidos e Pagament
 
 O cliente pesquisa um produto; a interface consulta o catálogo e o estoque; o cliente visualiza detalhes e tenta adicionar um item ao carrinho. Havendo disponibilidade, inicia o checkout. O pagamento aprovado conduz à atualização do estoque e à confirmação do pedido; a indisponibilidade do item e a recusa do pagamento são caminhos alternativos.
 
-![Diagrama de Sequência — Decathlon](diagramas/diagrama-sequencia-decathlon.png)
+![Diagrama de Sequência da Subequipe 02](../../assets/images/Diagrama_sequencia_subequipe2.jpg)
 
-[Abrir o Diagrama de Sequência editável](diagramas/diagrama-sequencia-decathlon.drawio).
+**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Sequência, caso ele seja publicado no repositório.
 
 #### Diagrama de Atividades — Navegação por Modalidade
 
 O usuário acessa a página inicial, escolhe uma modalidade esportiva e pode explorar outra modalidade, selecionar uma categoria, abrir uma campanha ou refinar resultados antes de visualizar um item. As raias separam ações do **Usuário** e do **Sistema**.
 
-**Imagem e arquivo editável:** inserir aqui os links da versão final preparada pela integrante responsável, após publicação no repositório.
+![Diagrama de Atividades da Subequipe 02](../../assets/images/Diagrama_atividades_subequipe2.jpeg)
+
+**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Atividades, caso ele seja publicado no repositório.
 
 **Delimitação dos cenários:** o Diagrama de Atividades termina na navegação/visualização do item; o Diagrama de Sequência acompanha também carrinho e pagamento. Essa diferença de recorte deve ser explicada na apresentação.
 
@@ -120,21 +124,21 @@ O apoio da IA foi tratado como **rascunho e revisão**. Para validar uma sugest�
 
 ## Versionamentos
 
-Registrar as contribuições **reais** de cada integrante, com datas e links correspondentes após os commits. Os campos pendentes abaixo preservam o espaço exigido pelo template sem presumir a autoria dos diagramas feitos por colegas.
+Os três integrantes participaram da **elaboração e revisão dos quatro diagramas**. Complementar o registro com as datas, versões e links que comprovem as contribuições de cada pessoa. O relato do Foco 03 continua individual.
 
 | Nome do membro | Contribuição | Data | Comprovação |
 | :--- | :--- | :---: | :--- |
-| Diassis Bezerra Nascimento | Descrever as contribuições nos Focos 01, 02 e 03 depois de confirmadas pelo integrante. | Inserir data | Inserir link do commit ou histórico |
-| Nayra Silva Nery | Descrever as contribuições nos Focos 01, 02 e 03 depois de confirmadas pela integrante. | Inserir data | Inserir link do commit ou histórico |
-| Uires Carlos de Oliveira | Revisão do Diagrama de Componentes, revisão do Diagrama de Sequência e elaboração do ponto de vista sobre IA; conferir datas e versões no Git. | Inserir data dos commits | Inserir links dos commits |
+| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; acrescentar sua contribuição individual sobre IA. | Inserir data dos commits | Inserir links dos commits |
+| Nayra Silva Nery | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; acrescentar sua contribuição individual sobre IA. | Inserir data dos commits | Inserir links dos commits |
+| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; revisão dos diagramas com apoio de IA e relato individual. | Inserir data dos commits | Inserir links dos commits |
 
 ### Quadro de Participações e Commits
 
 | Integrante | Foco 01 — Estático | Foco 02 — Dinâmico | Foco 03 — IA generativa |
 | :--- | :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Inserir contribuição e link | Inserir contribuição e link | Inserir relato e link |
-| Nayra Silva Nery | Inserir contribuição e link | Inserir contribuição e link | Inserir relato e link |
-| Uires Carlos de Oliveira | Inserir contribuição e link | Inserir contribuição e link | Inserir relato e link |
+| Diassis Bezerra Nascimento | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Inserir relato e link |
+| Nayra Silva Nery | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Inserir relato e link |
+| Uires Carlos de Oliveira | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Revisar o relato acima e inserir link |
 
 ## Referências
 
