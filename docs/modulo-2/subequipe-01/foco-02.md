@@ -86,7 +86,7 @@ A modelagem contempla três decisões de projeto voltadas à segurança:
 O diagrama a seguir detalha o processo de login do usuário no sistema de loja comercial digital, sendo o diagrama produzido o de sequência:
 
 ![Diagrama de Sequência](../../assets/images/diagramasequenciasubgrupo1.png)
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Samuel Felipe Lira de Souza,  e 2026.</sub></p>
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Samuel Felipe Lira de Souza, Dylan Cavalcante e Mariana Ribeiro, 2026.</sub></p>
 
 **Recurso utilizado:** Mermaid, com refinamento do modelo a partir dos artefatos de **Rich Picture, BPMN, NFR Framework/SIG e Product Backlog**.
 
