@@ -20,7 +20,7 @@ Nesse contexto, buscando fornecer uma visão estática mais abrangente do Fluxo:
 Esta abordagem tridimensional garante que qualquer funcionalidade identificada na interface do usuário possa ser rastreada desde o seu requisito funcional (*Caso de Uso*), passando por sua modelagem de dados (*Classe*), até sua localização na infraestrutura da aplicação (*Pacote*).
 
 > **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo técnico de inspeção realizado pela equipe, fundamentado na Engenharia Reversa combinada com Testes de Caixa-Preta e Inspeção de Tráfego de Rede com a ferramenta DevTools (F12).
-[Relatório de Inspeção do Fluxo C]()
+[Relatório de Inspeção do Fluxo C](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/RelatorioInspecaoFluxoC.pdf ':ignore')
 
 ---
 
@@ -105,7 +105,7 @@ A construção dos casos de uso seguiu uma abordagem orientada a evidências:
 | **Evidência 17:** Pagamento Pix: Alternância para Pagamento via Pix e Sincronização de Estado | • <span id="uc-18"></span>**UC18** - Selecionar Forma de Pagamento<br>• <span id="uc-04"></span>**UC04** - Visualizar Resumo do Pedido | • Cliente (Ator Principal)<br>• VTEX Smart Checkout<br>• Gateway de Pagamento / Arranjo Pix |
 | **Evidência 18:** Validação de Regra de Negócio: Tentativa de Aplicação de Cupom Inválido | • <span id="uc-22"></span>**UC22** - Aplicar Cupom de Desconto<br>• <span id="uc-04"></span>**UC04** - Visualizar Resumo do Pedido | • Cliente (Ator Principal)<br>• Motor de Promoções VTEX (Promotions & Taxes Engine)<br>• Camada de Interface (UI Component) |
 
-> **Nota de rastreabilidade:** As evidências coletadas podem ser vistas na íntegra em [Relatório de Inspeção do Fluxo C]()
+> **Nota de rastreabilidade:** As evidências coletadas podem ser vistas na íntegra em [Relatório de Inspeção do Fluxo C](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/RelatorioInspecaoFluxoC.pdf ':ignore')
 
 ---
 
@@ -167,7 +167,7 @@ Refletem comportamentos opcionais disparados sob condições específicas.
 
 | Versão | Data | Modificações Realizadas | Artefato |
 | :--- | :--- | :--- | :--- |
-| **v1.0** |15/09/2026 | Mapeamento inicial com os atores e casos de uso básicos. | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Diagrama_de_caso_de_uso.png) |
+| **v1.0** |15/09/2026 | Mapeamento inicial com os atores e casos de uso básicos. | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Diagrama_de_caso_de_uso.png ':ignore') |
 | **v2.0 (Atual)** | 16/09/2026 | Refatoração visual com adição dos 5 módulos, adição de dependências `<<include>>`/`<<extend>>` e alinhamento de atores externos. | Artefato exibido na Figura 1.1. |
 
 > **Nota de Versionamento:** A transição da versão v1.0 para v2.0 foi motivada pela necessidade de organizar a complexidade visual do modelo e garantir rastreabilidade direta com os microsserviços VTEX identificados nas evidências.
@@ -193,7 +193,7 @@ Para Sommerville (2011), o desenvolvimento de software moderno depende fortement
 
 ### 2.2. Mapeamento de Classes
 
-A construção do modelo de classes deriva diretamente da engenharia reversa realizada sobre as requisições HTTP (XHR/Fetch) e scripts rastreados durante as 18 evidências de testes do checkout (*vide [Relatório de Inspeção do Fluxo C]()*).
+A construção do modelo de classes deriva diretamente da engenharia reversa realizada sobre as requisições HTTP (XHR/Fetch) e scripts rastreados durante as 18 evidências de testes do checkout (*vide [Relatório de Inspeção do Fluxo C](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/RelatorioInspecaoFluxoC.pdf ':ignore')*).
 
 Os dados brutos trafegados em formato JSON, bem como os comportamentos disparados na interface do usuário, foram abstraídos em entidades de domínio com atributos e métodos específicos. A Tabela 2.1 detalha essa correspondência:
 
@@ -248,6 +248,8 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 
 <details>
 <summary><b> Código Mermaid (Clique para expandir)</b></summary>
+
+---
 
 ```mermaid
 classDiagram
@@ -380,6 +382,8 @@ classDiagram
   Pedido --> Logistica : encaminha
   Cliente --> SuporteAtendimento : aciona
 ```
+---
+
 </details>
 <br>
 <details>
@@ -485,7 +489,7 @@ A estrutura de pacotes foi derivada da análise das requisições de rede, dos s
 
 | Versão | Data | Modificações Realizadas | Artefato |
 | :--- | :--- | :--- | :--- |
-| **v1.0** | 16/09/2026 | Prosposta inicial de diagrama através de prompt de comando em IA, por Letícia | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/DiagramaPacotesFluxoCv1.png ':ignore') |
+| **v1.0** | 16/09/2026 | Prosposta inicial de diagrama através de prompt de comando em IA, por Letícia | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/DiagramaPacotesFluxoCv1.png ':ignore') |
 | **v2.0 (atual)** | 17/09/2026 | Adequação do modelo às análises de evidencias do sistema | Artefato exibido no tópico |
 
 > **Nota de Versionamento:** A transição de versões foi motivada pela necessidade de organizar a complexidade visual do modelo e garantir rastreabilidade direta com os microsserviços VTEX identificados nas evidências.

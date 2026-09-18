@@ -20,7 +20,7 @@ Nesse contexto, para fornecer uma visão dinâmica do Fluxo: Carrinho De Compras
 A escolha do Diagrama de Sequência justifica-se por sua capacidade de correlacionar diretamente o tempo de vida dos objetos aos *payloads* de rede inspecionados, garantindo rastreabilidade entre o código interceptado no navegador e a execução dos microsserviços.
 
 > **Nota de rastreabilidade:** A modelagem dinâmica aqui apresentada deriva de inspeções de tráfego de rede capturados via DevTools (F12) durante a execução do fluxo e-commerce no sistema.
-[Relatório de Inspeção do Fluxo C]()
+[Relatório de Inspeção do Fluxo C](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/RelatorioInspecaoFluxoC.pdf ':ignore')
 
 ---
 
