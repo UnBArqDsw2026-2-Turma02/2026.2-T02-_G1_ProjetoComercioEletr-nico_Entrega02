@@ -1,6 +1,6 @@
 # Modelo Estático - Diagrama de Classes
 
-> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de **Engenharia Reversa do Fluxo A**, consolidado nos artefatos de [**Rich Picture, BPMN e NFR Framework/SIG**](/../../modulo-1/subequipe-01.md), e utiliza como unidade de rastreabilidade os itens do [**Product Backlog**](../../extras/subequipe01_product_backlog.md) derivados desses artefatos. O modelo representa uma estrutura estática **proposta para o domínio** de autenticação e gerenciamento de conta do e-commerce da Decathlon Brasil.
+> **Nota de rastreabilidade:** A modelagem estática aqui apresentada parte do estudo de **Engenharia Reversa do Fluxo A**, consolidado nos artefatos de [**Rich Picture, BPMN e NFR Framework/SIG**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/modulo-1/subequipe-01.md), e utiliza como unidade de rastreabilidade os itens do [**Product Backlog**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) derivados desses artefatos. O modelo representa uma estrutura estática **proposta para o domínio** de autenticação e gerenciamento de conta do e-commerce da Decathlon Brasil.
 
 ---
 
@@ -51,13 +51,13 @@ A construção do modelo estático foi realizada de forma incremental, utilizand
 
 Inicialmente foram analisados:
 
-1. [**Rich Picture**](../../modulo-1/subequipe-01.md): utilizado para identificar atores, elementos do domínio, relações, problemas e expectativas presentes no ecossistema de autenticação e gerenciamento da conta.
+1. [**Rich Picture**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/modulo-1/subequipe-01.md): utilizado para identificar atores, elementos do domínio, relações, problemas e expectativas presentes no ecossistema de autenticação e gerenciamento da conta.
 
-2. [**BPMN**](../../modulo-1/subequipe-01.md): utilizado para identificar as etapas, decisões e responsabilidades presentes nos fluxos de **login, cadastro e recuperação/alteração de senha**.
+2. [**BPMN**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/modulo-1/subequipe-01.md): utilizado para identificar as etapas, decisões e responsabilidades presentes nos fluxos de **login, cadastro e recuperação/alteração de senha**.
 
-3. [**NFR Framework/SIG**](../../modulo-1/subequipe-01.md): utilizado para identificar as preocupações de qualidade e os comportamentos necessários para atender aos requisitos de **segurança, usabilidade, confiança, consistência e feedback**.
+3. [**NFR Framework/SIG**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/modulo-1/subequipe-01.md): utilizado para identificar as preocupações de qualidade e os comportamentos necessários para atender aos requisitos de **segurança, usabilidade, confiança, consistência e feedback**.
 
-4. [**Product Backlog**](../../extras/subequipe01_product_backlog.md): utilizado para transformar os achados anteriores em itens funcionais e não funcionais priorizados, que posteriormente foram utilizados como referência para identificar os conceitos e classes do domínio.
+4. [**Product Backlog**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md): utilizado para transformar os achados anteriores em itens funcionais e não funcionais priorizados, que posteriormente foram utilizados como referência para identificar os conceitos e classes do domínio.
 
 ### 3.2. Identificação das classes
 
@@ -209,25 +209,25 @@ classDiagram
 
 ### 4.2. Rastreabilidade com o Product Backlog
 
-A construção do diagrama foi orientada pelos itens do [**Product Backlog do Fluxo A**](../../extras/subequipe01_product_backlog.md) identificados durante a análise. Cada grupo de classes representa uma ou mais funcionalidades rastreadas aos artefatos anteriores.
+A construção do diagrama foi orientada pelos itens do [**Product Backlog do Fluxo A**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) identificados durante a análise. Cada grupo de classes representa uma ou mais funcionalidades rastreadas aos artefatos anteriores.
 
 | Item do Backlog | Funcionalidade | Classes relacionadas |
 | --- | --- | --- |
-| [**PB-01**](../../extras/subequipe01_product_backlog.md) | Login com e-mail e senha | `Conta`, `Credencial`, `Sessao` |
-| [**PB-02**](../../extras/subequipe01_product_backlog.md) | Login social | `AutenticacaoSocial`, `ProvedorSocial`, `Conta` |
-| [**PB-03**](../../extras/subequipe01_product_backlog.md) | Proteção contra enumeração de usuários | `Conta` |
-| [**PB-04**](../../extras/subequipe01_product_backlog.md) | Cadastro de conta | `Usuario`, `Conta`, `Perfil`, `Credencial` |
-| [**PB-05**](../../extras/subequipe01_product_backlog.md) | Recuperação de senha | `RecuperacaoSenha`, `Conta` |
-| [**PB-06**](../../extras/subequipe01_product_backlog.md) | Alteração de senha | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
-| [**PB-07**](../../extras/subequipe01_product_backlog.md) | Encerramento de sessão | `Sessao`, `Conta`, `Dispositivo` |
-| [**PB-08**](../../extras/subequipe01_product_backlog.md) | Gerenciamento do perfil | `Usuario`, `Perfil` |
-| [**PB-09**](../../extras/subequipe01_product_backlog.md) | Proteção das informações da conta | `Conta`, `Perfil`, `Credencial` |
-| [**PB-10**](../../extras/subequipe01_product_backlog.md) | Gerenciamento de dispositivos | `Dispositivo`, `Sessao` |
-| [**PB-11**](../../extras/subequipe01_product_backlog.md) | Preferências de comunicação | `PreferenciaComunicacao` |
-| [**PB-12**](../../extras/subequipe01_product_backlog.md) | Consistência após alteração da senha | `Conta`, `Perfil`, `Credencial` |
-| [**PB-13**](../../extras/subequipe01_product_backlog.md) | Notificações sobre ações críticas | `NotificacaoSeguranca` |
-| [**PB-14**](../../extras/subequipe01_product_backlog.md) | Informações sobre atividades de segurança | `Sessao`, `NotificacaoSeguranca` |
-| [**PB-15**](../../extras/subequipe01_product_backlog.md) | Gerenciamento de vínculos sociais | `AutenticacaoSocial`, `ProvedorSocial` |
+| [**PB-01**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Login com e-mail e senha | `Conta`, `Credencial`, `Sessao` |
+| [**PB-02**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Login social | `AutenticacaoSocial`, `ProvedorSocial`, `Conta` |
+| [**PB-03**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Proteção contra enumeração de usuários | `Conta` |
+| [**PB-04**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Cadastro de conta | `Usuario`, `Conta`, `Perfil`, `Credencial` |
+| [**PB-05**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Recuperação de senha | `RecuperacaoSenha`, `Conta` |
+| [**PB-06**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Alteração de senha | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
+| [**PB-07**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Encerramento de sessão | `Sessao`, `Conta`, `Dispositivo` |
+| [**PB-08**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Gerenciamento do perfil | `Usuario`, `Perfil` |
+| [**PB-09**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Proteção das informações da conta | `Conta`, `Perfil`, `Credencial` |
+| [**PB-10**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Gerenciamento de dispositivos | `Dispositivo`, `Sessao` |
+| [**PB-11**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Preferências de comunicação | `PreferenciaComunicacao` |
+| [**PB-12**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Consistência após alteração da senha | `Conta`, `Perfil`, `Credencial` |
+| [**PB-13**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Notificações sobre ações críticas | `NotificacaoSeguranca` |
+| [**PB-14**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Informações sobre atividades de segurança | `Sessao`, `NotificacaoSeguranca` |
+| [**PB-15**](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/extras/subequipe01_product_backlog.md) | Gerenciamento de vínculos sociais | `AutenticacaoSocial`, `ProvedorSocial` |
 
 ### 4.3. Relacionamentos e multiplicidades
 
