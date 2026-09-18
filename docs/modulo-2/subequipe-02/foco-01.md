@@ -151,7 +151,7 @@ Além do Diagrama de Classes, a Subequipe 02 também elaborou um Diagrama de Com
 
 ![Figura 5 — Diagrama de Componentes da Busca, Carrinho e Compra](Assets/Diagrama_componentes_subequipe2.jpg)
 
-<p><small><em>Fonte: Elaborado pela Subequipe 02, 2026.</em></small></p>
+<p><small><em>Fonte: Elaborado por Diassis Bezerra Nascimento, Nayra Silva Nery e Uires Carlos de Oliveira, 2026.</em></small></p>
 
 </div>
 
@@ -213,5 +213,5 @@ Páginas consultadas:
 | 1.2 | Diassis Bezerra Nascimento | Correção da metodologia e adicionado o grafo de auxílio gerado através de Inteligência Artificial | Claude | 18/09/2026 |
 | 1.3 | Diassis Bezerra Nascimento | Adicionado Rastreabilidade de fotos no diagrama UML | Claude | 18/09/2026 |
 | 1.4 | Diassis Bezerra Nascimento | Inserção do Diagrama de Componentes (Figura 5) no Foco 01, com descrição dos subsistemas e interfaces e registro da ausência de metodologia/rastreabilidade específica para esse diagrama | Claude | 18/09/2026 |
-| 1.5 | Diassis Bezerra Nascimento | Inclusão da seção "Participação e Rastreabilidade do Artefato", com tabela de divisão de responsabilidades por etapa do relatório | *(revisão pendente)* | 18/09/2026 |
+| 1.5 | Diassis Bezerra Nascimento | Inclusão da seção "Participação e Rastreabilidade do Artefato", com tabela de divisão de responsabilidades por etapa do relatório | Claude | 18/09/2026 |
 | 1.6 | Diassis Bezerra Nascimento | Remoção das linhas sobre o Diagrama de Componentes e sobre a organização dos assets da tabela "Participação e Rastreabilidade do Artefato", por não terem sido elaboradas por Diassis | Claude | 18/09/2026 |
