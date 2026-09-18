@@ -333,8 +333,8 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 >
 > | Versão |    Data    | Descrição                                                                                       | Autores                                                |    Revisor   |
 > | :----: | :--------: | :---------------------------------------------------------------------------------------------- | :----------------------------------------------------- | :----------: |
-> |   0.1  | 16/09/2026 | Criação e Estruturação da página                                                                | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> |   0.2  | 17/09/2026 | Inclusão da modelagem estática, rastreabilidade com o Product Backlog e decisões de projeto     | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> |   0.3  | 17/09/2026 | Refinamento do diagrama Mermaid, enumerações e distinção entre elementos observados e propostos | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
+> |   0.1  | 16/09/2026 | Criação e Estruturação da página                                                                | [Dylan Cavalcante](https://github.com/dylancavalcante) | Mariana Ribeiro Santana Gonzaga |
+> |   0.2  | 17/09/2026 | Inclusão da modelagem estática, rastreabilidade com o Product Backlog e decisões de projeto     | [Dylan Cavalcante](https://github.com/dylancavalcante) | Samuel Felipe Lira |
+> |   0.3  | 17/09/2026 | Refinamento do diagrama Mermaid, enumerações e distinção entre elementos observados e propostos | [Dylan Cavalcante](https://github.com/dylancavalcante) | Mariana Ribeiro Santana Gonzaga |
 
 
