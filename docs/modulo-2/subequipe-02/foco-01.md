@@ -195,5 +195,5 @@ Páginas consultadas:
 | 1.0 | Diassis Bezerra Nascimento | Criação do Diagrama de Classes (Modelo Estático) e documentação associada | Nayra Silva Nery | 17/09/2026 |
 | 1.1 | Diassis Bezerra Nascimento | Correção do arquivo `Modelo_Estatico_Decathlon.drawio`, que estava incorreto/ausente, com a substituição pelo arquivo correto (4 abas: Visão Geral, Catálogo e Promoções, Compra, Clube e Cartão-Presente) e vínculo do texto ao arquivo real | Claude | 18/09/2026 |
 | 1.2 | Diassis Bezerra Nascimento | Correção da metodologia e adicionado o grafo de auxílio gerado através de Inteligência Artificial | Claude | 18/09/2026 |
-| 1.3 | Diassis Bezerra Nascimento | Inserção do Diagrama de Componentes (Figura 5) no Foco 01, com descrição dos subsistemas e interfaces e registro da ausência de metodologia/rastreabilidade específica para esse diagrama | *(revisão pendente)* | 18/09/2026 |
 | 1.3 | Diassis Bezerra Nascimento | Adicionado Rastreabilidade de fotos no diagrama UML | Claude | 18/09/2026 |
+| 1.4 | Diassis Bezerra Nascimento | Inserção do Diagrama de Componentes (Figura 5) no Foco 01, com descrição dos subsistemas e interfaces e registro da ausência de metodologia/rastreabilidade específica para esse diagrama | Claude | 18/09/2026 |
