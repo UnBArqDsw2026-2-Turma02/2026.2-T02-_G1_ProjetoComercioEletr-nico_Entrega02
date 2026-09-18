@@ -9,8 +9,8 @@ Abaixo estão apresentados os membros integrados no ciclo de desenvolvimento.
 | Foto | Nome | GitHub |
 | :---: | :--- | :---: |
 | <img src="https://github.com/dylancavalcante.png" width="80" style="border-radius: 50%;"> | **Dylan Portela Cavalcante** | [dylancavalcante](https://github.com/dylancavalcante) |
-| <img src="https://github.com/membro 2.png" width="80" style="border-radius: 50%;"> | **membro 2** | [membro 2](https://github.com/) |
-| <img src="https://github.com/membro3.png" width="80" style="border-radius: 50%;"> | **membro 3** | [membro 3](https://github.com/membro3) |
+| <img src="https://github.com/marianagonzaga0.png" width="80" style="border-radius: 50%;"> | **Mariana Ribeiro Santana Gonzaga** | [marianaribeiro](https://github.com/marianagonzaga0) |
+| <img src="https://github.com/TerminaKng05.png" width="80" style="border-radius: 50%;"> | **Samuel Felipe Lira de Souza** | [samuelfelipe](https://github.com/TerminaKng05) |
 
 
 ---
@@ -44,8 +44,8 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 | Membro | Foco Principal | Artefato(s) Assumido(s) | Commits & Evidências |
 | :--- | :--- | :--- | :---: |
 | **Dylan Portela Cavalcante** | - | - | [Commits](https://github.com/...) |
-| **membro 2** | - | - | [Commits](https://github.com/...) |
-| **membro 3** | - | - | [Commits](https://github.com/...) |
+| **Mariana Ribeiro Santana Gonzaga** | - | - | [Commits](https://github.com/...) |
+| **Samuel Felipe Lira de Souza** | - | - | [Commits](https://github.com/...) |
 
 
 ---
@@ -62,3 +62,4 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
 > | 0.1 | 16/09/2026 | Criação e Estruturação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
+> | 0.2 | 17/09/2026 | Preenchimento da página | [Mariana Ribeiro](https://github.com/marianagonzaga0) | não revisado |
