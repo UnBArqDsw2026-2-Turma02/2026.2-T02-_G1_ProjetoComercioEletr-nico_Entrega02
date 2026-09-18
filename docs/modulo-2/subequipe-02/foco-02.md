@@ -6,8 +6,10 @@ Entrega Mínima: um modelo dinâmico, na notação UML.
 
 | Nome do Membro |
 |---|
+| **Diassis Bezerra Nascimento** |
 | **Nayra Silva Nery** |
-| **Uires Carlos de Oliveira** |                            
+| **Uires Carlos de Oliveira** |
+
 
 ### Metodologia do Foco_02
 
