@@ -33,8 +33,8 @@ Dessa forma, o backlog não representa uma lista genérica de funcionalidades de
 | :-------------------------------------- | :------------------------ | :---------------- | 
 | **Introdução, objetivo e escopo**       | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga         | Dylan Portela Cavalcante        |  
 | **Levantamento dos itens do backlog**   | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga          | Dylan Portela Cavalcante        |  
-| **Priorização MoSCoW**                  | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga       | amuel Felipe Lira de Souza        |  
-| **Rastreabilidade com SIG, BPMN e NFR** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga        | amuel Felipe Lira de Souza        |  
+| **Priorização MoSCoW**                  | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga       | Samuel Felipe Lira de Souza        |  
+| **Rastreabilidade com SIG, BPMN e NFR** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga        | Samuel Felipe Lira de Souza        |  
 | **Validação e revisão do backlog**      | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga| Mariana Ribeiro Santana Gonzaga         |      
 
 ---
