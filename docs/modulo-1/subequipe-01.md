@@ -174,7 +174,7 @@ Modelagem dos processos de autenticação e gerenciamento de conta da Decathlon 
 ### Diagrama 1: Login
 
 <p align="center">
-    <img src="../assets/images/Login9.png" alt="Diagrama BPMN do fluxo de login" width="100%">
+    <img src="/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Login9.png" alt="Diagrama BPMN do fluxo de login" width="100%">
 </p>
 
 <p align="center">
@@ -187,7 +187,7 @@ Modelagem dos processos de autenticação e gerenciamento de conta da Decathlon 
 ### Diagrama 2: Alteração e recuperação de senha
 
 <p align="center">
-    <img src="../assets/images/Recuperacao_senha.png" alt="Diagrama BPMN do fluxo de recuperação de senha" width="100%">
+    <img src="/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Recuperacao_senha.png" alt="Diagrama BPMN do fluxo de recuperação de senha" width="100%">
 </p>
 
 <p align="center">
@@ -199,7 +199,7 @@ Modelagem dos processos de autenticação e gerenciamento de conta da Decathlon 
 ### Diagrama 3: Cadastro
 
 <p align="center">
-    <img src="../assets/images/Cadastro.png" alt="Diagrama BPMN do fluxo de cadastro" width="100%">
+    <img src="/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Cadastro.png" alt="Diagrama BPMN do fluxo de cadastro" width="100%">
 </p>
 
 <p align="center">
