@@ -6,20 +6,17 @@ Neste projeto, são considerados aspectos como usabilidade, segurança, privacid
 
 ## Apresentação da Equipe
 
-Abaixo está os integrantes do grupo:
-
-| Foto | Nome | GitHub |
-| :---: | :--- | :---: |
-| <img src="https://github.com/github.png" width="50px"> | Camile Barbosa | [@Camile0318](https://github.com/Camile0318) |
-| <img src="https://github.com/github.png" width="50px"> | Dylan Portela | [@dylancavalcante](https://github.com/dylancavalcante) |
-| <img src="https://github.com/github.png" width="50px"> | Diassis Bezerra | [@diaxiz](https://github.com/diaxiz) |
-| <img src="https://github.com/github.png" width="50px"> | Letícia Carvalho | [@LeticiaSantosss](https://github.com/LeticiaSantosss) |
-| <img src="https://github.com/github.png" width="50px"> | Lucas Oliveira | [@Katuner](https://github.com/katuner) |
-| <img src="https://github.com/github.png" width="50px"> | Mariana Ribeiro | [@marianagonzaga0](https://github.com/marianagonzaga0) |
-| <img src="https://github.com/github.png" width="50px"> | Nayra Silva | [@NayraNery127](https://github.com/NayraNery127) |
-| <img src="https://github.com/github.png" width="50px"> | Rafaela Andrea | [@radamesGuerra](https://github.com/radamesGuerra) |
-| <img src="https://github.com/github.png" width="50px"> | Samuel Felipe | [@TerminaKng05](https://github.com/TerminaKng05) |
-| <img src="https://github.com/github.png" width="50px"> | Uires Carvalho | [@uires2023](https://github.com/uires2023) |
+|                                            Foto                                           | Nome                 |                         GitHub                         |
+| :---------------------------------------------------------------------------------------: | :------------------- | :----------------------------------------------------: |
+|    <img src="https://github.com/Camile0318.png" width="80" style="border-radius: 50%;">   | **Camile Barbosa**   |      [@Camile0318](https://github.com/Camile0318)      |
+| <img src="https://github.com/dylancavalcante.png" width="80" style="border-radius: 50%;"> | **Dylan Portela**    | [@dylancavalcante](https://github.com/dylancavalcante) |
+|      <img src="https://github.com/diaxiz.png" width="80" style="border-radius: 50%;">     | **Diassis Bezerra**  |          [@diaxiz](https://github.com/diaxiz)          |
+| <img src="https://github.com/LeticiaSantosss.png" width="80" style="border-radius: 50%;"> | **Letícia Carvalho** | [@LeticiaSantosss](https://github.com/LeticiaSantosss) |
+| <img src="https://github.com/marianagonzaga0.png" width="80" style="border-radius: 50%;"> | **Mariana Ribeiro**  | [@marianagonzaga0](https://github.com/marianagonzaga0) |
+|   <img src="https://github.com/NayraNery127.png" width="80" style="border-radius: 50%;">  | **Nayra Silva**      |    [@NayraNery127](https://github.com/NayraNery127)    |
+|  <img src="https://github.com/radamesGuerra.png" width="80" style="border-radius: 50%;">  | **Rafaela Andrea**   |   [@radamesGuerra](https://github.com/radamesGuerra)   |
+|   <img src="https://github.com/TerminaKng05.png" width="80" style="border-radius: 50%;">  | **Samuel Felipe**    |    [@TerminaKng05](https://github.com/TerminaKng05)    |
+|    <img src="https://github.com/uires2023.png" width="80" style="border-radius: 50%;">    | **Uires Carvalho**   |       [@uires2023](https://github.com/uires2023)       |
 
 ## Ferramentas Utilizadas
 
