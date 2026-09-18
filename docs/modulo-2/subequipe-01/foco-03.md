@@ -168,5 +168,5 @@ Durante a elaboração deste artefato, foi utilizada **Inteligência Artificial 
 >
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
-> | 0.1 | 17/09/2026 | Criação e estruturação da página de IA Generativa & Lições Aprendidas | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> | 0.2 | 17/09/2026 | Adição sobre o uso de IA e lições aprendidas | [Samuel Felipe](https://github.com/TerminaKng05) | não revisado |
+> | 0.1 | 17/09/2026 | Criação e estruturação da página de IA Generativa & Lições Aprendidas | [Dylan Cavalcante](https://github.com/dylancavalcante) | [Samuel Felipe](https://github.com/TerminaKng05) |
+> | 0.2 | 17/09/2026 | Adição sobre o uso de IA e lições aprendidas | [Samuel Felipe](https://github.com/TerminaKng05) | [Dylan Cavalcante](https://github.com/dylancavalcante)|
