@@ -34,12 +34,11 @@ Para garantir a qualidade dos artefatos, rastreabilidade e embasamento teórico 
 
 Consolidado da atuação de cada participante, detalhando o foco assumido e os artefatos sob responsabilidade direta.
 
-| Membro | Foco Principal | Artefato(s) Assumido(s) | 
-| :--- | :--- | :--- | 
-| **Dylan Portela Cavalcante** | Modelagem estática | Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa  |
-| **Mariana Ribeiro Santana Gonzaga** | Apoio em Modelagem estática e Modelagem dinâmica |Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa  | 
-| **Samuel Felipe Lira de Souza** | Modelagem dinâmica | Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa | 
-
+| Membro | Módulos / Artefatos de Atuação | Atividades Especificamente Realizadas | Nível de Contribuição |
+| :--- | :--- | :--- | :---: |
+| **Dylan Portela Cavalcante** | • Relatório de Inspeção (Fluxo C)<br>• Mapeamento para Diagramação<br>• Diagrama de Casos de Uso<br>• Diagrama de Classes<br>• Diagrama de Pacotes<br>• Diagrama de Sequência | • Inspeção de evidências; Análise de resultados e elaboração da Introdução.<br>• Definição dos elementos estruturais e modelagem inicial do Diagrama de Classes.<br>• Mapeamento de classes e definição de Decisões de Arquitetura e Modelagem.<br>• Fundamentação teórica, revisão e apoio no Diagrama de Pacotes e Casos de Uso.<br>• Mapeamento, rastreabilidade DevTools, decisões de arquitetura e finalização da versão final do Diagrama de Sequência. | **Excelente (100%)** |
+| **Mariana Ribeiro Santana Gonzaga** | • Relatório de Inspeção (Fluxo C)<br>• Mapeamento para Diagramação<br>• Diagrama de Casos de Uso<br>• Diagrama de Classes<br>• Diagrama de Pacotes<br>• Diagrama de Sequência | • Inspeção de evidências, análise de resultados e redação da seção de Metodologia.<br>• Identificação de atores do sistema, definição dos módulos e modelagem inicial do Diagrama de Casos de Uso.<br>• Redação da fundamentação teórica e revisão crítica do Diagrama de Classes.<br>• Elaboração da modelagem inicial do Diagrama de Pacotes.<br>• Fundamentação teórica, rastreabilidade com DevTools, decisões de arquitetura e criação dos Módulos DS01 e DS02 no Diagrama de Sequência (v2.0). | **Excelente (100%)** |
+| **Samuel Felipe Lira** | • Relatório de Inspeção (Fluxo C)<br>• Mapeamento para Diagramação<br>• Diagrama de Casos de Uso<br>• Diagrama de Classes<br>• Diagrama de Pacotes<br>• Diagrama de Sequência | • Inspeção de evidências, análise de resultados e estruturação inicial do relatório.<br>• Modularização de casos de uso, mapeamento de dependências e finalização do Diagrama de Casos de Uso.<br>• Revisão técnica, decisões de arquitetura e consolidação da versão final do Diagrama de Classes.<br>• Mapeamento de camadas/componentes, decisões de arquitetura e finalização do Diagrama de Pacotes.<br>• Introdução, metodologia, ferramental, mapeamento dos atores, decisões de arquitetura e consolidação geral do relatório do Diagrama de Sequência. | **Excelente (100%)** |
 
 ---
 

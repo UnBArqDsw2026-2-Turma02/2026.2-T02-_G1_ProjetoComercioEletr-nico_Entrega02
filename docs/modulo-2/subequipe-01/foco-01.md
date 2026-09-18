@@ -286,21 +286,21 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 
 | Artefato-base | Evidência / preocupação | Backlog | Elementos UML |
 | --- | --- | --- | --- |
-| [**BPMN — Login**](../modulo-1/subequipe-01.mdd) | Validação de credenciais | [**PB-01**](./subequipe01_product_backlog.md) | `Conta`, `Credencial`, `Sessao` |
-| [**Rich Picture / SIG**](../modulo-1/subequipe-01.mdd) | Login social | [**PB-02**](./subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
-| [**NFR / SIG**](../modulo-1/subequipe-01.mdd) | Prevenção de enumeração de usuários | [**PB-03**](./subequipe01_product_backlog.md) | `Conta` |
-| [**BPMN — Cadastro**](../modulo-1/subequipe-01.mdd) | Registro de novo usuário | [**PB-04**](./subequipe01_product_backlog.md) | `Usuario`, `Conta`, `Perfil`, `Credencial` |
-| [**BPMN — Recuperação**](../modulo-1/subequipe-01.mdd) | Recuperação por e-mail | [**PB-05**](./subequipe01_product_backlog.md) | `RecuperacaoSenha` |
-| [**NFR / Claim**](../modulo-1/subequipe-01.mdd) | Alteração de senha | [**PB-06**](./subequipe01_product_backlog.md) | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
-| [**Rich Picture / BPMN**](../modulo-1/subequipe-01.mdd) | Gestão da sessão | [**PB-07**](./subequipe01_product_backlog.md) | `Sessao`, `Dispositivo` |
-| [**Rich Picture**](../modulo-1/subequipe-01.mdd) | Gerenciamento do perfil | [**PB-08**](./subequipe01_product_backlog.md) | `Usuario`, `Perfil` |
-| [**NFR / SIG**](../modulo-1/subequipe-01.mdd) | Proteção das informações | [**PB-09**](./subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
-| [**Rich Picture**](../modulo-1/subequipe-01.mdd) | Dispositivos conectados | [**PB-10**](./subequipe01_product_backlog.md) | `Dispositivo`, `Sessao` |
-| [**Rich Picture**](../modulo-1/subequipe-01.mdd) | Preferências | [**PB-11**](./subequipe01_product_backlog.md) | `PreferenciaComunicacao` |
-| [**NFR / Claim**](../modulo-1/subequipe-01.mdd) | Consistência após alteração de senha | [**PB-12**](./subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
-| [**NFR / Claim**](../modulo-1/subequipe-01.mdd) | Feedback sobre ação crítica | [**PB-13**](./subequipe01_product_backlog.md) | `NotificacaoSeguranca` |
-| [**NFR / Confiança**](../modulo-1/subequipe-01.mdd) | Atividades de segurança e transparência | [**PB-14**](./subequipe01_product_backlog.md) | `Sessao`, `NotificacaoSeguranca` |
-| [**Rich Picture / Login social**](../modulo-1/subequipe-01.mdd) | Gerenciamento de vínculos sociais | [**PB-15**](./subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
+| [**BPMN — Login**](/modulo-1/subequipe-01.md) | Validação de credenciais | [**PB-01**](/extras/subequipe01_product_backlog.md) | `Conta`, `Credencial`, `Sessao` |
+| [**Rich Picture / SIG**](/modulo-1/subequipe-01.md) | Login social | [**PB-02**](/extras/subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
+| [**NFR / SIG**](/modulo-1/subequipe-01.md) | Prevenção de enumeração de usuários | [**PB-03**](/extras/subequipe01_product_backlog.md) | `Conta` |
+| [**BPMN — Cadastro**](/modulo-1/subequipe-01.md) | Registro de novo usuário | [**PB-04**](/extras/subequipe01_product_backlog.md) | `Usuario`, `Conta`, `Perfil`, `Credencial` |
+| [**BPMN — Recuperação**](/modulo-1/subequipe-01.md) | Recuperação por e-mail | [**PB-05**](/extras/subequipe01_product_backlog.md) | `RecuperacaoSenha` |
+| [**NFR / Claim**](/modulo-1/subequipe-01.md) | Alteração de senha | [**PB-06**](/extras/subequipe01_product_backlog.md) | `Credencial`, `HistoricoSenha`, `NotificacaoSeguranca` |
+| [**Rich Picture / BPMN**](/modulo-1/subequipe-01.md) | Gestão da sessão | [**PB-07**](/extras/subequipe01_product_backlog.md) | `Sessao`, `Dispositivo` |
+| [**Rich Picture**](/modulo-1/subequipe-01.md) | Gerenciamento do perfil | [**PB-08**](/extras/subequipe01_product_backlog.md) | `Usuario`, `Perfil` |
+| [**NFR / SIG**](/modulo-1/subequipe-01.md) | Proteção das informações | [**PB-09**](/extras/subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
+| [**Rich Picture**](/modulo-1/subequipe-01.md) | Dispositivos conectados | [**PB-10**](/extras/subequipe01_product_backlog.md) | `Dispositivo`, `Sessao` |
+| [**Rich Picture**](/modulo-1/subequipe-01.md) | Preferências | [**PB-11**](/extras/subequipe01_product_backlog.md) | `PreferenciaComunicacao` |
+| [**NFR / Claim**](/modulo-1/subequipe-01.md) | Consistência após alteração de senha | [**PB-12**](/extras/subequipe01_product_backlog.md) | `Conta`, `Perfil`, `Credencial` |
+| [**NFR / Claim**](/modulo-1/subequipe-01.md) | Feedback sobre ação crítica | [**PB-13**](/extras/subequipe01_product_backlog.md) | `NotificacaoSeguranca` |
+| [**NFR / Confiança**](/modulo-1/subequipe-01.md) | Atividades de segurança e transparência | [**PB-14**](/extras/subequipe01_product_backlog.md) | `Sessao`, `NotificacaoSeguranca` |
+| [**Rich Picture / Login social**](/modulo-1/subequipe-01.md) | Gerenciamento de vínculos sociais | [**PB-15**](/extras/subequipe01_product_backlog.md) | `AutenticacaoSocial`, `ProvedorSocial` |
 
 > **Nota:** O modelo representa uma **visão de análise do domínio**. Classes técnicas relacionadas à implementação, persistência, APIs, controladores e infraestrutura deverão ser detalhadas posteriormente na etapa de design.
 ---
@@ -319,11 +319,11 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 
 [3] SINGH, Pratima; TRIPATHI, Anil Kumar. **Treating NFR as First Grade for Its Testability**. *Journal of Software Engineering and Applications*, v. 5, 2012.
 
-[4] [**Foco 01 — Rich Picture e NFR Framework do Fluxo A**](../modulo-1/subequipe-01.mdd). Artefato elaborado pela Subequipe 01.
+[4] [**Foco 01 — Rich Picture e NFR Framework do Fluxo A**](/modulo-1/subequipe-01.md). Artefato elaborado pela Subequipe 01.
 
-[5] [**Foco 02 — Engenharia Reversa e BPMN**](../modulo-1/subequipe-01.mdd). Artefato elaborado pela Subequipe 01.
+[5] [**Foco 02 — Engenharia Reversa e BPMN**](/modulo-1/subequipe-01.md). Artefato elaborado pela Subequipe 01.
 
-[6] [**Product Backlog do Fluxo A**](./subequipe01_product_backlog.md). Artefato elaborado pela Subequipe 01.
+[6] [**Product Backlog do Fluxo A**](/extras/subequipe01_product_backlog.md). Artefato elaborado pela Subequipe 01.
 
 [7] OPENAI. *ChatGPT*. Disponível em: https://chatgpt.com/. Acesso em: 17 set. 2026.
 
@@ -333,8 +333,8 @@ Dessa forma, a criação das classes não é independente dos requisitos identif
 >
 > | Versão |    Data    | Descrição                                                                                       | Autores                                                |    Revisor   |
 > | :----: | :--------: | :---------------------------------------------------------------------------------------------- | :----------------------------------------------------- | :----------: |
-> |   0.1  | 16/09/2026 | Criação e Estruturação da página                                                                | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> |   0.2  | 17/09/2026 | Inclusão da modelagem estática, rastreabilidade com o Product Backlog e decisões de projeto     | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> |   0.3  | 17/09/2026 | Refinamento do diagrama Mermaid, enumerações e distinção entre elementos observados e propostos | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
+> |   0.1  | 16/09/2026 | Criação e Estruturação da página                                                                | [Dylan Cavalcante](https://github.com/dylancavalcante) | Mariana Ribeiro Santana Gonzaga |
+> |   0.2  | 17/09/2026 | Inclusão da modelagem estática, rastreabilidade com o Product Backlog e decisões de projeto     | [Dylan Cavalcante](https://github.com/dylancavalcante) | Samuel Felipe Lira |
+> |   0.3  | 17/09/2026 | Refinamento do diagrama Mermaid, enumerações e distinção entre elementos observados e propostos | [Dylan Cavalcante](https://github.com/dylancavalcante) | Mariana Ribeiro Santana Gonzaga |
 
 
