@@ -123,6 +123,36 @@ As abas 2, 3 e 4 formam, em conjunto, o modelo estático detalhado. Algumas clas
 
 As generalizações `Cupom —|> Promocao`, `PromocaoQuantidade —|> Promocao` e `DescontoPix —|> Promocao` não usam multiplicidades. A dependência tracejada `Carrinho ..> Pedido`, identificada por `<<cria>>`, representa a criação do pedido a partir do carrinho e também não recebe multiplicidades.
 
+---
+
+## Diagrama de Componentes
+
+Além do Diagrama de Classes, a Subequipe 02 também elaborou um Diagrama de Componentes para o mesmo recorte de Busca de Produtos, Carrinho e Compra.
+
+<div align="center" style="text-align: center;">
+
+<p><b>Figura 5 — Diagrama de Componentes da Busca, Carrinho e Compra</b></p>
+
+![Figura 5 — Diagrama de Componentes da Busca, Carrinho e Compra](Assets/Diagrama_componentes_subequipe2.jpg)
+
+<p><small><em>Fonte: Elaborado pela Subequipe 02, 2026.</em></small></p>
+
+</div>
+
+<br>
+
+O diagrama organiza o sistema em três subsistemas (`<<subsystem>>`):
+
+- **Loja Virtual Decathlon:** reúne os componentes `Busca e Catálogo`, `Carrinho` e `Autenticação`, expondo as interfaces `IBuscaProdutos`, `ICompraOnline` e `ISessaoUsuario`.
+- **Estoque:** contém o componente `Controle de Estoque`, que fornece a interface `IEstoque` e é requerido pelo checkout (`ICheckout`) para verificar e atualizar a disponibilidade.
+- **Pedidos e Pagamento:** reúne `Pagamento`, `Checkout e Pedidos` e `Clientes`, conectados pelas interfaces `IPagamento` e `ICliente`.
+
+As conexões usam a notação de porta, interface fornecida (bolinha) e interface requerida (encaixe). Uma dependência tracejada indica que o Checkout atualiza a disponibilidade no Estoque. O diagrama também registra uma restrição de acessibilidade (`<<restrição>>`: navegação por teclado, foco visível, zoom de 200%) associada ao subsistema da Loja Virtual.
+
+Diferente do Diagrama de Classes, não há registro detalhado da metodologia nem da rastreabilidade das evidências utilizadas especificamente na construção deste diagrama; a descrição acima se limita ao conteúdo apresentado na imagem. Como os demais modelos deste relatório, trata-se de uma proposta conceitual para fins acadêmicos, que não afirma corresponder à arquitetura interna real da Decathlon.
+
+---
+
 ## Verificação complementar no site oficial
 
 | Evidência observada | Impacto no modelo | Evidência (rastreabilidade - foto) |
@@ -155,6 +185,7 @@ Páginas consultadas:
 - Acessibilidade e responsividade permanecem como requisitos não funcionais transversais, não como classes.
 - Operações aparecem somente quando existe comportamento observável que as sustente.
 - Não foram criadas interfaces técnicas, repositórios, serviços ou componentes de infraestrutura sem evidência observável.
+- O Diagrama de Componentes (seção "Diagrama de Componentes") não possui registro de metodologia nem de rastreabilidade de evidências equivalente ao do Diagrama de Classes; sua descrição neste documento baseia-se apenas no conteúdo apresentado na imagem.
 
 
 ## Versionamentos
@@ -164,4 +195,5 @@ Páginas consultadas:
 | 1.0 | Diassis Bezerra Nascimento | Criação do Diagrama de Classes (Modelo Estático) e documentação associada | Nayra Silva Nery | 17/09/2026 |
 | 1.1 | Diassis Bezerra Nascimento | Correção do arquivo `Modelo_Estatico_Decathlon.drawio`, que estava incorreto/ausente, com a substituição pelo arquivo correto (4 abas: Visão Geral, Catálogo e Promoções, Compra, Clube e Cartão-Presente) e vínculo do texto ao arquivo real | Claude | 18/09/2026 |
 | 1.2 | Diassis Bezerra Nascimento | Correção da metodologia e adicionado o grafo de auxílio gerado através de Inteligência Artificial | Claude | 18/09/2026 |
+| 1.3 | Diassis Bezerra Nascimento | Inserção do Diagrama de Componentes (Figura 5) no Foco 01, com descrição dos subsistemas e interfaces e registro da ausência de metodologia/rastreabilidade específica para esse diagrama | *(revisão pendente)* | 18/09/2026 |
 | 1.3 | Diassis Bezerra Nascimento | Adicionado Rastreabilidade de fotos no diagrama UML | Claude | 18/09/2026 |
