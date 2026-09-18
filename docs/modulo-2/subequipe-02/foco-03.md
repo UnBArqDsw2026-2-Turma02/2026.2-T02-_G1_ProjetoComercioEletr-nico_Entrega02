@@ -127,5 +127,4 @@ Os modelos e este texto devem ser apresentados como resultados de **engenharia r
 >
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :--- |
-> | 0.1 | 18/09/2026 | Rascunho da página do Foco 03 com base nas interações documentadas de Uires e nos quatro diagramas elaborados e revisados pela equipe. | [Uires Carlos de Oliveira](https://github.com/uires2023), com apoio de IA na redação | **[REGISTRAR APÓS REVISÃO POR DIASSIS E/OU NAYRA]** |
-> | **[VERSÃO REAL]** | **[DATA REAL]** | Inclusão dos relatos individuais validados, revisão cruzada e links de evidência. | **[AUTORES REAIS DA ALTERAÇÃO]** | **[REVISOR REAL]** |
+> | 1.0 | 17/09/2026 | Rascunho da página do Foco 03 com base nas interações documentadas de Uires e nos quatro diagramas elaborados e revisados pela equipe. | [Uires Carlos de Oliveira](https://github.com/uires2023), com apoio de IA na redação | Diassis[https://github.com/Diaxiz) |

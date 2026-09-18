@@ -109,5 +109,5 @@ A especificação da [UML 2.5.1 publicada pela Object Management Group (OMG)](ht
 >
 > | Versão | Data | Descrição | Autores | Revisores |
 > | :---: | :---: | :--- | :--- | :--- |
-> | 0.1 | 18/09/2026 | Rascunho da documentação dos Diagramas de Sequência e de Atividades elaborados e revisados em conjunto. | Diassis, Nayra e Uires (modelos); Uires (organização deste texto com apoio de IA) | Diassis e Nayra: **registrar revisão do texto após conferência** |
-> | 0.2 | **[DATA REAL]** | Ajustes nos diagramas, no texto e inclusão dos links de evidência, conforme a revisão do grupo. | **[NOMES DE QUEM EFETUAR OS AJUSTES]** | **[NOMES DE QUEM REVISAR]** |
+> | 1.0 | 18/09/2026 | Rascunho da documentação dos Diagramas de Sequência e de Atividades elaborados e revisados em conjunto. | Uires | Diassis |
+> | 1.1 | 18/09/2026 | Ajustes nos diagramas, no texto e inclusão dos links de evidência, conforme a revisão do grupo. | Uires | Diassis |
