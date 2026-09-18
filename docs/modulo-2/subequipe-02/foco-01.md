@@ -7,6 +7,10 @@
 | **Nayra Silva Nery** |
 | **Uires Carlos de Oliveira** |
 
+### Introdução
+
+O modelo apresentado nas imagens é um Diagrama de Classes UML, que representa a perspetiva estrutural e estática do software. Este tipo de diagrama detalha as entidades fundamentais do sistema (as classes), os seus dados internos (atributos), as ações que podem executar (métodos) e as regras de associação e cardinalidade entre elas. Neste caso concreto, o modelo ilustra a arquitetura de uma plataforma de comércio eletrónico, dividida em quatro domínios lógicos principais: Catálogo, Promoções, Compra e a gestão de Clube e Cartão-Presente. Através das ligações visuais, é possível compreender as regras de negócio, como a forma em que um cliente se relaciona com o carrinho de compras, como os descontos são aplicados aos produtos e como os pagamentos são processados. Esta modelação funciona, assim, como uma planta de engenharia essencial para garantir o desenvolvimento de um sistema robusto e organizado.
+
 ### Metodologia do Foco_01
 O trabalho aplicou engenharia reversa sobre a interface pública da Decathlon. A equipe não teve acesso ao código-fonte, às APIs ou ao banco de dados. O modelo representa uma especificação recuperada do comportamento observável e não afirma que as classes correspondem à implementação interna real da empresa.
 
@@ -158,3 +162,4 @@ Páginas consultadas:
 | Versão | Nome do Membro | Contribuição | Revisor(a) | Data |
 | :---: | :--- | :--- | :--- | :---: |
 | 1.0 | Diassis Bezerra Nascimento | Criação do Diagrama de Classes (Modelo Estático) e documentação associada | Nayra Silva Nery | 17/09/2026 |
+| 1.1 | Diassis Bezerra Nascimento | Adicionado texto de introdução ao diagrama UML | Nayra Silva Nery | 17/09/2026 |
