@@ -29,9 +29,10 @@ Documentação técnica de apoio para embasamento da engenharia reversa, modelag
 * **Objetivo:** Registrar e analisar os resultados obtidos por meio de ensaios de teste operacionais e engenharia reversa comportamental na plataforma web da Decathlon.
 * **Atribuição:** Subequipe 03
 * **Objeto de Estudo:** Fluxo C: Carrinho De Compras >> Checkout >> Pagamento
-* **Autoria:** Rafaela Andrea.
+* **Autoria:** SubEquipe03
 * **Documento:** [Visualizar Relatório em PDF](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/RelatorioInspecaoFluxoC.pdf ':ignore')
 
+* **Evidencias de Inspeção em Video:** [Visualizar Pasta](https://unbbr-my.sharepoint.com/:f:/g/personal/231031723_aluno_unb_br/IgCNkAAsfFjNTZN2HFwjKW2VAYei5NX3GBCial1muiuTjcw?e=PzeO7j)
 ---
 
 > **Nota:** Todos os documentos e evidências contam com históricos de versão e artefatos auditáveis salvos no repositório.
