@@ -4,8 +4,8 @@
 
 | Artefato | Documento |
 |---|---|
-| Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
-| Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
+| Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](modulo-2/subequipe-02/docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
+| Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](modulo-2/subequipe-02/docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
 
 ## 1. Introdução & Objetivo
 
@@ -149,7 +149,7 @@ O diagrama também representa caminhos alternativos: caso o produto esteja indis
 
 Os participantes apresentados representam uma **proposta conceitual para fins acadêmicos**, construída a partir dos fluxos analisados pela equipe, e não devem ser interpretados como componentes internos comprovados da arquitetura real da Decathlon.
 
-**Arquivo editável:** [Diagrama_sequencia_subequipe2.drawio](docs/Diagrama_sequencia_subequipe2.drawio ':ignore').
+**Arquivo editável:** [Diagrama_sequencia_subequipe2.drawio](modulo-2/subequipe-02/docs/Diagrama_sequencia_subequipe2.drawio ':ignore').
 
 ### 3.3. Elementos e Recursos da Notação Utilizados
 

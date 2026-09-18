@@ -17,16 +17,16 @@ A análise ocorreu nas seguintes etapas:
 3. Identificação dos substantivos relevantes como classes candidatas. Exemplos: `Produto`, `Categoria`, `Carrinho`, `Cupom`, `Cliente` e `CartaoPresente`.
 4. Eliminação de elementos específicos da interface. Páginas, banners, botões, telas e carrosséis serviram como evidência, mas não foram mantidos como classes do domínio.
 5. Transformação dos comportamentos observados em operações e das informações persistentes em atributos. As regras de negócio ajudaram a definir restrições e multiplicidades.
-6. Construção de um [grafo de conhecimento](docs/grafo_conhecimento_engenharia_reversa.html ':ignore') (via graphify) a partir dos dois relatórios de engenharia reversa e dos slides de modelagem UML estática, usado para conferir o cruzamento entre os conceitos teóricos e as evidências levantadas, identificar agrupamentos de conceitos relacionados e apontar lacunas ou conexões ainda não confirmadas entre os elementos do modelo.
+6. Construção de um [grafo de conhecimento](modulo-2/subequipe-02/docs/grafo_conhecimento_engenharia_reversa.html ':ignore') (via graphify) a partir dos dois relatórios de engenharia reversa e dos slides de modelagem UML estática, usado para conferir o cruzamento entre os conceitos teóricos e as evidências levantadas, identificar agrupamentos de conceitos relacionados e apontar lacunas ou conexões ainda não confirmadas entre os elementos do modelo.
 7. Verificação complementar no site oficial da Decathlon em 16 de setembro de 2026. Essa etapa confirmou regras sobre cupons, níveis do Clube, benefícios e utilização do cartão-presente.
 
 ### Artefatos de engenharia reversa que auxiliaram
 
 | Artefato | Documento |
 |---|---|
-| Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
-| Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
-| Grafo de conhecimento (graphify) | [grafo_conhecimento_engenharia_reversa.html](docs/grafo_conhecimento_engenharia_reversa.html ':ignore') |
+| Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](modulo-2/subequipe-02/docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
+| Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](modulo-2/subequipe-02/docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
+| Grafo de conhecimento (graphify) | [grafo_conhecimento_engenharia_reversa.html](modulo-2/subequipe-02/docs/grafo_conhecimento_engenharia_reversa.html ':ignore') |
 
 ## Modelo Estático
 
@@ -68,7 +68,7 @@ A análise ocorreu nas seguintes etapas:
 <p><small><em>Fonte: Elaborado por Diassis Bezerra Nascimento com co-participação de Nayra Silva Nery e Uires Carlos de Oliveira, 2026.</em></small></p>
 </div>
 
-O modelo está disponível no arquivo [`Modelo_Estatico_Decathlon.drawio`](docs/Modelo_Estatico_Decathlon.drawio ':ignore'), editável no draw.io/diagrams.net.
+O modelo está disponível no arquivo [`Modelo_Estatico_Decathlon.drawio`](modulo-2/subequipe-02/docs/Modelo_Estatico_Decathlon.drawio ':ignore'), editável no draw.io/diagrams.net.
 
 Para preservar a legibilidade, o arquivo foi dividido em quatro abas complementares:
 
@@ -125,22 +125,22 @@ As generalizações `Cupom —|> Promocao`, `PromocaoQuantidade —|> Promocao` 
 
 ## Verificação complementar no site oficial
 
-| Evidência observada | Impacto no modelo |
-|---|---|
-| A página do Clube apresenta Player, Performer e Legend com frete grátis acima de R$ 279, R$ 189 e R$ 99, respectivamente. | Sustenta `MembroClube — NivelClube — Beneficio` e o atributo `valorMinimoFreteGratis`. Não sustenta regras de progressão entre níveis. |
-| A política de cupons informa validade, restrição por canal, não cumulatividade e aplicação no checkout. | Sustenta `Promocao`, `Cupom` e a multiplicidade `Carrinho — 0..1 Cupom`. |
-| Listagens exibem marca, preço atual, preço anterior, novidade, cashback e desconto no PIX. | Sustenta os atributos de `Produto` e a relação com `Marca` e `Promocao`. |
-| O cartão-presente possui validade de 12 meses, saldo consultável e uso em múltiplas compras. | Sustenta os atributos e operações de `CartaoPresente`. |
-| A política do cartão-presente permite usar até cinco cartões na mesma compra e complementar o valor com outra forma de pagamento. | Sustenta a associação entre `Pedido` e `CartaoPresente` sem afirmar que o cartão é a única forma de pagamento. |
+| Evidência observada | Impacto no modelo | Evidência (rastreabilidade - foto) |
+|---|---|---|
+| A página do Clube apresenta Player, Performer e Legend com frete grátis acima de R$ 279, R$ 189 e R$ 99, respectivamente. | Sustenta `MembroClube — NivelClube — Beneficio` e o atributo `valorMinimoFreteGratis`. Não sustenta regras de progressão entre níveis. | [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-clube-decathlon.png ':ignore') |
+| A política de cupons informa validade, restrição por canal, não cumulatividade e aplicação no checkout. | Sustenta `Promocao`, `Cupom` e a multiplicidade `Carrinho — 0..1 Cupom`. | [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-cupom-desconto.png ':ignore') |
+| Listagens exibem marca, preço atual, preço anterior, novidade, cashback e desconto no PIX. | Sustenta os atributos de `Produto` e a relação com `Marca` e `Promocao`. | [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-futebol-society.png ':ignore') |
+| O cartão-presente possui validade de 12 meses, saldo consultável e uso em múltiplas compras. | Sustenta os atributos e operações de `CartaoPresente`. | [rastreabilidade - foto 1](modulo-2/subequipe-02/Assets/print-cartao-presente.png ':ignore') · [rastreabilidade - foto 2](modulo-2/subequipe-02/Assets/print-regras-cartao-presente-limite.png ':ignore') |
+| A política do cartão-presente permite usar até cinco cartões na mesma compra e complementar o valor com outra forma de pagamento. | Sustenta a associação entre `Pedido` e `CartaoPresente` sem afirmar que o cartão é a única forma de pagamento. | [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-regras-cartao-presente-limite.png ':ignore') |
 
 Páginas consultadas:
 
-- [Clube Decathlon](https://www.decathlon.com.br/clube)
-- [Cupons de desconto](https://www.decathlon.com.br/servicos/cupom-de-desconto)
-- [Cartão Presente](https://www.decathlon.com.br/cartao-presente)
-- [Regras do Cartão Presente](https://www.decathlon.com.br/servicos/cartao-presente)
-- [Futebol](https://www.decathlon.com.br/esportes/Futebol)
-- [Futebol Society](https://www.decathlon.com.br/esportes/society)
+- [Clube Decathlon](https://www.decathlon.com.br/clube) — [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-clube-decathlon.png ':ignore')
+- [Cupons de desconto](https://www.decathlon.com.br/servicos/cupom-de-desconto) — [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-cupom-desconto.png ':ignore')
+- [Cartão Presente](https://www.decathlon.com.br/cartao-presente) — [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-cartao-presente.png ':ignore')
+- [Regras do Cartão Presente](https://www.decathlon.com.br/servicos/cartao-presente) — [rastreabilidade - foto 1](modulo-2/subequipe-02/Assets/print-regras-cartao-presente-limite.png ':ignore') · [rastreabilidade - foto 2](modulo-2/subequipe-02/Assets/print-regras-cartao-presente-tipos.png ':ignore')
+- [Futebol](https://www.decathlon.com.br/esportes/Futebol) — [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-futebol.png ':ignore')
+- [Futebol Society](https://www.decathlon.com.br/esportes/society) — [rastreabilidade - foto](modulo-2/subequipe-02/Assets/print-futebol-society.png ':ignore')
 
 ## Rastreabilidade dos materiais fornecidos
 
@@ -163,3 +163,5 @@ Páginas consultadas:
 | :---: | :--- | :--- | :--- | :---: |
 | 1.0 | Diassis Bezerra Nascimento | Criação do Diagrama de Classes (Modelo Estático) e documentação associada | Nayra Silva Nery | 17/09/2026 |
 | 1.1 | Diassis Bezerra Nascimento | Correção do arquivo `Modelo_Estatico_Decathlon.drawio`, que estava incorreto/ausente, com a substituição pelo arquivo correto (4 abas: Visão Geral, Catálogo e Promoções, Compra, Clube e Cartão-Presente) e vínculo do texto ao arquivo real | Claude | 18/09/2026 |
+| 1.2 | Diassis Bezerra Nascimento | Correção da metodologia e adicionado o grafo de auxílio gerado através de Inteligência Artificial | Claude | 18/09/2026 |
+| 1.3 | Diassis Bezerra Nascimento | Adicionado Rastreabilidade de fotos no diagrama UML | Claude | 18/09/2026 |
