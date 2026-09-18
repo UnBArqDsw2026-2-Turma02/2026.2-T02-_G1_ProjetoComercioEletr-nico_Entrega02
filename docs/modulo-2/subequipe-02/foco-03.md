@@ -41,14 +41,14 @@ As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalh
 
 - **Solicitação registrada:** “E a bolinha e quadrados? Interface bolinha e quadrados porta”.
 - **Apoio obtido:** explicação da diferença entre **porta** (quadrado na borda), **interface fornecida** (bolinha) e **interface requerida** (encaixe), seguida de ajustes no modelo proposto.
-- **Decisão e validação:** o grupo conferiu os símbolos com os exemplos de Diagrama de Componentes apresentados na disciplina e com o [diagrama publicado no Foco 01](../../assets/images/Diagrama_componentes_subequipe2.jpg). A aparência plausível de um símbolo gerado por IA, por si só, não garante que sua ligação represente corretamente a dependência modelada.
+- **Decisão e validação:** o grupo conferiu os símbolos com os exemplos de Diagrama de Componentes apresentados na disciplina e com o [diagrama publicado no Foco 01](Assets/Diagrama_componentes_subequipe2.jpg). A aparência plausível de um símbolo gerado por IA, por si só, não garante que sua ligação represente corretamente a dependência modelada.
 - **Evidência:** **[INSERIR LINK DA CONVERSA, SE COMPARTILHADA, E DO COMMIT DO DIAGRAMA]**.
 
 ### 3.3. Versões editáveis e revisão dos fluxos
 
 - **Solicitação registrada:** “consegue gerar eles dois novamente, mas editaveis para este site https://app.diagrams.net/”.
 - **Apoio obtido:** propostas editáveis para apoiar o trabalho no [diagrams.net](https://app.diagrams.net/) e explicações sobre os diagramas. A equipe pôde ajustar os elementos visualmente, revisar a legibilidade e comparar a sequência com o fluxo que havia sido levantado.
-- **Decisão e validação:** os três integrantes elaboraram e revisaram seus próprios diagramas. No [Diagrama de Sequência](../../assets/images/Diagrama_sequencia_subequipe2.jpg), verificaram mensagens, retornos, `loop` e alternativas `alt`. O [Diagrama de Atividades](../../assets/images/Diagrama_atividades_subequipe2.jpeg) foi documentado com seu recorte específico: navegação por modalidade até a visualização de item ou conteúdo, sem atribuir a ele etapas de pagamento que não foram desenhadas.
+- **Decisão e validação:** os três integrantes elaboraram e revisaram seus próprios diagramas. No [Diagrama de Sequência](Assets/Diagrama_sequencia_subequipe2.jpg), verificaram mensagens, retornos, `loop` e alternativas `alt`. O [Diagrama de Atividades](Assets/Diagrama_atividades_subequipe2.jpeg) foi documentado com seu recorte específico: navegação por modalidade até a visualização de item ou conteúdo, sem atribuir a ele etapas de pagamento que não foram desenhadas.
 - **Ponto ainda a conferir:** `finalizarCompra()` aparece depois do bloco que inclui **produto indisponível**. É recomendável explicitar no próprio desenho a condição **`[carrinho com item disponível]`** para prosseguir ao checkout.
 - **Evidência:** **[INSERIR LINKS DAS VERSÕES EDITÁVEIS, DOS COMMITS E DA CONVERSA, SE DISPONÍVEIS]**.
 

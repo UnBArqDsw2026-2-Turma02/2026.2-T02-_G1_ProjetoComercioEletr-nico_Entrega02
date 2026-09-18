@@ -65,7 +65,7 @@ O Diagrama de Atividades representa a interação entre o usuário e o sistema d
 
 <p><b>Figura 1 — Diagrama de Atividades da Navegação por Modalidade</b></p>
 
-![Figura 1 — Diagrama de Atividades da Navegação por Modalidade](../../assets/images/Diagrama_atividades_subequipe2.jpeg)
+![Figura 1 — Diagrama de Atividades da Navegação por Modalidade](Assets/Diagrama_atividades_subequipe2.jpeg)
 
 <p><small><em>Autores: Nayra Silva Nery, Diassis Bezerra Nascimento e Uires Carlos de Oliveira.</em></small></p>
 
@@ -119,7 +119,7 @@ O Diagrama de Sequência representa uma visão temporal das interações envolvi
 
 <p><b>Figura 2 — Diagrama de Sequência da Compra na Decathlon</b></p>
 
-![Figura 2 — Diagrama de Sequência da Compra na Decathlon](../../assets/images/Diagrama_sequencia_subequipe2.jpg)
+![Figura 2 — Diagrama de Sequência da Compra na Decathlon](Assets/Diagrama_sequencia_subequipe2.jpg)
 
 <p><small><em>Autores: Nayra Silva Nery, Diassis Bezerra Nascimento e Uires Carlos de Oliveira.</em></small></p>
 
@@ -149,7 +149,7 @@ O diagrama também representa caminhos alternativos: caso o produto esteja indis
 
 Os participantes apresentados representam uma **proposta conceitual para fins acadêmicos**, construída a partir dos fluxos analisados pela equipe, e não devem ser interpretados como componentes internos comprovados da arquitetura real da Decathlon.
 
-**Arquivo editável:** [Diagrama_sequencia_subequipe2.drawio](../../assets/documents/Diagrama_sequencia_subequipe2.drawio ':ignore').
+**Arquivo editável:** [Diagrama_sequencia_subequipe2.drawio](docs/Diagrama_sequencia_subequipe2.drawio ':ignore').
 
 ### 3.3. Elementos e Recursos da Notação Utilizados
 

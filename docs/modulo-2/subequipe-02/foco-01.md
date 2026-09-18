@@ -19,6 +19,8 @@ A análise ocorreu nas seguintes etapas:
 5. Transformação dos comportamentos observados em operações e das informações persistentes em atributos. As regras de negócio ajudaram a definir restrições e multiplicidades.
 6. Verificação complementar no site oficial da Decathlon em 16 de setembro de 2026. Essa etapa confirmou regras sobre cupons, níveis do Clube, benefícios e utilização do cartão-presente.
 
+### Artefatos de engenharia reversa que auxiliaram
+
 | Artefato | Documento |
 |---|---|
 | Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
@@ -64,7 +66,7 @@ A análise ocorreu nas seguintes etapas:
 <p><small><em>Fonte: Elaborado por Diassis Bezerra Nascimento com co-participação de Nayra Silva Nery e Uires Carlos de Oliveira, 2026.</em></small></p>
 </div>
 
-O modelo está disponível no arquivo `Modelo_Estatico_Decathlon.drawio`, editável no draw.io/diagrams.net.
+O modelo está disponível no arquivo [`Modelo_Estatico_Decathlon.drawio`](docs/Modelo_Estatico_Decathlon.drawio ':ignore'), editável no draw.io/diagrams.net.
 
 Para preservar a legibilidade, o arquivo foi dividido em quatro abas complementares:
 
@@ -158,3 +160,4 @@ Páginas consultadas:
 | Versão | Nome do Membro | Contribuição | Revisor(a) | Data |
 | :---: | :--- | :--- | :--- | :---: |
 | 1.0 | Diassis Bezerra Nascimento | Criação do Diagrama de Classes (Modelo Estático) e documentação associada | Nayra Silva Nery | 17/09/2026 |
+| 1.1 | Diassis Bezerra Nascimento | Correção do arquivo `Modelo_Estatico_Decathlon.drawio`, que estava incorreto/ausente, com a substituição pelo arquivo correto (4 abas: Visão Geral, Catálogo e Promoções, Compra, Clube e Cartão-Presente) e vínculo do texto ao arquivo real | Claude | 18/09/2026 |
