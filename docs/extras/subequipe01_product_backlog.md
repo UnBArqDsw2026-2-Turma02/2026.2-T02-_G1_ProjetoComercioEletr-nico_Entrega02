@@ -29,13 +29,13 @@ Dessa forma, o backlog não representa uma lista genérica de funcionalidades de
 
 ## 2. Participação e Rastreabilidade do Artefato
 
-| Etapa / Tópico do Relatório             | Autor(a) Principal        | Revisor(a) em Par | Evidência / Commit |
-| :-------------------------------------- | :------------------------ | :---------------- | :----------------: |
-| **Introdução, objetivo e escopo**       | Dylan Cavalcante          | A definir         |      A definir     |
-| **Levantamento dos itens do backlog**   | Dylan Cavalcante          | A definir         |      A definir     |
-| **Priorização MoSCoW**                  | Dylan Cavalcante          | A definir         |      A definir     |
-| **Rastreabilidade com SIG, BPMN e NFR** | Dylan Cavalcante          | A definir         |      A definir     |
-| **Validação e revisão do backlog**      | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga| A definir         |      A definir     |
+| Etapa / Tópico do Relatório             | Autor(a) Principal        | Revisor(a) em Par |
+| :-------------------------------------- | :------------------------ | :---------------- | 
+| **Introdução, objetivo e escopo**       | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga         | Dylan Portela Cavalcante        |  
+| **Levantamento dos itens do backlog**   | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga          | Dylan Portela Cavalcante        |  
+| **Priorização MoSCoW**                  | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga       | amuel Felipe Lira de Souza        |  
+| **Rastreabilidade com SIG, BPMN e NFR** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga        | amuel Felipe Lira de Souza        |  
+| **Validação e revisão do backlog**      | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga| Mariana Ribeiro Santana Gonzaga         |      
 
 ---
 

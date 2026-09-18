@@ -35,9 +35,9 @@ A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criaç�
 | :--- | :--- | :--- | :---: |
 | **Introdução, objetivos e metodologia** | Dylan Portela Cavalcante e Samuel Felipe Lira de Souza | Samuel Felipe Lira | [PR #12](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/12) |
 | **Modelagem Síncrona (Diagrama)** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga |Mariana Ribeiro Santana Gonzaga | [PR #6](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/6) |
-| **Embasamento Teórico & Literatura** | Dylan Cavalcante e Mariana Ribeiro Santana Gonzaga | Mariana Ribeiro Santana Gonzaga | A definir |
-| **Uso da IA Generativa & Validação** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Samuel Felipe Lira | A definir |
-| **Lições Aprendidas & Conclusão** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Dylan Portela Cavalcante | A definir |
+| **Embasamento Teórico & Literatura** | Dylan Cavalcante e Mariana Ribeiro Santana Gonzaga | Mariana Ribeiro Santana Gonzaga | [PR #18](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/18) |
+| **Uso da IA Generativa & Validação** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Samuel Felipe Lira | [PR #13](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/13) |
+| **Lições Aprendidas & Conclusão** | Dylan Portela Cavalcante, Samuel Felipe Lira de Souza e Mariana Ribeiro Santana Gonzaga | Dylan Portela Cavalcante | [PR #9](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/9) |
 
 A autoria e as evidências de revisão/commit deverão ser atualizadas pela equipe após a execução efetiva das atividades de co-criação e *peer review*.
 

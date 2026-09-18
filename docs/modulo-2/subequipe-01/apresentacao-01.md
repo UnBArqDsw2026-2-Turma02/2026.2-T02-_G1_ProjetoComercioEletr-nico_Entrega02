@@ -61,5 +61,5 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 > 
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
-> | 0.1 | 16/09/2026 | Criação e Estruturação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
-> | 0.2 | 17/09/2026 | Preenchimento da página | [Mariana Ribeiro](https://github.com/marianagonzaga0) | não revisado |
+> | 0.1 | 16/09/2026 | Criação e Estruturação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | [Mariana Ribeiro](https://github.com/marianagonzaga0) |
+> | 0.2 | 17/09/2026 | Preenchimento da página | [Mariana Ribeiro](https://github.com/marianagonzaga0) | [Dylan Cavalcante](https://github.com/dylancavalcante) |
