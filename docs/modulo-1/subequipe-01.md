@@ -4,7 +4,9 @@
 
 ![Rich Picture de análise do fluxo de login](../assets/images/login.png)
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
+<p align="center">
+<sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub>
+</p>
 
 </div>
 
@@ -17,10 +19,15 @@ O Rich Picture representa os fluxos de **login, login social, gerenciamento do p
 Os principais pontos críticos identificados no Rich Picture foram:
 
 - **Login social com excesso de etapas:** foi observado que o login social exige **6 cliques**, indicando possível aumento do esforço necessário para concluir a autenticação.
+
 - **Possibilidade de enumeração de usuários:** mensagens como **"conta não encontrada"** podem fornecer informações sobre a existência ou não de uma conta, representando uma preocupação de segurança.
+
 - **Exposição e tratamento de dados pessoais:** o gerenciamento do perfil envolve informações como CPF e demais dados da conta, tornando relevante a preocupação com confidencialidade e privacidade.
+
 - **Inconsistência após alteração da senha:** após a alteração da senha, o usuário é direcionado para outra interface, que apresenta informações diferentes das encontradas no perfil convencional.
+
 - **Ausência de feedback após alteração de senha:** durante a avaliação, não foi recebido e-mail informando a alteração da senha, caracterizando uma preocupação relacionada ao feedback de ações críticas.
+
 - **Relação entre segurança e usabilidade:** mecanismos de autenticação mais rigorosos podem aumentar a proteção da conta, mas também podem aumentar o esforço necessário para o usuário concluir o processo.
 
 ## Legenda do Rich Picture
@@ -75,11 +82,15 @@ A preocupação com **Privacidade** também está presente na modelagem, princip
 
 ## SIG
 
-<p align="center"><b>Figura 2</b> — SIG do Fluxo A na notação do NFR Framework</p>
+<p align="center">
+<b>Figura 2</b> — SIG do Fluxo A na notação do NFR Framework
+</p>
 
 ![SIG do NFR Framework](../assets/images/nfr_subgrupo01.svg)
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
+<p align="center">
+<sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub>
+</p>
 
 Neste SIG, as nuvens representam **softgoals** e **operacionalizações**. O softgoal superior representa a preocupação geral com uma experiência de uso segura e confiável. As decomposições `AND` representam preocupações que devem ser consideradas conjuntamente.
 
@@ -106,13 +117,15 @@ Assim, o modelo representa o seguinte relacionamento:
 ```text
            Simplificar a sequência
                 de autenticação
+
                     |
-             +------+------+
-             |             |
-             v             v
-        Usabilidade     Segurança
-             +             -
-````
+              +-----+-----+
+              |           |
+              v           v
+
+         Usabilidade   Segurança
+              +            -
+```
 
 Esse relacionamento não significa que simplificar a autenticação necessariamente comprometa a segurança. O objetivo é representar o possível **trade-off entre redução do esforço do usuário e fortalecimento dos mecanismos de proteção**.
 
@@ -126,10 +139,13 @@ A rastreabilidade utilizada é:
 
 Exemplos de rastreabilidade:
 
-* **Login social com 6 cliques** → preocupação com excesso de etapas → **Poucas etapas no processo de login** → **Reduzir etapas desnecessárias no login**.
-* **Mensagem "conta não encontrada"** → risco de exposição da existência da conta → **Prevenção de enumeração de usuários** → **Fornecer mensagens de erro que não revelem a existência da conta**.
-* **Ausência de e-mail após alteração da senha** → falta de feedback → **Feedback sobre ações críticas** → **Notificar o usuário após alteração de senha**.
-* **Mudança de interface após alteração da senha** → inconsistência na experiência → **Consistência da interface** → **Manter interface unificada para gerenciamento da conta**.
+- **Login social com 6 cliques** → preocupação com excesso de etapas → **Poucas etapas no processo de login** → **Reduzir etapas desnecessárias no login**.
+
+- **Mensagem "conta não encontrada"** → risco de exposição da existência da conta → **Prevenção de enumeração de usuários** → **Fornecer mensagens de erro que não revelem a existência da conta**.
+
+- **Ausência de e-mail após alteração da senha** → falta de feedback → **Feedback sobre ações críticas** → **Notificar o usuário após alteração de senha**.
+
+- **Mudança de interface após alteração da senha** → inconsistência na experiência → **Consistência da interface** → **Manter interface unificada para gerenciamento da conta**.
 
 ---
 
@@ -142,45 +158,62 @@ Modelagem dos processos de autenticação e gerenciamento de conta da Decathlon 
 ### Diagrama 1: Login
 
 <p align="center">
-    <img src="../assets/images/Login9.png" alt="Diagrama BPMN do fluxo de login" width="100%">
+
+<img src="../assets/images/Login9.png" alt="Diagrama BPMN do fluxo de login" width="100%">
+
 </p>
 
 <p align="center">
-    <b>Figura 3</b> — Diagrama BPMN do fluxo de login.
+
+<b>Figura 3</b> — Diagrama BPMN do fluxo de login.
+
 </p>
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
-
+<p align="center">
+<sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub>
+</p>
 
 ### Diagrama 2: Alteração e recuperação de senha
 
 <p align="center">
-    <img src="../assets/images/Recuperacao_senha.png" alt="Diagrama BPMN do fluxo de recuperação de senha" width="100%">
+
+<img src="../assets/images/Recuperacao_senha.png" alt="Diagrama BPMN do fluxo de recuperação de senha" width="100%">
+
 </p>
 
 <p align="center">
-    <b>Figura 4</b> — Diagrama BPMN do fluxo de recuperação e alteração de senha.
+
+<b>Figura 4</b> — Diagrama BPMN do fluxo de recuperação e alteração de senha.
+
 </p>
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
+<p align="center">
+<sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub>
+</p>
 
 ### Diagrama 3: Cadastro
 
 <p align="center">
-    <img src="../assets/images/Cadastro.png" alt="Diagrama BPMN do fluxo de cadastro" width="100%">
+
+<img src="../assets/images/Cadastro.png" alt="Diagrama BPMN do fluxo de cadastro" width="100%">
+
 </p>
 
 <p align="center">
-    <b>Figura 5</b> — Diagrama BPMN do fluxo de cadastro.
+
+<b>Figura 5</b> — Diagrama BPMN do fluxo de cadastro.
+
 </p>
 
-<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub></p>
+<p align="center">
+<sub>Fonte: Elaborado pelos autores da Subequipe 1: Dylan Cavalcante, Rafaela Andrea, Samuel Felipe e Mariana Ribeiro, 2026.</sub>
+</p>
 
 ## Atores e raias (pools / lanes)
 
-| Pool                                              | Lane        | Responsabilidade                                                                                                                                      |
-| ------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Processo de autenticação e gerenciamento de conta | **Usuário** | Executar as ações necessárias para realizar login, cadastrar uma conta, recuperar a senha e informar ou atualizar suas credenciais.                   |
+| Pool | Lane | Responsabilidade |
+| --- | --- | --- |
+| Processo de autenticação e gerenciamento de conta | **Usuário** | Executar as ações necessárias para realizar login, cadastrar uma conta, recuperar a senha e informar ou atualizar suas credenciais. |
 | Processo de autenticação e gerenciamento de conta | **Sistema** | Receber e analisar os dados, validar informações, verificar credenciais, enviar links de recuperação, atualizar registros e conceder ou negar acesso. |
 
 Nos diagramas, a divisão entre as raias **Usuário** e **Sistema** permite diferenciar as ações executadas diretamente pelo consumidor das operações realizadas pela aplicação.
@@ -193,8 +226,9 @@ O fluxo começa quando o usuário decide realizar o login e insere suas credenci
 
 O gateway **"Credenciais corretas?"** determina o caminho do processo:
 
-* **Sim:** o sistema redireciona o usuário para a tela principal e o acesso é concedido.
-* **Não:** o fluxo retorna à etapa de inserção das credenciais, permitindo uma nova tentativa.
+- **Sim:** o sistema redireciona o usuário para a tela principal e o acesso é concedido.
+
+- **Não:** o fluxo retorna à etapa de inserção das credenciais, permitindo uma nova tentativa.
 
 ### 2. Recuperação e alteração de senha
 
@@ -202,11 +236,15 @@ O usuário inicia o processo de recuperação informando o e-mail associado à c
 
 O sistema verifica o gateway **"E-mail existe na base?"**:
 
-* **Sim:** o sistema envia um link de redefinição de senha para o e-mail informado.
-* O usuário acessa o link e cadastra uma nova senha.
-* O sistema atualiza o registro correspondente no banco de dados.
-* O fluxo termina com a credencial restaurada.
-* **Não:** o processo não prossegue e é encerrado.
+- **Sim:** o sistema envia um link de redefinição de senha para o e-mail informado.
+
+- O usuário acessa o link e cadastra uma nova senha.
+
+- O sistema atualiza o registro correspondente no banco de dados.
+
+- O fluxo termina com a credencial restaurada.
+
+- **Não:** o processo não prossegue e é encerrado.
 
 ### 3. Cadastro
 
@@ -214,20 +252,29 @@ O usuário inicia o cadastro e preenche seus dados.
 
 O sistema executa a validação das informações e o gateway **"Os dados são válidos?"** determina o próximo caminho:
 
-* **Sim:** o sistema registra o novo usuário no banco de dados e conclui o cadastro.
-* **Não:** o fluxo retorna à etapa de preenchimento e validação, permitindo que o usuário corrija os dados.
+- **Sim:** o sistema registra o novo usuário no banco de dados e conclui o cadastro.
+
+- **Não:** o fluxo retorna à etapa de preenchimento e validação, permitindo que o usuário corrija os dados.
 
 ## Premissas de negócio
 
-* O usuário precisa fornecer informações de autenticação para acessar uma conta existente.
-* O login somente é concedido quando as credenciais fornecidas são consideradas corretas pelo sistema.
-* O cadastro somente é concluído após a validação dos dados informados.
-* A recuperação de senha depende da existência do e-mail informado na base de dados.
-* A redefinição da senha ocorre por meio de um link enviado ao e-mail associado à conta.
-* A nova senha é registrada no banco de dados após sua definição pelo usuário.
-* Dados inválidos durante o cadastro devem retornar para correção antes da conclusão do processo.
-* O processo de autenticação envolve mecanismos de segurança e proteção das credenciais do usuário.
-* O fluxo analisado está delimitado às funcionalidades de autenticação e gerenciamento de conta, não abrangendo busca de produtos, carrinho ou pagamento.
+- O usuário precisa fornecer informações de autenticação para acessar uma conta existente.
+
+- O login somente é concedido quando as credenciais fornecidas são consideradas corretas pelo sistema.
+
+- O cadastro somente é concluído após a validação dos dados informados.
+
+- A recuperação de senha depende da existência do e-mail informado na base de dados.
+
+- A redefinição da senha ocorre por meio de um link enviado ao e-mail associado à conta.
+
+- A nova senha é registrada no banco de dados após sua definição pelo usuário.
+
+- Dados inválidos durante o cadastro devem retornar para correção antes da conclusão do processo.
+
+- O processo de autenticação envolve mecanismos de segurança e proteção das credenciais do usuário.
+
+- O fluxo analisado está delimitado às funcionalidades de autenticação e gerenciamento de conta, não abrangendo busca de produtos, carrinho ou pagamento.
 
 ---
 
@@ -247,13 +294,19 @@ A análise foi realizada sobre os fluxos de autenticação e gerenciamento de co
 
 Durante a avaliação, foram identificados alguns comportamentos relevantes:
 
-* o **login social exigiu 6 cliques**;
-* foram observados elementos relacionados à **privacidade e ao tratamento de dados pessoais**;
-* a mensagem **"conta não encontrada"** representa uma preocupação relacionada à possibilidade de enumeração de usuários;
-* após a alteração da senha, o usuário foi direcionado para **outra interface**;
-* a interface posterior apresentava **dados diferentes** daqueles encontrados no perfil convencional;
-* não foi recebido **e-mail de confirmação da alteração da senha**;
-* o sistema rejeitou uma senha que já havia sido utilizada anteriormente.
+- o **login social exigiu 6 cliques**;
+
+- foram observados elementos relacionados à **privacidade e ao tratamento de dados pessoais**;
+
+- a mensagem **"conta não encontrada"** representa uma preocupação relacionada à possibilidade de enumeração de usuários;
+
+- após a alteração da senha, o usuário foi direcionado para **outra interface**;
+
+- a interface posterior apresentava **dados diferentes** daqueles encontrados no perfil convencional;
+
+- não foi recebido **e-mail de confirmação da alteração da senha**;
+
+- o sistema rejeitou uma senha que já havia sido utilizada anteriormente.
 
 Esses achados foram utilizados como evidências para o refinamento dos softgoals do NFR Framework e para a identificação dos principais pontos de atenção do fluxo.
 
@@ -267,17 +320,27 @@ Entretanto, foram observadas questões relacionadas à **usabilidade e ao esfor�
 
 A Engenharia Reversa contemplou:
 
-* **Login convencional**;
-* **Login social**;
-* **Cadastro de usuário**;
-* **Recuperação de acesso**;
-* **Alteração de senha**;
-* **Logout**;
-* **Gerenciamento do perfil**;
-* **Proteção das informações da conta**;
-* **Privacidade e visibilidade dos dados**;
-* **Validação de credenciais e informações fornecidas pelo usuário**;
-* **Comportamentos de feedback e tratamento de erros**.
+- **Login convencional**;
+
+- **Login social**;
+
+- **Cadastro de usuário**;
+
+- **Recuperação de acesso**;
+
+- **Alteração de senha**;
+
+- **Logout**;
+
+- **Gerenciamento do perfil**;
+
+- **Proteção das informações da conta**;
+
+- **Privacidade e visibilidade dos dados**;
+
+- **Validação de credenciais e informações fornecidas pelo usuário**;
+
+- **Comportamentos de feedback e tratamento de erros**.
 
 O estudo foi delimitado ao **Fluxo A**, não abrangendo funcionalidades de busca de produtos, carrinho e pagamento.
 
@@ -310,8 +373,8 @@ O mapeamento seguiu o fluxo operacional executado pelo cliente final:
 ---
 
 > **Histórico de Versões**
->
-> | Versão |    Data    | Descrição                                                                             | Autores            |    Revisor   |
+
+> | Versão | Data | Descrição | Autores | Revisor |
 > | :----: | :--------: | :------------------------------------------------------------------------------------ | :----------------- | :----------: |
-> |   0.1  | 16/09/2026 | Criação da página                                                                     | [Dylan Cavalcante] | não revisado |
-> |   0.2  | 16/09/2026 | Preenchimento dos conteúdos de Rich Picture, NFR Framework, BPMN e Engenharia Reversa | [Dylan Cavalcante] | não revisado |
+> | 0.1 | 16/09/2026 | Criação da página | Dylan Cavalcante | não revisado |
+> | 0.2 | 16/09/2026 | Preenchimento dos conteúdos de Rich Picture, NFR Framework, BPMN e Engenharia Reversa | Dylan Cavalcante | não revisado |
