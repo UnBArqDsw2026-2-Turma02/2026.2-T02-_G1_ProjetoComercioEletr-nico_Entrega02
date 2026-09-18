@@ -253,6 +253,7 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 
 ### 2.4. Diagrama de Classes
 
+
 ```mermaid
 classDiagram
   class Cliente {
@@ -384,6 +385,8 @@ classDiagram
   Pedido --> Logistica : encaminha
   Cliente --> SuporteAtendimento : aciona
 ```
+
+
 <details>
 <p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra.</sub></p>
 
@@ -459,6 +462,7 @@ A estrutura de pacotes foi derivada da análise das requisições de rede, dos s
 </details>
 
 ---
+
 ## 4. Uso da IA Generativa e Validação Humana
 
 O uso de IA Generativa neste módulo foi restrito a três frentes, todas seguidas
@@ -485,6 +489,7 @@ motivou a refatoração da v1.0 para a v2.0 do Diagrama de Classes.
 > - GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Padrões de projeto: soluções reutilizáveis de software orientado a objetos.** Porto Alegre: Bookman, 2000.
 > - LARMAN, Craig. **Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo.** 3. ed. Porto Alegre: Bookman, 2007.
 > - SOMMERVILLE, Ian. **Engenharia de software.** 9. ed. São Paulo: Pearson Prentice Hall, 2011.
+
 ---
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
