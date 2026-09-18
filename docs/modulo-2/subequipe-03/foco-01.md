@@ -252,8 +252,8 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 ---
 
 ### 2.4. Diagrama de Classes
-```mermaid
 
+```m̀ermaid 
 classDiagram
   class Cliente {
     +id
@@ -364,9 +364,9 @@ classDiagram
   Pedido --> Logistica : encaminha
   Cliente --> SuporteAtendimento : aciona
 ```
+<details>
 <p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra.</sub></p>
 
-<details>
 <summary><b> Histórico de Versionamento e Evolução do Diagrama (Clique para expandir)</b></summary>
 
 | Versão | Data | Modificações Realizadas | Artefato |
