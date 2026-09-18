@@ -46,8 +46,8 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 | Membro | Foco Principal | Artefato(s) Assumido(s) |
 | :--- | :--- | :--- |
 | **Diassis Bezerra Nascimento** | Modelagem estática, Modelagem dinâmica e IA generativa | Modelagem estática, Modelagem dinâmica, Grafo de Engenharia Reversa e IA generativa |
-| **Nayra Silva Nery** | | |
-| **Uires Carlos de Oliveira** | | |
+| **Nayra Silva Nery** | Modelagem estática, Modelagem dinâmica e IA generativa | |
+| **Uires Carlos de Oliveira** | Modelagem estática, Modelagem dinâmica e IA generativa | Modelagem estática, Modelagem dinâmica, uso da documentação do entrega1 a Engenharia Reversa e IA generativa |
 
 ---
 
