@@ -17,7 +17,8 @@ A análise ocorreu nas seguintes etapas:
 3. Identificação dos substantivos relevantes como classes candidatas. Exemplos: `Produto`, `Categoria`, `Carrinho`, `Cupom`, `Cliente` e `CartaoPresente`.
 4. Eliminação de elementos específicos da interface. Páginas, banners, botões, telas e carrosséis serviram como evidência, mas não foram mantidos como classes do domínio.
 5. Transformação dos comportamentos observados em operações e das informações persistentes em atributos. As regras de negócio ajudaram a definir restrições e multiplicidades.
-6. Verificação complementar no site oficial da Decathlon em 16 de setembro de 2026. Essa etapa confirmou regras sobre cupons, níveis do Clube, benefícios e utilização do cartão-presente.
+6. Construção de um [grafo de conhecimento](docs/grafo_conhecimento_engenharia_reversa.html ':ignore') (via graphify) a partir dos dois relatórios de engenharia reversa e dos slides de modelagem UML estática, usado para conferir o cruzamento entre os conceitos teóricos e as evidências levantadas, identificar agrupamentos de conceitos relacionados e apontar lacunas ou conexões ainda não confirmadas entre os elementos do modelo.
+7. Verificação complementar no site oficial da Decathlon em 16 de setembro de 2026. Essa etapa confirmou regras sobre cupons, níveis do Clube, benefícios e utilização do cartão-presente.
 
 ### Artefatos de engenharia reversa que auxiliaram
 
@@ -25,6 +26,7 @@ A análise ocorreu nas seguintes etapas:
 |---|---|
 | Documento de Engenharia Reversa 01 | [Relatorio_Engenharia_Reversa_Decathlon.pdf](docs/Relatorio_Engenharia_Reversa_Decathlon.pdf ':ignore') |
 | Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
+| Grafo de conhecimento (graphify) | [grafo_conhecimento_engenharia_reversa.html](docs/grafo_conhecimento_engenharia_reversa.html ':ignore') |
 
 ## Modelo Estático
 
