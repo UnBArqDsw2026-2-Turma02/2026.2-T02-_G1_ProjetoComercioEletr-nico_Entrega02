@@ -39,7 +39,7 @@ A tomada de decisões e os alinhamentos do grupo ocorreram de forma contínua e 
 | :--- | :--- | :--- |
 | **WhatsApp** | Comunicação assíncrona diária para alinhamento de tarefas, tomadas de decisão rápidas de arquitetura e divisão de entregáveis. | Histórico de conversas do grupo da equipe. |
 | **Sala Invertida** | Encontros síncronos e presenciais durante as aulas para validação cruzada dos modelos, refinamento de escopo e feedback em par. | Alinhamentos em sala de aula. |
-| **GitHub / GitPages** | Controle de versão estrito, histórico de commits e revisões cruzadas (*Peer Review*) da documentação e códigos Mermaid. | [Histórico de commits e *Pull Requests*.](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/commits/subequipe-3/) |
+| **GitHub / GitPages** | Controle de versão estrito, histórico de commits e revisões cruzadas (*Peer Review*) da documentação e códigos Mermaid. Branch própria da equipe: [subequipe-03](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/commits/subequipe-3/) | [Histórico de commits e *Pull Requests*.](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/commits/subequipe-3/) |
 
 ---
 
