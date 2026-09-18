@@ -204,6 +204,7 @@ classDiagram
 
     Credencial "1" -- "0..*" HistoricoSenha : registra
 ```
+<p align="center"><sub>Fonte: Elaborado pelos autores da Subequipe 1: Samuel Felipe Lira de Souza, Dylan Cavalcante e Mariana Ribeiro, 2026.</sub></p>
 
 **Recurso utilizado:** Mermaid, com refinamento do modelo a partir dos artefatos de **Rich Picture, BPMN, NFR Framework/SIG e Product Backlog**.
 
