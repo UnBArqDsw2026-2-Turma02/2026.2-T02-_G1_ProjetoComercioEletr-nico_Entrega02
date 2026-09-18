@@ -1,4 +1,4 @@
-# Visão Geral e Gestão - Subequipe 02
+# Visão Geral e Gestão - Subequipe 02.  
 
 ### Apresentação da Subequipe
 
