@@ -31,8 +31,8 @@ Esta abordagem tridimensional garante que qualquer funcionalidade identificada n
 | **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
 | **Metodologia e Ferramental** | Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
 | **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
-| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
-| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
+| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira, Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
+| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos| Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
 | **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | [Commit](https://github.com/...) |
 | **Lições Aprendidas & Conclusão** | [preencher] | [preencher] | [Commit](https://github.com/...) |
 ---
@@ -388,7 +388,7 @@ classDiagram
 
 
 <details>
-<p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra.</sub></p>
+<p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira, Leticia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra.</sub></p>
 
 <summary><b> Histórico de Versionamento e Evolução do Diagrama (Clique para expandir)</b></summary>
 
@@ -452,7 +452,7 @@ A estrutura de pacotes foi derivada da análise das requisições de rede, dos s
 
 ![Figura 2.1. Diagrama de Classes - Fluxo C](../../assets/images/DiagramaPacotesFluxoC.png)
 
-<p align="center"><sub>Fonte: Elaborado por Rafaela Andrea Radamés Guerra.</sub></p>
+<p align="center"><sub>Fonte: Elaborado por Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos.</sub></p>
 
 <details>
 <summary><b>Versionamento</b></summary>
@@ -498,3 +498,4 @@ motivou a refatoração da v1.0 para a v2.0 do Diagrama de Classes.
 > | 0.3 | 14/09/2026 | Criação dos componentes do Diagrama de Casos de Uso | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) |
 > | 0.4 | 17/09/2026 | Organização da página para inclusão de novos artefatos | [Rafaela Andrea](https://github.com/radamesGuerra) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
 > | 0.5 | 17/09/2026 | Refatoração do Diagrama de Classes para a v2.0, inclusão da seção de Metodologia e Ferramental e da seção de Uso de IA Generativa | [Camile Barbosa](https://github.com/Camile0318) | [Rafaela Andrea](https://github.com/radamesGuerra) |
+> |0.6 | 17/09/2026 | Colaboração nos diagramas de pacote e de classes | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss)| [Camile Barbosa](https://github.com/Camile0318) |
