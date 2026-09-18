@@ -12,7 +12,22 @@ As respostas da IA foram tratadas como **propostas a conferir**, não como evid�
 
 ---
 
-## 2. Quadro Integrado de Contribuições Individuais
+## 2. Participação e Rastreabilidade do Artefato
+
+A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criação síncrona e a revisão em pares (*peer review*) aplicados exclusivamente para a construção deste artefato e seu relatório.
+
+| Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
+| :--- | :--- | :--- | :---: |
+| **Visão geral do foco e quadro integrado de contribuições individuais** (mesclagem do relato de Nayra e redação do relato próprio) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Solicitações Relevantes e Validação Crítica** (correção do link de referência ao Diagrama de Componentes) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Análise Crítica do Uso da IA e Lições Aprendidas** | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Referências e organização geral do documento** (correção do link quebrado no histórico de versões e preenchimento dos links reais de referência) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+
+A autoria e as evidências de revisão/commit deverão ser atualizadas pela equipe após a execução efetiva das atividades de co-criação e *peer review*.
+
+---
+
+## 3. Quadro Integrado de Contribuições Individuais
 
 > **Entrega mínima:** cada integrante deve registrar e validar pessoalmente suas lições aprendidas e seu ponto de vista crítico sobre o uso de IA generativa, inclusive se sua atuação foi a revisão de material produzido com apoio de IA por outro integrante.
 
@@ -26,25 +41,25 @@ As respostas da IA foram tratadas como **propostas a conferir**, não como evid�
 
 ---
 
-## 3. Solicitações Relevantes e Validação Crítica
+## 4. Solicitações Relevantes e Validação Crítica
 
 As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalho. Os trechos citados permitem explicar o propósito da consulta; acrescentar links públicos para as conversas **somente se forem compartilhados**. A validação dos modelos foi feita com a participação da subequipe e com os artefatos e materiais disponíveis.
 
-### 3.1. Escolha dos modelos UML para a Entrega 2
+### 4.1. Escolha dos modelos UML para a Entrega 2
 
 - **Solicitação registrada:** “consegue gerar: Modelagem Estática UML: Diagrama de Componentes. Modelagem Dinâmica UML: Diagrama de Sequência. IA Generativa: uso, validação, limitações e lições aprendidas de cada integrante.”
 - **Apoio obtido:** organização inicial dos focos e rascunhos dos dois diagramas, posteriormente trabalhados pela equipe. Ao final, a subequipe também incluiu **Diagrama de Classes** no Foco 01 e **Diagrama de Atividades** no Foco 02.
 - **Decisão e validação:** a escolha do que apresentar foi comparada com as diretrizes da entrega, os slides de modelagem estática e dinâmica, o BPMN e a engenharia reversa. A equipe manteve os quatro artefatos que elaborou e revisou, distinguindo os dois modelos estáticos dos dois dinâmicos.
 - **Evidência:** **[INSERIR LINK DA CONVERSA, SE COMPARTILHADA, E DOS COMMITS DOS MODELOS]**.
 
-### 3.2. Portas e interfaces do Diagrama de Componentes
+### 4.2. Portas e interfaces do Diagrama de Componentes
 
 - **Solicitação registrada:** “E a bolinha e quadrados? Interface bolinha e quadrados porta”.
 - **Apoio obtido:** explicação da diferença entre **porta** (quadrado na borda), **interface fornecida** (bolinha) e **interface requerida** (encaixe), seguida de ajustes no modelo proposto.
 - **Decisão e validação:** o grupo conferiu os símbolos com os exemplos de Diagrama de Componentes apresentados na disciplina e com o [diagrama publicado no Foco 01](Assets/Diagrama_componentes_subequipe2.jpg). A aparência plausível de um símbolo gerado por IA, por si só, não garante que sua ligação represente corretamente a dependência modelada.
 - **Evidência:** **[INSERIR LINK DA CONVERSA, SE COMPARTILHADA, E DO COMMIT DO DIAGRAMA]**.
 
-### 3.3. Versões editáveis e revisão dos fluxos
+### 4.3. Versões editáveis e revisão dos fluxos
 
 - **Solicitação registrada:** “consegue gerar eles dois novamente, mas editaveis para este site https://app.diagrams.net/”.
 - **Apoio obtido:** propostas editáveis para apoiar o trabalho no [diagrams.net](https://app.diagrams.net/) e explicações sobre os diagramas. A equipe pôde ajustar os elementos visualmente, revisar a legibilidade e comparar a sequência com o fluxo que havia sido levantado.
@@ -52,7 +67,7 @@ As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalh
 - **Ponto ainda a conferir:** `finalizarCompra()` aparece depois do bloco que inclui **produto indisponível**. É recomendável explicitar no próprio desenho a condição **`[carrinho com item disponível]`** para prosseguir ao checkout.
 - **Evidência:** **[INSERIR LINKS DAS VERSÕES EDITÁVEIS, DOS COMMITS E DA CONVERSA, SE DISPONÍVEIS]**.
 
-### 3.4. Organização da documentação
+### 4.4. Organização da documentação
 
 - **Solicitação registrada:** elaboração das páginas de visão geral, modelagem dinâmica e IA generativa com base nos modelos apresentados por outras subequipes.
 - **Apoio obtido:** rascunhos em Markdown para organizar introdução, objetivos, participação, decisões de modelagem, imagens, referências e histórico de versões.
@@ -61,7 +76,7 @@ As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalh
 
 ---
 
-## 4. Análise Crítica do Uso da IA
+## 5. Análise Crítica do Uso da IA
 
 A IA ajudou a **explorar opções, esclarecer termos UML, produzir rascunhos editáveis e organizar a documentação**. Pedir uma explicação para a “bolinha” e a “porta”, por exemplo, tornou mais fácil identificar o que precisava ser conferido no material da disciplina.
 
@@ -76,27 +91,27 @@ A validação cruzada compara as sugestões com o [Foco 01](./foco-01.md), o [Fo
 
 ---
 
-## 5. Lições Aprendidas
+## 6. Lições Aprendidas
 
-### 5.1. Sobre modelagem UML
+### 6.1. Sobre modelagem UML
 
 Os Diagramas de Classes e de Componentes descrevem aspectos estruturais distintos; os de Sequência e de Atividades mostram, respectivamente, interações ao longo do tempo e caminhos de ações. Aprendemos a conferir a notação, a finalidade de cada diagrama e as diferenças de escopo entre eles.
 
-### 5.2. Sobre rastreabilidade
+### 6.2. Sobre rastreabilidade
 
 O Rich Picture, o SIG/NFR de acessibilidade, o BPMN e os registros da engenharia reversa oferecem contexto para justificar escolhas nos modelos UML. A rastreabilidade exige dizer qual observação apoia cada decisão e identificar como **hipótese** o que não pôde ser confirmado sobre a implementação interna.
 
-### 5.3. Sobre IA generativa
+### 6.3. Sobre IA generativa
 
 Uma resposta útil como rascunho ainda precisa de conferência humana. O uso foi mais produtivo quando a IA ajudou a formular possibilidades que depois puderam ser verificadas em exemplos de UML, imagens, arquivos editáveis e artefatos anteriores.
 
-### 5.4. Sobre trabalho em equipe
+### 6.4. Sobre trabalho em equipe
 
 A construção e a revisão conjuntas dos quatro diagramas permitiram comparar interpretações e observar diferenças entre estrutura, interação e navegação. Para demonstrar essa colaboração, a documentação deve associar cada integrante a evidências reais, sem transformar revisão coletiva em relatos pessoais escritos por outra pessoa.
 
 ---
 
-## 6. Considerações Finais
+## 7. Considerações Finais
 
 No Fluxo B da Subequipe 02, a IA generativa apoiou a análise e a apresentação dos modelos, sobretudo nas interações documentadas por Uires com o ChatGPT. A qualidade da entrega depende da revisão dos diagramas pelos três integrantes, da correção de condições ambíguas, da comparação com os artefatos da Entrega 1 e da confirmação dos relatos individuais.
 
@@ -104,11 +119,11 @@ Os modelos e este texto devem ser apresentados como resultados de **engenharia r
 
 ---
 
-## 7. Uso de Inteligência Artificial Generativa
+## 8. Uso de Inteligência Artificial Generativa
 
-**Ferramenta documentada:** [ChatGPT, da OpenAI](https://chatgpt.com/), utilizado por Uires para discutir notação e escopo, solicitar rascunhos editáveis e organizar os relatórios. Os diagramas foram elaborados e revisados em conjunto por Uires, Diassis e Nayra. Cada integrante deve confirmar no quadro da Seção 2 seu próprio uso ou avaliação crítica de conteúdo apoiado por IA.
+**Ferramenta documentada:** [ChatGPT, da OpenAI](https://chatgpt.com/), utilizado por Uires para discutir notação e escopo, solicitar rascunhos editáveis e organizar os relatórios. Os diagramas foram elaborados e revisados em conjunto por Uires, Diassis e Nayra. Cada integrante deve confirmar no quadro da Seção 3 seu próprio uso ou avaliação crítica de conteúdo apoiado por IA.
 
-**Transparência:** links para conversas compartilhadas podem ser acrescentados na Seção 3; links de commits comprovam as alterações registradas no repositório. Não inserir links, datas, prompts ou participações que não possam ser verificados.
+**Transparência:** links para conversas compartilhadas podem ser acrescentados na Seção 4; links de commits comprovam as alterações registradas no repositório. Não inserir links, datas, prompts ou participações que não possam ser verificados.
 
 ---
 
@@ -128,5 +143,7 @@ Os modelos e este texto devem ser apresentados como resultados de **engenharia r
 | Versão | Nome do Membro | Contribuição | Revisor(a) | Data |
 | :---: | :--- | :--- | :--- | :---: |
 | 1.0 | Uires Carlos de Oliveira | Rascunho da página do Foco 03 com base nas interações documentadas com IA e nos quatro diagramas elaborados e revisados pela equipe (redigido com apoio de IA) | Diassis Bezerra Nascimento | 17/09/2026 |
-| 1.1 | Diassis Bezerra Nascimento | Inclusão do relato individual de Nayra Silva Nery (lições aprendidas e uso de IA generativa na Seção 2); correção de link de autor quebrado no histórico de versões e preenchimento dos links reais de referência (artefatos da Entrega 1 e slides da disciplina) | Claude | 18/09/2026 |
-| 1.2 | Diassis Bezerra Nascimento | Inclusão do relato individual de Diassis Bezerra Nascimento (lições aprendidas e uso de IA generativa na Seção 2) | Claude | 18/09/2026 |
+| 1.1 | Diassis Bezerra Nascimento | Inclusão do relato individual de Nayra Silva Nery (lições aprendidas e uso de IA generativa na Seção 3); correção de link de autor quebrado no histórico de versões e preenchimento dos links reais de referência (artefatos da Entrega 1 e slides da disciplina) | Claude | 18/09/2026 |
+| 1.2 | Diassis Bezerra Nascimento | Inclusão do relato individual de Diassis Bezerra Nascimento (lições aprendidas e uso de IA generativa na Seção 3) | Claude | 18/09/2026 |
+| 1.3 | Diassis Bezerra Nascimento | Inclusão da seção "Participação e Rastreabilidade do Artefato", com tabela de divisão de responsabilidades por etapa do relatório, e reorganização da numeração das seções seguintes | Codex| 18/09/2026 |
+| 1.4 | Diassis Bezerra Nascimento | Revisão final de Diassis sobre as alterações realizadas neste documento durante a sessão | Claude | 18/09/2026 |

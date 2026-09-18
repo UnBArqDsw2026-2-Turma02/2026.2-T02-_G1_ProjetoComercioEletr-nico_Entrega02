@@ -37,13 +37,24 @@ Registrar somente reuniões realizadas e suas evidências disponíveis. As reuni
 | 14/09/2026 | Planejamento | [Reunião do Teams 1](https://unbbr.sharepoint.com/:v:/s/SubequipeArquiteturadeSoftware/IQDG3MpXEX_ER7RGf9f0L0zYAR1S4byk-ODwDBl-sW_Zp7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zZKWTF) |
 | 16/09/2026 | Revisão de diagramas e planejamento para a entrega | [Reunião do Teams 2](https://unbbr.sharepoint.com/:v:/s/SubequipeArquiteturadeSoftware/IQCBzF9Xy2gmSJ4mfJX1lFnjAWZPRzUMCDbbN92vLWMdenA?e=jpqRrJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
+---
+
+### Matriz Geral de Contribuições
+
+Consolidado da atuação de cada participante, detalhando o foco assumido e os artefatos sob responsabilidade direta.
+
+| Membro | Foco Principal | Artefato(s) Assumido(s) |
+| :--- | :--- | :--- |
+| **Diassis Bezerra Nascimento** | Modelagem estática, Modelagem dinâmica e IA generativa | Modelagem estática, Modelagem dinâmica, Grafo de Engenharia Reversa e IA generativa |
+| **Nayra Silva Nery** | | |
+| **Uires Carlos de Oliveira** | | |
+
+---
 
 ### Referências Bibliográficas
 
 1. **Materiais da disciplina:** aulas de Modelagem Estática UML e Modelagem Dinâmica UML. Inserir título, autoria e links das versões consultadas.
 2. **Subequipe 02:** Rich Picture, SIG/NFR de Acessibilidade e BPMN produzidos na Entrega 1. Inserir links para os artefatos no repositório.
-
-As obras citadas no modelo da Subequipe 03 — Fowler, Larman e Pressman/Maxim — devem ser acrescentadas aqui somente se também tiverem sido efetivamente consultadas pela Subequipe 02.
 
 ---
 
@@ -56,4 +67,5 @@ As obras citadas no modelo da Subequipe 03 — Fowler, Larman e Pressman/Maxim �
 | 1.3 | Diassis Bezerra Nascimento | Adequação ao modelo de Visão Geral e Gestão e registro da elaboração conjunta dos quatro diagramas | Nayra Silva Nery | 18/09/2026 |
 | 1.4 | Diassis Bezerra Nascimento | Substituição do parágrafo inicial de "Fluxo de Trabalho & Metodologia" por tópicos formais sobre reuniões via Microsoft Teams, Revisão em Pares (Peer Review) e uso crítico de IA generativa | *(revisão pendente)* | 18/09/2026 |
 | 1.5 | Diassis Bezerra Nascimento | Adaptação da tabela "Rastro de reuniões": remoção da coluna "Ata da Reunião" (inexistente) e inclusão dos links reais e das datas (14/09/2026 e 16/09/2026) das duas reuniões realizadas | *(revisão pendente)* | 18/09/2026 |
+| 1.6 | Diassis Bezerra Nascimento | Revisão final de Diassis sobre as alterações realizadas neste documento durante a sessão | Claude | 18/09/2026 |
 

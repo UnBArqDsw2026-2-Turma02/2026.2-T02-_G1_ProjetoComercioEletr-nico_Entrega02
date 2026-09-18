@@ -28,6 +28,22 @@ A análise ocorreu nas seguintes etapas:
 | Documento de Engenharia Reversa 02 | [engenharia_reversa_decathlon_atualizado.pdf](modulo-2/subequipe-02/docs/engenharia_reversa_decathlon_atualizado.pdf ':ignore') |
 | Grafo de conhecimento (graphify) | [grafo_conhecimento_engenharia_reversa.html](modulo-2/subequipe-02/docs/grafo_conhecimento_engenharia_reversa.html ':ignore') |
 
+---
+
+## Participação e Rastreabilidade do Artefato
+
+A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criação síncrona e a revisão em pares (*peer review*) aplicados exclusivamente para a construção deste artefato e seu relatório.
+
+| Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
+| :--- | :--- | :--- | :---: |
+| **Introdução, participantes e metodologia** (inclui a etapa do grafo de conhecimento via graphify) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Diagrama de Classes (Modelo Estático) e arquivo `.drawio`** | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Verificação complementar no site oficial e rastreabilidade fotográfica** | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+
+A autoria e as evidências de revisão/commit deverão ser atualizadas pela equipe após a execução efetiva das atividades de co-criação e *peer review*.
+
+---
+
 ## Modelo Estático
 
 <div align="center" style="text-align: center;">
@@ -197,3 +213,5 @@ Páginas consultadas:
 | 1.2 | Diassis Bezerra Nascimento | Correção da metodologia e adicionado o grafo de auxílio gerado através de Inteligência Artificial | Claude | 18/09/2026 |
 | 1.3 | Diassis Bezerra Nascimento | Adicionado Rastreabilidade de fotos no diagrama UML | Claude | 18/09/2026 |
 | 1.4 | Diassis Bezerra Nascimento | Inserção do Diagrama de Componentes (Figura 5) no Foco 01, com descrição dos subsistemas e interfaces e registro da ausência de metodologia/rastreabilidade específica para esse diagrama | Claude | 18/09/2026 |
+| 1.5 | Diassis Bezerra Nascimento | Inclusão da seção "Participação e Rastreabilidade do Artefato", com tabela de divisão de responsabilidades por etapa do relatório | *(revisão pendente)* | 18/09/2026 |
+| 1.6 | Diassis Bezerra Nascimento | Remoção das linhas sobre o Diagrama de Componentes e sobre a organização dos assets da tabela "Participação e Rastreabilidade do Artefato", por não terem sido elaboradas por Diassis | Claude | 18/09/2026 |

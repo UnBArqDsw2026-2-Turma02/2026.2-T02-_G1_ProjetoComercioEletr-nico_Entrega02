@@ -43,9 +43,25 @@ A revisão dos dois modelos foi recíproca entre os três integrantes.
 
 ---
 
-## 3. Modelos UML
+## 3. Participação e Rastreabilidade do Artefato
 
-### 3.1. Diagrama de Atividades — Navegação por Modalidade
+A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criação síncrona e a revisão em pares (*peer review*) aplicados exclusivamente para a construção deste artefato e seu relatório.
+
+| Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
+| :--- | :--- | :--- | :---: |
+| **Introdução, objetivo e metodologia** (fusão das duas versões do documento) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Diagrama de Atividades — Navegação por Modalidade** (revisão e mesclagem do texto entre as duas versões do documento; os diagramas não foram elaborados por Diassis) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Diagrama de Sequência — Compra na Decathlon** (revisão do texto, correção dos links para o arquivo `.drawio` já existente e identificação do ponto de atenção sobre `finalizarCompra()`; o diagrama não foi elaborado por Diassis) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Relação entre os modelos, relação com a Engenharia Reversa e Embasamento Teórico** | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+| **Limitações, Referências e organização geral do documento** (reorganização das seções e correção dos links do site) | Diassis Bezerra Nascimento | | [PR #29](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/pull/29) |
+
+A autoria e as evidências de revisão/commit deverão ser atualizadas pela equipe após a execução efetiva das atividades de co-criação e *peer review*.
+
+---
+
+## 4. Modelos UML
+
+### 4.1. Diagrama de Atividades — Navegação por Modalidade
 
 O Diagrama de Atividades representa a interação entre o usuário e o sistema durante a navegação pelas modalidades esportivas disponíveis na plataforma Decathlon. O modelo foi organizado em duas partições (raias):
 
@@ -93,7 +109,7 @@ Além do fluxo principal, o diagrama representa caminhos alternativos, como a tr
 
 Este diagrama não possui um arquivo `.drawio` fonte publicado.
 
-### 3.2. Diagrama de Sequência — Compra na Decathlon
+### 4.2. Diagrama de Sequência — Compra na Decathlon
 
 O Diagrama de Sequência representa uma visão temporal das interações envolvidas no processo de busca de produtos, consulta de disponibilidade, inclusão no carrinho, checkout e pagamento. O modelo apresenta os seguintes participantes:
 
@@ -151,7 +167,7 @@ Os participantes apresentados representam uma **proposta conceitual para fins ac
 
 **Arquivo editável:** [Diagrama_sequencia_subequipe2.drawio](modulo-2/subequipe-02/docs/Diagrama_sequencia_subequipe2.drawio ':ignore').
 
-### 3.3. Elementos e Recursos da Notação Utilizados
+### 4.3. Elementos e Recursos da Notação Utilizados
 
 | Diagrama | Elemento UML | Aplicação nos modelos |
 | :--- | :--- | :--- |
@@ -165,7 +181,7 @@ Os participantes apresentados representam uma **proposta conceitual para fins ac
 
 ---
 
-## 4. Relação entre os Modelos
+## 5. Relação entre os Modelos
 
 Os dois diagramas representam aspectos diferentes e complementares da Modelagem Dinâmica. O **Diagrama de Atividades** concentra-se nas ações, decisões e caminhos existentes durante a navegação do usuário. O **Diagrama de Sequência** concentra-se na ordem das interações realizadas entre os participantes conceituais envolvidos durante o processo de busca e compra.
 
@@ -176,7 +192,7 @@ Os dois diagramas representam aspectos diferentes e complementares da Modelagem 
 
 ---
 
-## 5. Relação com a Engenharia Reversa
+## 6. Relação com a Engenharia Reversa
 
 Os modelos dinâmicos foram construídos a partir dos fluxos identificados durante a Engenharia Reversa da plataforma Decathlon na Entrega 1. Elementos observados na interface — página inicial, modalidades, categorias, listagens, produtos, filtros, carrinho e etapas de compra — serviram como evidência para identificar comportamentos relevantes: as tarefas de busca, carrinho e compra do BPMN da Entrega 1 orientam as mensagens do Diagrama de Sequência; as opções de modalidades e produtos observadas na interface orientam as ações do Diagrama de Atividades.
 
@@ -184,13 +200,13 @@ A Modelagem Dinâmica concentra-se na sequência das ações e nas mudanças de 
 
 ---
 
-## 6. Embasamento Teórico
+## 7. Embasamento Teórico
 
-A especificação da [UML 2.5.1 publicada pela Object Management Group (OMG)](https://www.omg.org/spec/UML/2.5.1/) é a referência utilizada para interpretar os elementos de interações e de atividades empregados nos dois modelos. Os exemplos e slides da disciplina **Desenho de Software** orientaram a escolha dos diagramas e da notação. As decisões descritas nas seções 3.1 e 3.2 refletem o **modelo elaborado pela subequipe**, sem atribuir à Decathlon uma implementação interna não observada.
+A especificação da [UML 2.5.1 publicada pela Object Management Group (OMG)](https://www.omg.org/spec/UML/2.5.1/) é a referência utilizada para interpretar os elementos de interações e de atividades empregados nos dois modelos. Os exemplos e slides da disciplina **Desenho de Software** orientaram a escolha dos diagramas e da notação. As decisões descritas nas seções 4.1 e 4.2 refletem o **modelo elaborado pela subequipe**, sem atribuir à Decathlon uma implementação interna não observada.
 
 ---
 
-## 7. Limitações
+## 8. Limitações
 
 - Os modelos foram construídos a partir do comportamento externamente observável da plataforma Decathlon.
 - Não houve acesso ao código-fonte, banco de dados, APIs ou documentação técnica interna.
@@ -199,11 +215,11 @@ A especificação da [UML 2.5.1 publicada pela Object Management Group (OMG)](ht
 - O Diagrama de Sequência apresenta um recorte relacionado à busca, carrinho e compra e não pretende representar todas as situações possíveis durante uma compra real.
 - O conteúdo e o comportamento da plataforma podem variar conforme modalidade, categoria, produto, disponibilidade, campanha ou condições comerciais.
 - Aspectos de infraestrutura, persistência de dados e implementação interna não foram representados por não serem verificáveis apenas pela observação da interface.
-- O ponto de atenção sobre `finalizarCompra()` (seção 3.2) ainda não foi corrigido na imagem publicada dos diagramas.
+- O ponto de atenção sobre `finalizarCompra()` (seção 4.2) ainda não foi corrigido na imagem publicada dos diagramas.
 
 ---
 
-## 8. Referências
+## 9. Referências
 
 1. OBJECT MANAGEMENT GROUP (OMG). [*OMG Unified Modeling Language (OMG UML), Version 2.5.1*](https://www.omg.org/spec/UML/2.5.1/). 2017.
 2. UnB FCTE — ArqDSW. [*Módulo — Modelagem*](https://sites.google.com/view/unb-fcte-arqdsw/m%C3%B3dulos/m%C3%B3dulo-modelagem?authuser=0), slides da disciplina Desenho de Software sobre modelagem dinâmica UML.
@@ -220,3 +236,5 @@ A especificação da [UML 2.5.1 publicada pela Object Management Group (OMG)](ht
 | 1.2 | Uires Carlos de Oliveira | Inclusão e documentação do Diagrama de Sequência da Compra na Decathlon: busca, disponibilidade, carrinho, checkout, pagamento, decisões de modelagem e leitura do fluxo | Nayra Silva Nery | 18/09/2026 |
 | 1.3 | Uires Carlos de Oliveira | Rascunho paralelo com tabela de elementos de notação UML, embasamento teórico (UML 2.5.1 da OMG) e identificação de um ponto de revisão no Diagrama de Sequência (`finalizarCompra()`) | Diassis Bezerra Nascimento | 18/09/2026 |
 | 1.4 | Diassis Bezerra Nascimento | Fusão das duas versões do documento: consolidação do texto, remoção da seção de rastreabilidade por etapa, inserção dos links reais (Entrega 1, slides, arquivo `.drawio` da Sequência) e reorganização da numeração das seções | Claude | 18/09/2026 |
+| 1.5 | Diassis Bezerra Nascimento | Reinclusão da seção "Participação e Rastreabilidade do Artefato", com tabela de divisão de responsabilidades por etapa do relatório, e reorganização da numeração das seções seguintes | *(revisão pendente)* | 18/09/2026 |
+| 1.6 | Diassis Bezerra Nascimento | Ajuste da tabela "Participação e Rastreabilidade do Artefato" para explicitar que os Diagramas de Atividades e de Sequência não foram elaborados por Diassis, cuja participação se limitou à revisão, mesclagem e identificação de erros | Claude | 18/09/2026 |
