@@ -26,21 +26,56 @@ Esta abordagem tridimensional garante que qualquer funcionalidade identificada n
 
 ## Participação e Rastreabilidade do Artefato
 
-A tabela a seguir detalha a divisão de responsabilidades, o fluxo de co-criação e a revisão em pares aplicados para a o estudo e a construção destes artefatos e seu relatório.
-
 | Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
 | :--- | :--- | :--- | :---: |
-| **Introdução & Objetivos** | Rafaela Andrea | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
-| **Modelagem Síncrona (Diagrama)** | [Membro A] e [Membro B] | [Nome do Revisor] | [Ata/Reunião](https://...) |
-| **Embasamento Teórico & Literatura** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
-| **Uso da IA Generativa & Validação** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
-| **Lições Aprendidas & Conclusão** | [Nome do Membro] | [Nome do Revisor] | [Commit](https://github.com/...) |
-
+| **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
+| **Metodologia e Ferramental** | Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
+| **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
+| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
+| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
+| **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | [Commit](https://github.com/...) |
+| **Lições Aprendidas & Conclusão** | [preencher] | [preencher] | [Commit](https://github.com/...) |
 ---
 
 ## Metodologia e Ferramental
 
----
+A construção dos artefatos de modelagem estática não partiu de documentação
+oficial da plataforma — inexistente para o sistema objeto de estudo — mas de um
+processo de **Engenharia Reversa orientada a evidências**, estruturado em quatro
+etapas sequenciais:
+
+**Etapa 1 — Testes de Caixa-Preta.** Percorreu-se o Fluxo C (Carrinho >> Checkout
+>> Pagamento) sob a ótica do usuário final, sem acesso ao código-fonte,
+registrando cada interação e a resposta observável do sistema.
+
+**Etapa 2 — Inspeção de Tráfego de Rede.** Com o DevTools (F12), nas abas
+*Network* (filtro XHR/Fetch), *Sources* e *Console*, capturaram-se as requisições
+HTTP, os *payloads* JSON e os scripts de terceiros acionados em cada cenário,
+resultando nas **18 evidências** que sustentam este relatório.
+
+**Etapa 3 — Abstração e Modelagem.** Os dados brutos foram traduzidos em
+elementos UML: eventos de interface originaram **Casos de Uso**; estruturas JSON
+(`orderForm`, `shippingData`, `paymentData`) originaram **Classes**; e a
+segregação entre domínios de serviço originou os **Pacotes**.
+
+**Etapa 4 — Revisão em Pares.** Todo artefato produzido foi submetido a revisão
+por um segundo integrante, conforme a matriz de responsabilidades apresentada na
+seção *Participação e Rastreabilidade do Artefato*.
+
+### Ferramental Utilizado
+
+| Ferramenta | Finalidade no Projeto |
+| :--- | :--- |
+| **Google Chrome DevTools (F12)** | Inspeção de requisições XHR/Fetch, análise de *payloads* JSON, rastreio de scripts de terceiros e identificação de endpoints. |
+| **Mermaid (Mermaid Live Editor)** | Diagramação do Diagrama de Classes em formato *diagram-as-code*, permitindo versionamento textual e fonte editável pública. |
+| **Lucidchart / draw.io** | Elaboração dos Diagramas de Casos de Uso e de Pacotes, com controle de notação UML. |
+| **GitHub** | Versionamento dos artefatos, rastreabilidade via *commits* e revisão em pares por *Pull Request*. |
+| **GitHub Pages / Docsify** | Publicação e navegação da documentação do projeto. |
+| **IA Generativa (Claude / ChatGPT)** | Apoio à estruturação inicial de hipóteses arquiteturais e revisão textual, **sempre** com validação humana posterior contra as evidências coletadas (ver seção *Uso da IA Generativa*). |
+
+> **Nota metodológica:** nenhum artefato gerado com apoio de IA foi incorporado
+> sem confronto direto com as evidências empíricas do DevTools. A IA atuou como
+> ferramenta de aceleração de rascunho, não como fonte de verdade.
 
 ## 1. Diagrama de Casos de Uso
 
@@ -217,9 +252,118 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 ---
 
 ### 2.4. Diagrama de Classes
+```mermaid
 
-![Figura 2.1. Diagrama de Classes - Fluxo C](../../assets/images/DiagramaClassesFluxoCV2.png)
+classDiagram
+  class Cliente {
+    +id
+    +nome
+    +email
+  }
+  class Carrinho {
+    +total
+    +calcularTotal()
+  }
+  class ItemCarrinho {
+    +quantidade
+    +precoUnitario
+  }
+  class Produto {
+    +id
+    +nome
+    +preco
+  }
+  class Checkout {
+    +validarCarrinho()
+    +calcularFrete()
+    +aplicarPromocao()
+  }
+  class DadosEntrega {
+    +endereco
+    +frete
+    +prazoEstimado
+  }
+  class Cupom {
+    +codigo
+    +percentualDesconto
+    +validar()
+  }
+  class Pedido {
+    +id
+    +status
+    +dataCriacao
+  }
+  class OrquestradorPagamento {
+    +aguardarConfirmacao()
+    +decidirAprovacao()
+  }
+  class MeioPagamento {
+    <<abstract>>
+    +autorizar()
+  }
+  class CartaoCredito {
+    +parcelas
+    +numeroTokenizado
+  }
+  class Pix {
+    +qrCode
+    +gerarQRCode()
+  }
+  class Boleto {
+    +codigoBarras
+    +prazoCompensacao
+  }
+  class PayPal {
+    +contaVinculada
+  }
+  class GatewayAdquirente {
+    +processarTransacao()
+  }
+  class BancoEmissor {
+    +aprovarCartao()
+    +confirmarPix()
+  }
+  class Transacao {
+    +status
+    +dataConfirmacao
+  }
+  class MarketplaceParceiro {
+    +nome
+    +receberRepasse()
+  }
+  class SplitPagamento {
+    +valorDecathlon
+    +valorParceiro
+  }
+  class Logistica {
+    +separarPedido()
+    +despacharPedido()
+  }
+  class SuporteAtendimento {
+    +orientarPreenchimento()
+  }
 
+  Cliente "1" -- "1" Carrinho
+  Carrinho "1" -- "*" ItemCarrinho
+  ItemCarrinho "*" -- "1" Produto
+  Checkout "1" -- "1" Carrinho
+  Checkout "1" -- "1" DadosEntrega
+  Checkout "1" -- "0..1" Cupom
+  Checkout --> Pedido : gera
+  Pedido "1" -- "1" OrquestradorPagamento
+  OrquestradorPagamento --> MeioPagamento : roteia
+  MeioPagamento <|-- CartaoCredito
+  MeioPagamento <|-- Pix
+  MeioPagamento <|-- Boleto
+  MeioPagamento <|-- PayPal
+  OrquestradorPagamento --> GatewayAdquirente
+  GatewayAdquirente --> BancoEmissor
+  Pedido "1" -- "1..*" Transacao
+  Pedido "1" -- "0..1" SplitPagamento
+  SplitPagamento --> MarketplaceParceiro
+  Pedido --> Logistica : encaminha
+  Cliente --> SuporteAtendimento : aciona
+```
 <p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra.</sub></p>
 
 <details>
@@ -295,19 +439,37 @@ A estrutura de pacotes foi derivada da análise das requisições de rede, dos s
 </details>
 
 ---
+## 4. Uso da IA Generativa e Validação Humana
+
+O uso de IA Generativa neste módulo foi restrito a três frentes, todas seguidas
+de validação humana obrigatória:
+
+| Frente de Uso | Papel da IA | Mecanismo de Validação Aplicado |
+| :--- | :--- | :--- |
+| **Hipótese arquitetural inicial (v1.0 do Diagrama de Classes)** | Geração de uma primeira estrutura de entidades a partir do Rich Picture e do SIG produzidos no Módulo 1. | Confronto entidade a entidade com os *payloads* JSON reais capturados no DevTools; entidades sem evidência empírica foram descartadas na v2.0. |
+| **Sugestão de nomenclatura e padrões de projeto** | Apontamento de padrões candidatos (Strategy, Aggregate) para as decisões de modelagem. | Verificação direta na literatura de referência (LARMAN, GAMMA et al., EVANS) antes da incorporação ao texto. |
+| **Revisão textual e coesão** | Revisão gramatical e padronização de estilo das seções descritivas. | Leitura crítica e reescrita pelos autores; nenhum trecho técnico foi aceito sem conferência. |
+
+**Limitações observadas:** a IA tendeu a propor entidades genéricas de
+e-commerce (ex.: `Estoque`, `Avaliacao`, `Frete` como classe isolada) que **não**
+possuíam contrapartida nas requisições observadas. Esse comportamento reforçou a
+necessidade da etapa de engenharia reversa como filtro de veracidade — o que
+motivou a refatoração da v1.0 para a v2.0 do Diagrama de Classes.
+---
 
 ## Referências bibliográficas
 
-> - BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. UML: guia do usuário. 2. ed. Rio de Janeiro: Elsevier, 2006.
-> - SOMMERVILLE, Ian. Engenharia de software. 9. ed. São Paulo: Pearson Prentice Hall, 2011.
-> - FOWLER, Martin. UML essencial: um breve guia para a linguagem-padrão de modelagem de objetos. 3. ed. Porto Alegre: Bookman, 2005.
-
+> - BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. **UML: guia do usuário.** 2. ed. Rio de Janeiro: Elsevier, 2006.
+> - EVANS, Eric. **Domain-Driven Design: tackling complexity in the heart of software.** Boston: Addison-Wesley, 2003.
+> - FOWLER, Martin. **UML essencial: um breve guia para a linguagem-padrão de modelagem de objetos.** 3. ed. Porto Alegre: Bookman, 2005.
+> - GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Padrões de projeto: soluções reutilizáveis de software orientado a objetos.** Porto Alegre: Bookman, 2000.
+> - LARMAN, Craig. **Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo.** 3. ed. Porto Alegre: Bookman, 2007.
+> - SOMMERVILLE, Ian. **Engenharia de software.** 9. ed. São Paulo: Pearson Prentice Hall, 2011.
 ---
-> **Histórico de Versões**
-> 
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
-> | 0.1 | 12/09/2026 | Criação e Estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) |
-> | 0.2 | 14/09/2026 | Criação do diagrama de classes e finalização dos tópicos 3.2 a 4| [Camile Barbosa](https://github.com/Camile0318)  | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
-> | 0.3 | 14/09/2026 | Criação dos componentes do diagrama de caso de uso| [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss)|[Camile Barbosa Gonzaga de Oliveira](https://github.com/Camile0318)
-> | 0.4 | 17/09/2026 | Organização da página para a inclusão de novos artefatos | [Rafaela Andrea](https://github.com/radamesGuerra) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
+> | 0.1 | 12/09/2026 | Criação e estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) |
+> | 0.2 | 14/09/2026 | Elaboração do Diagrama de Classes e redação dos tópicos 2.2 a 2.4 | [Camile Barbosa](https://github.com/Camile0318) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
+> | 0.3 | 14/09/2026 | Criação dos componentes do Diagrama de Casos de Uso | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) |
+> | 0.4 | 17/09/2026 | Organização da página para inclusão de novos artefatos | [Rafaela Andrea](https://github.com/radamesGuerra) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
+> | 0.5 | 17/09/2026 | Refatoração do Diagrama de Classes para a v2.0, inclusão da seção de Metodologia e Ferramental e da seção de Uso de IA Generativa | [Camile Barbosa](https://github.com/Camile0318) | [Rafaela Andrea](https://github.com/radamesGuerra) |
