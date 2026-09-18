@@ -3,7 +3,6 @@
 * [**Módulo I - Base**](modulo-1/apresentacao-modulo-01.md)
   * [Subequipe 01](modulo-1/subequipe-01.md)
   * [Subequipe 02](modulo-1/subequipe-02.md)
-  * [Subequipe 03](modulo-1/subequipe-03.md)
 
 * [**Módulo II - Modelagem**](modulo-2/apresentacao-modulo-02.md)
   * [Subequipe 01: Visão Geral](modulo-2/subequipe-01/apresentacao-01.md)

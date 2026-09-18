@@ -5,24 +5,24 @@ Registro e formalização dos alinhamentos internos, definições de arquitetura
 
 ---
 
-#### Reunião 01 — Configuração inicial da Equipe e Entendimento do Projeto (23/08/2026)
+#### Reunião 01 — Configuração inicial da Equipe e Entendimento do Projeto (23/08/2026) - [MÓDULO 1]
 
 * **Objetivo Geral:** Buscar compreender em conjunto o projeto proposto na disciplina Arquitetura e Desenho de Software e tomar decisões acerca das configurações iniciais de equipe, repositório e objeto de estudo.
 * **Participantes:** Dylan Portela, Mariana Ribeiro, Nayra Silva, Rafaela Andrea, Samuel Felipe, Uires Carlos.
 * **Redação/Autoria:** Rafaela Andrea
 * **Links Úteis:**
   * [Ata Detalhada em PDF](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/ata-reuniao-01.pdf ':ignore')
-  * [Gravação da Reunião (Vídeo)]()
+  * [Gravação da Reunião (Vídeo)](https://youtu.be/FYkY9dMw5Cc)
 
 ---
 
-#### Reunião 02 — Alinhamento da Equipe, Organização do GitPages e Diretrizes da Nova Entrega (11/09/2026)
+#### Reunião 02 — Alinhamento da Equipe, Organização do GitPages e Diretrizes da Nova Entrega (11/09/2026) - [MÓDULO 2]
 
 * **Objetivo Geral:** Determinar a composição das subequipes, alinhar o fluxo de publicação do conteúdo no GitHub Pages, definir o escopo dos entregáveis (focos, extras e documentos gerais) e estabelecer as diretrizes de versionamento, branches e rastreabilidade para o novo módulo do projeto.
 * **Participantes:** Nayra Silva, Rafaela Andrea, Samuel Felipe, Uires Carlos.
 * **Redação/Autoria:** Rafaela Andrea
 * **Links Úteis:**
-  * [Ata Detalhada em PDF](../assets/documents/ata-reuniao-02.pdf ':ignore')
+  * [Ata Detalhada em PDF](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/documents/ata-reuniao-02.pdf ':ignore')
   * [Gravação da Reunião (Vídeo)](https://youtu.be/ACxi3ecCsnM)
 
 ---

@@ -1,0 +1,37 @@
+Diagrama de Sequencias:
+
+sequenceDiagram
+    autonumber
+    actor C as Client
+    participant UI as Interface (WebSite)
+    participant VTEX as Sistema E-commerce VTEX
+    participant EXT as Sistema Externo (IA/Frete/Gateway/Antifraude)
+    participant IA as Motor de Recomendação IA
+    participant PROM as Motor Promoções/Cashback
+
+    C->>UI: UC01: Seleciona produto e variação
+    UI->>IA: Requisita recomendações
+    IA-->>UI: UC03: Retorna produtos recomendados
+
+    C->>UI: UC02: Adiciona produto / UC06: Altera qtd / UC07: Remove
+    UI->>VTEX: Atualiza orderForm
+    VTEX->>PROM: UC11: Consulta saldo e regras de Cashback
+    PROM-->>VTEX: Retorna cashback recalculado
+    VTEX-->>UI: UC04: Exibe carrinho atualizado
+
+    C->>UI: UC08: Inicia checkout / UC10: Informa e-mail
+    UI->>VTEX: UC09: Processa dados customizados da sessão
+    C->>UI: UC12: Preenche CPF e telefone
+    VTEX-->>UI: Valida e atualiza sessão do usuário
+
+    C->>UI: UC14: Insere/edita endereço
+    UI->>UI: UC15: Valida estrutura do logradouro
+    UI->>LOG: UC05: Solicita cálculo de frete
+    LOG-->>UI: Retorna opções de entrega e retirada
+    C->>UI: UC16: Seleciona frete / UC17: Seleciona ponto de retirada
+
+    C->>UI: UC14: Insere/edita endereço
+    UI->>UI: UC15: Valida estrutura do logradouro
+    UI->>LOG: UC05: Solicita cálculo de frete
+    LOG-->>UI: Retorna opções de entrega e retirada
+    C->>UI: UC16: Seleciona frete / UC17: Seleciona ponto de retirada
