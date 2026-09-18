@@ -253,92 +253,112 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 
 ### 2.4. Diagrama de Classes
 
-```m̀ermaid 
+```mermaid
 classDiagram
   class Cliente {
     +id
     +nome
     +email
   }
+
   class Carrinho {
     +total
     +calcularTotal()
   }
+
   class ItemCarrinho {
     +quantidade
     +precoUnitario
   }
+
   class Produto {
     +id
     +nome
     +preco
   }
+
   class Checkout {
     +validarCarrinho()
     +calcularFrete()
     +aplicarPromocao()
   }
+
   class DadosEntrega {
     +endereco
     +frete
     +prazoEstimado
   }
+
   class Cupom {
     +codigo
     +percentualDesconto
     +validar()
   }
+
   class Pedido {
     +id
     +status
     +dataCriacao
   }
+
   class OrquestradorPagamento {
     +aguardarConfirmacao()
     +decidirAprovacao()
   }
+
   class MeioPagamento {
     <<abstract>>
     +autorizar()
   }
+
   class CartaoCredito {
     +parcelas
     +numeroTokenizado
   }
+
   class Pix {
     +qrCode
     +gerarQRCode()
   }
+
   class Boleto {
     +codigoBarras
     +prazoCompensacao
   }
+
   class PayPal {
     +contaVinculada
   }
+
   class GatewayAdquirente {
     +processarTransacao()
   }
+
   class BancoEmissor {
     +aprovarCartao()
     +confirmarPix()
   }
+
   class Transacao {
     +status
     +dataConfirmacao
   }
+
   class MarketplaceParceiro {
     +nome
     +receberRepasse()
   }
+
   class SplitPagamento {
     +valorDecathlon
     +valorParceiro
   }
+
   class Logistica {
     +separarPedido()
     +despacharPedido()
   }
+
   class SuporteAtendimento {
     +orientarPreenchimento()
   }
