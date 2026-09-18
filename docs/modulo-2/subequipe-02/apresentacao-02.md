@@ -53,8 +53,8 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 
 ### Referências Bibliográficas
 
-1. **Materiais da disciplina:** aulas de Modelagem Estática UML e Modelagem Dinâmica UML. Inserir título, autoria e links das versões consultadas.
-2. **Subequipe 02:** Rich Picture, SIG/NFR de Acessibilidade e BPMN produzidos na Entrega 1. Inserir links para os artefatos no repositório.
+1. **Materiais da disciplina:** UnB FCTE — ArqDSW. [*Módulo — Modelagem*](https://sites.google.com/view/unb-fcte-arqdsw/m%C3%B3dulos/m%C3%B3dulo-modelagem?authuser=0), aulas de Modelagem Estática UML e Modelagem Dinâmica UML.
+2. **Subequipe 02:** Rich Picture, SIG/NFR de Acessibilidade e BPMN produzidos na Entrega 1: [2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01).
 
 ---
 
@@ -63,9 +63,9 @@ Consolidado da atuação de cada participante, detalhando o foco assumido e os a
 | Versão | Nome do Membro | Contribuição | Revisor(a) | Data |
 | :---: | :--- | :--- | :--- | :---: |
 | 1.1 | Uires Carlos de Oliveira | Rascunho da página Visão Geral e Gestão da Subequipe 02, com apoio de IA | Diassis Bezerra Nascimento | 17/09/2026 |
-| 1.2 | Autoria a confirmar pelo grupo | Inclusão dos perfis GitHub informados pela equipe | Nayra Silva Nery | 17/09/2026 |
+| 1.2 | Uires Carlos de Oliveira | Inclusão dos perfis GitHub informados pela equipe | Nayra Silva Nery | 17/09/2026 |
 | 1.3 | Diassis Bezerra Nascimento | Adequação ao modelo de Visão Geral e Gestão e registro da elaboração conjunta dos quatro diagramas | Nayra Silva Nery | 18/09/2026 |
-| 1.4 | Diassis Bezerra Nascimento | Substituição do parágrafo inicial de "Fluxo de Trabalho & Metodologia" por tópicos formais sobre reuniões via Microsoft Teams, Revisão em Pares (Peer Review) e uso crítico de IA generativa | *(revisão pendente)* | 18/09/2026 |
-| 1.5 | Diassis Bezerra Nascimento | Adaptação da tabela "Rastro de reuniões": remoção da coluna "Ata da Reunião" (inexistente) e inclusão dos links reais e das datas (14/09/2026 e 16/09/2026) das duas reuniões realizadas | *(revisão pendente)* | 18/09/2026 |
+| 1.4 | Diassis Bezerra Nascimento | Substituição do parágrafo inicial de "Fluxo de Trabalho & Metodologia" por tópicos formais sobre reuniões via Microsoft Teams, Revisão em Pares (Peer Review) e uso crítico de IA generativa | Claude | 18/09/2026 |
+| 1.5 | Diassis Bezerra Nascimento | Adaptação da tabela "Rastro de reuniões": remoção da coluna "Ata da Reunião" (inexistente) e inclusão dos links reais e das datas (14/09/2026 e 16/09/2026) das duas reuniões realizadas | Claude | 18/09/2026 |
 | 1.6 | Diassis Bezerra Nascimento | Revisão final de Diassis sobre as alterações realizadas neste documento durante a sessão | Claude | 18/09/2026 |
 

@@ -6,7 +6,7 @@ Esta página reúne a análise crítica do uso de Inteligência Artificial Gener
 
 Na Entrega 2, a subequipe elaborou e revisou em conjunto os **Diagramas de Classes e de Componentes** ([Foco 01](./foco-01.md)) e os **Diagramas de Sequência e de Atividades** ([Foco 02](./foco-02.md)). O Rich Picture, o SIG/NFR de acessibilidade, o BPMN e as observações da engenharia reversa produzidos na Entrega 1 serviram de referência para delimitar o escopo e comparar os modelos: [2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01](https://github.com/UnBArqDsw2026-2-Turma02/2026.2-T02-_G1_ProjetoComercioEletronico_Entrega_01).
 
-O uso de **ChatGPT por Uires** está documentado nas interações que apoiaram a interpretação dos slides, a elaboração de rascunhos editáveis dos diagramas e a organização dos textos da Entrega 2. Os diagramas foram construídos e revisados pelos três integrantes. **Diassis e Nayra devem confirmar individualmente se utilizaram IA, de que forma a utilizaram e o que aprenderam**; a participação conjunta nos diagramas não autoriza atribuir a eles prompts ou experiências pessoais ainda não relatadas.
+O uso de **ChatGPT por Uires** está documentado nas interações que apoiaram a interpretação dos slides, a elaboração de rascunhos editáveis dos diagramas e a organização dos textos da Entrega 2. Os diagramas foram construídos e revisados pelos três integrantes. **Diassis e Nayra confirmaram individualmente, na Seção 3, se utilizaram IA, de que forma a utilizaram e o que aprenderam**; a participação conjunta nos diagramas não autoriza atribuir a eles prompts ou experiências pessoais que não tenham relatado.
 
 As respostas da IA foram tratadas como **propostas a conferir**, não como evidência da arquitetura interna da Decathlon. A responsabilidade pelas escolhas e pela apresentação dos modelos é da subequipe.
 
@@ -50,14 +50,14 @@ As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalh
 - **Solicitação registrada:** “consegue gerar: Modelagem Estática UML: Diagrama de Componentes. Modelagem Dinâmica UML: Diagrama de Sequência. IA Generativa: uso, validação, limitações e lições aprendidas de cada integrante.”
 - **Apoio obtido:** organização inicial dos focos e rascunhos dos dois diagramas, posteriormente trabalhados pela equipe. Ao final, a subequipe também incluiu **Diagrama de Classes** no Foco 01 e **Diagrama de Atividades** no Foco 02.
 - **Decisão e validação:** a escolha do que apresentar foi comparada com as diretrizes da entrega, os slides de modelagem estática e dinâmica, o BPMN e a engenharia reversa. A equipe manteve os quatro artefatos que elaborou e revisou, distinguindo os dois modelos estáticos dos dois dinâmicos.
-- **Evidência:** **[INSERIR LINK DA CONVERSA, SE COMPARTILHADA, E DOS COMMITS DOS MODELOS]**.
+- **Evidência:**
 
 ### 4.2. Portas e interfaces do Diagrama de Componentes
 
 - **Solicitação registrada:** “E a bolinha e quadrados? Interface bolinha e quadrados porta”.
 - **Apoio obtido:** explicação da diferença entre **porta** (quadrado na borda), **interface fornecida** (bolinha) e **interface requerida** (encaixe), seguida de ajustes no modelo proposto.
 - **Decisão e validação:** o grupo conferiu os símbolos com os exemplos de Diagrama de Componentes apresentados na disciplina e com o [diagrama publicado no Foco 01](Assets/Diagrama_componentes_subequipe2.jpg). A aparência plausível de um símbolo gerado por IA, por si só, não garante que sua ligação represente corretamente a dependência modelada.
-- **Evidência:** **[INSERIR LINK DA CONVERSA, SE COMPARTILHADA, E DO COMMIT DO DIAGRAMA]**.
+- **Evidência:**
 
 ### 4.3. Versões editáveis e revisão dos fluxos
 
@@ -65,14 +65,14 @@ As solicitações abaixo foram feitas por **Uires ao ChatGPT** durante o trabalh
 - **Apoio obtido:** propostas editáveis para apoiar o trabalho no [diagrams.net](https://app.diagrams.net/) e explicações sobre os diagramas. A equipe pôde ajustar os elementos visualmente, revisar a legibilidade e comparar a sequência com o fluxo que havia sido levantado.
 - **Decisão e validação:** os três integrantes elaboraram e revisaram seus próprios diagramas. No [Diagrama de Sequência](Assets/Diagrama_sequencia_subequipe2.jpg), verificaram mensagens, retornos, `loop` e alternativas `alt`. O [Diagrama de Atividades](Assets/Diagrama_atividades_subequipe2.jpeg) foi documentado com seu recorte específico: navegação por modalidade até a visualização de item ou conteúdo, sem atribuir a ele etapas de pagamento que não foram desenhadas.
 - **Ponto ainda a conferir:** `finalizarCompra()` aparece depois do bloco que inclui **produto indisponível**. É recomendável explicitar no próprio desenho a condição **`[carrinho com item disponível]`** para prosseguir ao checkout.
-- **Evidência:** **[INSERIR LINKS DAS VERSÕES EDITÁVEIS, DOS COMMITS E DA CONVERSA, SE DISPONÍVEIS]**.
+- **Evidência:**
 
 ### 4.4. Organização da documentação
 
 - **Solicitação registrada:** elaboração das páginas de visão geral, modelagem dinâmica e IA generativa com base nos modelos apresentados por outras subequipes.
 - **Apoio obtido:** rascunhos em Markdown para organizar introdução, objetivos, participação, decisões de modelagem, imagens, referências e histórico de versões.
 - **Decisão e validação:** o texto foi adaptado ao **Fluxo B** e aos quatro diagramas efetivamente apresentados pela Subequipe 02. Referências ao fluxo de autenticação da Subequipe 01 e a serviços de pagamento específicos de outra subequipe não foram transferidas automaticamente para este relatório. Nomes de autores, revisores, reuniões e links de commits precisam corresponder a registros reais.
-- **Evidência:** **[INSERIR COMMITS DE DOCUMENTAÇÃO E, SE HOUVER, REGISTROS DE REVISÃO]**.
+- **Evidência:**
 
 ---
 
@@ -121,7 +121,7 @@ Os modelos e este texto devem ser apresentados como resultados de **engenharia r
 
 ## 8. Uso de Inteligência Artificial Generativa
 
-**Ferramenta documentada:** [ChatGPT, da OpenAI](https://chatgpt.com/), utilizado por Uires para discutir notação e escopo, solicitar rascunhos editáveis e organizar os relatórios. Os diagramas foram elaborados e revisados em conjunto por Uires, Diassis e Nayra. Cada integrante deve confirmar no quadro da Seção 3 seu próprio uso ou avaliação crítica de conteúdo apoiado por IA.
+**Ferramenta documentada:** [ChatGPT, da OpenAI](https://chatgpt.com/), utilizado por Uires para discutir notação e escopo, solicitar rascunhos editáveis e organizar os relatórios. Os diagramas foram elaborados e revisados em conjunto por Uires, Diassis e Nayra. Cada integrante confirmou no quadro da Seção 3 seu próprio uso ou avaliação crítica de conteúdo apoiado por IA.
 
 **Transparência:** links para conversas compartilhadas podem ser acrescentados na Seção 4; links de commits comprovam as alterações registradas no repositório. Não inserir links, datas, prompts ou participações que não possam ser verificados.
 
