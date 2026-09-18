@@ -91,14 +91,11 @@ O diagrama a seguir detalha o processo de login do usuário no sistema de loja c
 **Recurso utilizado:** Mermaid, com refinamento do modelo a partir dos artefatos de **Rich Picture, BPMN, NFR Framework/SIG e Product Backlog**.
 
 
-### 4.2. Elementos e Recursos da Notação Utilizados
+## Referências 
 
----
+- [IBM — Sequence diagrams](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=uml-sequence-diagrams)
+- [Mermaid — Diagrama de sequência](https://mermaid.ai/app/projects/e2bde411-587f-459c-b0bf-9e6b7432828e/diagrams/33c08db6-f905-4a68-a163-730aac63e207/version/v0.1/edit)
 
-## 5. Embasamento Teórico e Decisões de Projeto
-
-
----
 
 > **Histórico de Versões**
 > 
@@ -106,5 +103,5 @@ O diagrama a seguir detalha o processo de login do usuário no sistema de loja c
 > | :---: | :---: | :--- | :--- | :---: |
 > | 0.1 | 16/09/2026 | Criação e Estruturação da página | [Dylan Cavalcante](https://github.com/dylancavalcante) | não revisado |
 > | 0.2 | 17/09/2026 | Adição do diagrama do modelo dinâmico | [Samuel Felipe](https://github.com/TerminaKng05) | não revisado |
-> | 0.3 | 17/09/2026 | Adição da introdução e metodologia | [Mariana Ribeiro](https://github.com/marianagonzaga0) | não revisado |
+> | 0.3 | 17/09/2026 | Adição da introdução, metodologia e referências | [Mariana Ribeiro](https://github.com/marianagonzaga0) | não revisado |
 
