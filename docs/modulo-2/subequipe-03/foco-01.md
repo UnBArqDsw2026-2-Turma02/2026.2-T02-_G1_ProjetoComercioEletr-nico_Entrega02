@@ -32,13 +32,13 @@ A Tabela a seguir apresenta a matriz de contribuições do grupo no desenvolvime
 
 | Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
 | :--- | :--- | :--- | :---: |
-| **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | - |
-| **Metodologia e Ferramental** | Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | - |
-| **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | - |
-| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira, Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | - |
-| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | Camile Barbosa Gonzaga de Oliveira | - |
-| **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | - |
-| **Lições Aprendidas & Conclusão** | Rafaela Andrea Radamés Guerra, Camile Barbosa Gonzaga de Oliveira e Letícia de Carvalho dos Santos | Consolidação Coletiva | - |
+| **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | `51953e6` |
+| **Metodologia e Ferramental** | Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | `fce2af1` ; `51953e6` |
+| **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | `696d80e` ; `621abec` |
+| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira, Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | `65d659c` ; `2082579` ; `621abec` |
+| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | Camile Barbosa Gonzaga de Oliveira | `621abec` ; `adbc82b`  |
+| **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | `fce2af1` |
+| **Lições Aprendidas & Conclusão** | Rafaela Andrea Radamés Guerra, Camile Barbosa Gonzaga de Oliveira e Letícia de Carvalho dos Santos | Consolidação Coletiva | `fce2af1` |
 ---
 
 ## Metodologia e Ferramental
