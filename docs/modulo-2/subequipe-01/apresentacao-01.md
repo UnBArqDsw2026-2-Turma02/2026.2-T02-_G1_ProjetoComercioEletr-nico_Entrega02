@@ -29,23 +29,16 @@ Para garantir a qualidade dos artefatos, rastreabilidade e embasamento teórico 
   - Registros de reuniões por meio de **Atas de Reunião** estruturadas e gravação dos encontros síncronos.
   - Validação teórica embasada na literatura clássica de Notação UML (*Fowler, Booch, Larman*).
 
-#### Rastro de reuniões
-
-| Data | Pauta / Objetivo | Ata da Reunião | Gravação |
-| :---: | :--- | :---: | :---: |
-| - | - | [Ata de reunião](links/ata01.md) | [Vídeo da Reunião](https://youtube.com/...) |
-
----
 
 ### Matriz Geral de Contribuições
 
 Consolidado da atuação de cada participante, detalhando o foco assumido e os artefatos sob responsabilidade direta.
 
-| Membro | Foco Principal | Artefato(s) Assumido(s) | Commits & Evidências |
-| :--- | :--- | :--- | :---: |
-| **Dylan Portela Cavalcante** | - | - | [Commits](https://github.com/...) |
-| **Mariana Ribeiro Santana Gonzaga** | - | - | [Commits](https://github.com/...) |
-| **Samuel Felipe Lira de Souza** | - | - | [Commits](https://github.com/...) |
+| Membro | Foco Principal | Artefato(s) Assumido(s) | 
+| :--- | :--- | :--- | 
+| **Dylan Portela Cavalcante** | Modelagem estática | Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa  |
+| **Mariana Ribeiro Santana Gonzaga** | Apoio em Modelagem estática e Modelagem dinâmica |Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa  | 
+| **Samuel Felipe Lira de Souza** | Modelagem dinâmica | Modelagem dinâmica, Modelagem estática, Product Backlog (MoSCoW) e IA generativa | 
 
 
 ---
