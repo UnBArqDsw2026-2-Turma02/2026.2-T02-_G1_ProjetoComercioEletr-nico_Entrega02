@@ -4,9 +4,9 @@
 | Nome do membro |
 |---|
 | **Diassis Bezerra Nascimento** |
+| **Nayra Silva Nery** |
+| **Uires Carlos de Oliveira** |
 
-EXEMPLO:
-| Fulano 
 ### Metodologia do Foco_01
 O trabalho aplicou engenharia reversa sobre a interface pública da Decathlon. A equipe não teve acesso ao código-fonte, às APIs ou ao banco de dados. O modelo representa uma especificação recuperada do comportamento observável e não afirma que as classes correspondem à implementação interna real da empresa.
 
