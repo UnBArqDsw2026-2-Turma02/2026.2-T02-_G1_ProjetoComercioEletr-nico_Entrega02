@@ -26,41 +26,32 @@ Esta abordagem tridimensional garante que qualquer funcionalidade identificada n
 
 ## Participação e Rastreabilidade do Artefato
 
+A Tabela a seguir apresenta a matriz de contribuições do grupo no desenvolvimento da documentação da Modelagem Estática, detalhando a autoria principal, a revisão em pares e a evidência associada a cada etapa do relatório.
+
+**Tabela — Matriz de Contribuições e Rastreabilidade do Artefato (Modelagem Estática)**
+
 | Etapa / Tópico do Relatório | Autor(a) Principal | Revisor(a) em Par | Evidência / Commit |
 | :--- | :--- | :--- | :---: |
-| **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
-| **Metodologia e Ferramental** | Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
-| **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
-| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira, Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | [Commit](https://github.com/...) |
-| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos| Camile Barbosa Gonzaga de Oliveira | [Commit](https://github.com/...) |
-| **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | [Commit](https://github.com/...) |
-| **Lições Aprendidas & Conclusão** | [preencher] | [preencher] | [Commit](https://github.com/...) |
+| **Estruturação da Página & Introdução** | Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | - |
+| **Metodologia e Ferramental** | Camile Barbosa Gonzaga de Oliveira e Rafaela Andrea Radamés Guerra | Letícia de Carvalho dos Santos | - |
+| **Diagrama de Casos de Uso (Tópico 1)** | Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Camile Barbosa Gonzaga de Oliveira | - |
+| **Diagrama de Classes (Tópico 2)** | Camile Barbosa Gonzaga de Oliveira, Letícia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | - |
+| **Diagrama de Pacotes (Tópico 3)** | Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos | Camile Barbosa Gonzaga de Oliveira | - |
+| **Uso da IA Generativa & Validação** | Camile Barbosa Gonzaga de Oliveira | Rafaela Andrea Radamés Guerra | - |
+| **Lições Aprendidas & Conclusão** | Rafaela Andrea Radamés Guerra, Camile Barbosa Gonzaga de Oliveira e Letícia de Carvalho dos Santos | Consolidação Coletiva | - |
 ---
 
 ## Metodologia e Ferramental
 
-A construção dos artefatos de modelagem estática não partiu de documentação
-oficial da plataforma — inexistente para o sistema objeto de estudo — mas de um
-processo de **Engenharia Reversa orientada a evidências**, estruturado em quatro
-etapas sequenciais:
+A construção dos artefatos de modelagem estática não partiu de documentação oficial da plataforma — inexistente para o sistema objeto de estudo — mas de um processo de **Engenharia Reversa orientada a evidências**, estruturado em quatro etapas sequenciais:
 
-**Etapa 1 — Testes de Caixa-Preta.** Percorreu-se o Fluxo C (Carrinho >> Checkout
->> Pagamento) sob a ótica do usuário final, sem acesso ao código-fonte,
-registrando cada interação e a resposta observável do sistema.
+**Etapa 1 — Testes de Caixa-Preta.** Percorreu-se o Fluxo C (Carrinho >> Checkout >> Pagamento) sob a ótica do usuário final, sem acesso ao código-fonte, registrando cada interação e a resposta observável do sistema.
 
-**Etapa 2 — Inspeção de Tráfego de Rede.** Com o DevTools (F12), nas abas
-*Network* (filtro XHR/Fetch), *Sources* e *Console*, capturaram-se as requisições
-HTTP, os *payloads* JSON e os scripts de terceiros acionados em cada cenário,
-resultando nas **18 evidências** que sustentam este relatório.
+**Etapa 2 — Inspeção de Tráfego de Rede.** Com o DevTools (F12), nas abas *Network* (filtro XHR/Fetch), *Sources* e *Console*, apturaram-se as requisições HTTP, os *payloads* JSON e os scripts de terceiros acionados em cada cenário, resultando nas **18 evidências** que sustentam este relatório.
 
-**Etapa 3 — Abstração e Modelagem.** Os dados brutos foram traduzidos em
-elementos UML: eventos de interface originaram **Casos de Uso**; estruturas JSON
-(`orderForm`, `shippingData`, `paymentData`) originaram **Classes**; e a
-segregação entre domínios de serviço originou os **Pacotes**.
+**Etapa 3 — Abstração e Modelagem.** Os dados brutos foram traduzidos em elementos UML: eventos de interface originaram **Casos de Uso**; estruturas JSON (`orderForm`, `shippingData`, `paymentData`) originaram **Classes**; e a segregação entre domínios de serviço originou os **Pacotes**.
 
-**Etapa 4 — Revisão em Pares.** Todo artefato produzido foi submetido a revisão
-por um segundo integrante, conforme a matriz de responsabilidades apresentada na
-seção *Participação e Rastreabilidade do Artefato*.
+**Etapa 4 — Revisão em Pares.** Todo artefato produzido foi submetido a revisão por um segundo integrante, conforme a matriz de responsabilidades apresentada na seção *Participação e Rastreabilidade do Artefato*.
 
 ### Ferramental Utilizado
 
@@ -71,11 +62,9 @@ seção *Participação e Rastreabilidade do Artefato*.
 | **Lucidchart / draw.io** | Elaboração dos Diagramas de Casos de Uso e de Pacotes, com controle de notação UML. |
 | **GitHub** | Versionamento dos artefatos, rastreabilidade via *commits* e revisão em pares por *Pull Request*. |
 | **GitHub Pages / Docsify** | Publicação e navegação da documentação do projeto. |
-| **IA Generativa (Claude / ChatGPT)** | Apoio à estruturação inicial de hipóteses arquiteturais e revisão textual, **sempre** com validação humana posterior contra as evidências coletadas (ver seção *Uso da IA Generativa*). |
+| **IA Generativa (Claude / ChatGPT / Gemini)** | Apoio à estruturação inicial de hipóteses arquiteturais e revisão textual, **sempre** com validação humana posterior contra as evidências coletadas (ver seção *Uso da IA Generativa*). |
 
-> **Nota metodológica:** nenhum artefato gerado com apoio de IA foi incorporado
-> sem confronto direto com as evidências empíricas do DevTools. A IA atuou como
-> ferramenta de aceleração de rascunho, não como fonte de verdade.
+> **Nota metodológica:** nenhum artefato gerado com apoio de IA foi incorporado sem confronto com as evidências empíricas do DevTools. A IA atuou como ferramenta de aceleração de rascunho, não como fonte de verdade.
 
 ## 1. Diagrama de Casos de Uso
 
@@ -178,8 +167,8 @@ Refletem comportamentos opcionais disparados sob condições específicas.
 
 | Versão | Data | Modificações Realizadas | Artefato |
 | :--- | :--- | :--- | :--- |
-| **v1.0** | DD/MM/202X | Mapeamento inicial com os atores e casos de uso básicos. | [Versão v1.0](./caminho/para/diagrama-v1.png) |
-| **v2.0 (Atual)** | DD/MM/202X | Refatoração visual com adição dos 5 módulos, adição de dependências `<<include>>`/`<<extend>>` e alinhamento de atores externos. | Artefato exibido na Figura 1.1. |
+| **v1.0** |15/09/2026 | Mapeamento inicial com os atores e casos de uso básicos. | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/Diagrama_de_caso_de_uso.png) |
+| **v2.0 (Atual)** | 16/09/2026 | Refatoração visual com adição dos 5 módulos, adição de dependências `<<include>>`/`<<extend>>` e alinhamento de atores externos. | Artefato exibido na Figura 1.1. |
 
 > **Nota de Versionamento:** A transição da versão v1.0 para v2.0 foi motivada pela necessidade de organizar a complexidade visual do modelo e garantir rastreabilidade direta com os microsserviços VTEX identificados nas evidências.
 </details>
@@ -253,6 +242,12 @@ As escolhas de modelagem do domínio foram embasadas nos princípios de Orienta�
 
 ### 2.4. Diagrama de Classes
 
+![Figura 2.1. Diagrama de Classes - Fluxo C](../../assets/images/DiagramaClassesFluxoCV2.png)
+
+<p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira, Leticia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra.</sub></p>
+
+<details>
+<summary><b> Código Mermaid (Clique para expandir)</b></summary>
 
 ```mermaid
 classDiagram
@@ -385,16 +380,14 @@ classDiagram
   Pedido --> Logistica : encaminha
   Cliente --> SuporteAtendimento : aciona
 ```
-
-
+</details>
+<br>
 <details>
-<p align="center"><sub>Fonte: Elaborado por Camile Barbosa Gonzaga de Oliveira, Leticia de Carvalho dos Santos e Rafaela Andrea Radamés Guerra.</sub></p>
-
 <summary><b> Histórico de Versionamento e Evolução do Diagrama (Clique para expandir)</b></summary>
 
 | Versão | Data | Modificações Realizadas | Artefato |
 | :--- | :--- | :--- | :--- |
-| **v1.0** | 14/09/2026 | A modelagem estática partiu do estudo de Rich Picture, SIG (NFR Framework) e Engenharia Reversa do fluxo de pagamento (checkout, orquestrador, gateway/adquirente, marketplace e logística), conduzido pela Subequipe 03 no Módulo 1, com o uso de IA Generativa  | [Versão v1.0](../../assets/images/DiagramaClassesFluxoCV1.png) |
+| **v1.0** | 14/09/2026 | A modelagem estática partiu do estudo de Rich Picture, SIG (NFR Framework) e Engenharia Reversa do fluxo de pagamento (checkout, orquestrador, gateway/adquirente, marketplace e logística), conduzido pela Subequipe 03 no Módulo 1, com o uso de IA Generativa  | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/images/DiagramaClassesFluxoCV1.png ':ignore') |
 | **v2.0 (Atual)** | 17/09/2026 | Refatoração técnica baseada em engenharia reversa, Casos de Teste de Caixa-Preta e Inspeção via DevTools  | Artefato exibido no tópico 2.4. Diagrama de Classes |
 
 > **Nota de Versionamento:** A transição da versão v1.0 para v2.0 foi motivada pela necessidade de organizar a complexidade visual do modelo e garantir rastreabilidade direta com os microsserviços VTEX identificados nas evidências.
@@ -450,15 +443,52 @@ A estrutura de pacotes foi derivada da análise das requisições de rede, dos s
 
 ### 3.4. Diagrama de Pacotes
 
-![Figura 2.1. Diagrama de Classes - Fluxo C](../../assets/images/DiagramaPacotesFluxoC.png)
+![Figura 2.1. Diagrama de Classes - Fluxo C](../../assets/images/DiagramaPacotesFluxoCv2.png)
 
 <p align="center"><sub>Fonte: Elaborado por Rafaela Andrea Radamés Guerra e Letícia de Carvalho dos Santos.</sub></p>
 
 <details>
-<summary><b>Versionamento</b></summary>
+<summary><b> Código Mermaid (Clique para expandir)</b></summary>
 
-> A estrutura conceitual deste diagrama foi inicialmente gerada com suporte de IA e, posteriormente, submetida a um processo de revisão e validação pela equipe. Verificou-se que a organização dos pacotes em camadas (*Frontend UI*, *Core VTEX* e *External Services*) reflete camadas verificadas em estudo técnico realizado. Portanto, a versão foi aprovada como artefato definitivo deste módulo.
+```graph TB
+    subgraph Frontend_UI["Camada de Apresentacao (Frontend Next.js)"]
+        UI_Catalogo["Navegacao e Catalogo"]
+        UI_Checkout["Componentes de Checkout (.tsx)"]
+    end
 
+    subgraph VTEX_Core["Core E-Commerce (Plataforma VTEX)"]
+        Core_OrderForm["Gestao de Sessao (OrderForm)"]
+        Core_Logistica["Servicos de Logistica e Frete"]
+        Core_Promocoes["Engine de Promocoes e Cashback"]
+    end
+
+    subgraph External_Services["Servicos e Integracoes Externas"]
+        Ext_Antifraude["Motor Antifraude (Vendavalida)"]
+        Ext_Gateway["Gateway / Processador Pagamento"]
+        Ext_ViaCEP["Servico de Enderecamento (ViaCEP)"]
+    end
+
+    %% Relações e Dependências de Pacotes (Sintaxe tracejada -.-)
+    UI_Checkout -.- |Consome APIs REST| Core_OrderForm
+    UI_Catalogo -.- |Consulta Dados| Core_OrderForm
+    Core_OrderForm -.- |Valida Endereco| Core_Logistica
+    Core_OrderForm -.- |Aplica Regras| Core_Promocoes
+    Core_Logistica -.- |Busca CEP| Ext_ViaCEP
+    Core_OrderForm -.- |Coleta Telemetria| Ext_Antifraude
+    Core_OrderForm -.- |Processa Transacao| Ext_Gateway
+```
+
+</details>
+<br>
+<details>
+<summary><b> Histórico de Versionamento e Evolução do Diagrama (Clique para expandir)</b></summary>
+
+| Versão | Data | Modificações Realizadas | Artefato |
+| :--- | :--- | :--- | :--- |
+| **v1.0** | 16/09/2026 | Prosposta inicial de diagrama através de prompt de comando em IA, por Letícia | [Versão v1.0](/2026.2-T02-_G1_ProjetoComercioEletr-nico_Entrega02/assets/DiagramaPacotesFluxoCv1.png ':ignore') |
+| **v2.0 (atual)** | 17/09/2026 | Adequação do modelo às análises de evidencias do sistema | Artefato exibido no tópico |
+
+> **Nota de Versionamento:** A transição de versões foi motivada pela necessidade de organizar a complexidade visual do modelo e garantir rastreabilidade direta com os microsserviços VTEX identificados nas evidências.
 </details>
 
 ---
@@ -493,9 +523,10 @@ motivou a refatoração da v1.0 para a v2.0 do Diagrama de Classes.
 ---
 > | Versão | Data | Descrição | Autores | Revisor |
 > | :---: | :---: | :--- | :--- | :---: |
-> | 0.1 | 12/09/2026 | Criação e estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) |
-> | 0.2 | 14/09/2026 | Elaboração do Diagrama de Classes e redação dos tópicos 2.2 a 2.4 | [Camile Barbosa](https://github.com/Camile0318) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
-> | 0.3 | 14/09/2026 | Criação dos componentes do Diagrama de Casos de Uso | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) |
-> | 0.4 | 17/09/2026 | Organização da página para inclusão de novos artefatos | [Rafaela Andrea](https://github.com/radamesGuerra) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
-> | 0.5 | 17/09/2026 | Refatoração do Diagrama de Classes para a v2.0, inclusão da seção de Metodologia e Ferramental e da seção de Uso de IA Generativa | [Camile Barbosa](https://github.com/Camile0318) | [Rafaela Andrea](https://github.com/radamesGuerra) |
-> |0.6 | 17/09/2026 | Colaboração nos diagramas de pacote e de classes | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss)| [Camile Barbosa](https://github.com/Camile0318) |
+> | `0.1` | 12/09/2026 | Criação e estruturação da página | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) |
+> | `0.2` | 14/09/2026 | Elaboração do Diagrama de Classes e redação dos tópicos 2.2 a 2.4 | [Camile Barbosa](https://github.com/Camile0318) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
+> | `0.3` | 14/09/2026 | Criação dos componentes do Diagrama de Casos de Uso | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) | [Camile Barbosa](https://github.com/Camile0318) |
+> | `0.4` | 17/09/2026 | Organização da página para inclusão de novos artefatos | [Rafaela Andrea](https://github.com/radamesGuerra) | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss) |
+> | `0.5` | 17/09/2026 | Refatoração do Diagrama de Classes para a v2.0, inclusão da seção de Metodologia e Ferramental e da seção de Uso de IA Generativa | [Camile Barbosa](https://github.com/Camile0318) | [Rafaela Andrea](https://github.com/radamesGuerra) |
+> | `0.6` | 17/09/2026 | Colaboração nos diagramas de pacote e de classes | [Letícia de Carvalho dos Santos](https://github.com/LeticiaSantosss)| [Camile Barbosa](https://github.com/Camile0318) |
+> | `1.0` | 18/09/2026 | Versão final | [Rafaela Andrea](https://github.com/radamesGuerra) | [Camile Barbosa](https://github.com/Camile0318) e [Leticia Santos](https://github.com/LeticiaSantosss) |
