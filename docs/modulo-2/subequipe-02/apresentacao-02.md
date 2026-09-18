@@ -1,150 +1,71 @@
-# SubEquipe_02
+# Visão Geral e Gestão - Subequipe 02
 
-**Projeto:** comércio eletrônico da Decathlon  
-**Escopo:** Fluxo B — Busca de Produtos, Carrinho e Compra  
-**Integrantes:** [Diassis Bezerra Nascimento](https://github.com/Diaxiz), [Nayra Silva Nery](https://github.com/NayraNery127) e [Uires Carlos de Oliveira](https://github.com/uires2023).
+### Apresentação da Subequipe
 
-Este é o relatório da Entrega 2 na estrutura de focos indicada no template da disciplina. **Os três integrantes elaboraram e revisaram em conjunto os quatro diagramas apresentados.** Os três focos e seus artefatos são documentados abaixo.
+A Subequipe 02 é responsável pelo desenvolvimento e pela documentação dos modelos UML do **Fluxo de Navegação B: Busca de Produtos, Carrinho e Compra** no comércio eletrônico da Decathlon, incluindo a navegação por modalidades e produtos e o apoio crítico de IA generativa.
 
-> **Natureza dos modelos:** são propostas conceituais elaboradas a partir da engenharia reversa. Não representam a arquitetura interna oficial da Decathlon. Regras comerciais específicas devem ser identificadas como observadas, documentadas ou apenas hipotéticas.
+**Diassis, Nayra e Uires elaboraram e revisaram em conjunto** os Diagramas de Classes, Componentes, Sequência e Atividades. Os modelos são propostas conceituais baseadas na engenharia reversa; não descrevem a arquitetura interna oficial da Decathlon.
 
-## Focos do Relatório
+Abaixo estão apresentados os integrantes da subequipe.
 
-### FOCO_01: Modelagem Estática
-
-**Entrega mínima:** um modelo estático na notação UML. A subequipe escolheu apresentar **Diagrama de Classes e Diagrama de Componentes**, que tratam do mesmo escopo sob perspectivas diferentes.
-
-### Participantes no Foco_01
-
-| Nome do membro | Participação no foco | Evidência |
-| :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes. | Inserir link de commit ou histórico. |
-| Nayra Silva Nery | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes. | Inserir link de commit ou histórico. |
-| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos Diagramas de Classes e de Componentes, incluindo ajustes de portas e interfaces. | Inserir link de commit ou histórico. |
-
-### Metodologia do Foco_01
-
-1. Os três integrantes trabalharam em conjunto na construção e revisão dos dois modelos. A equipe usou os achados do **Rich Picture** e da engenharia reversa da Entrega 1 para delimitar funcionalidades relativas à página inicial, aos produtos, ao carrinho e à compra.
-2. O Diagrama de Classes organiza conceitos do domínio, como produto, categoria, promoção, cliente, carrinho e pedido. O Diagrama de Componentes organiza subsistemas conceituais, responsabilidades e interfaces.
-3. A notação UML foi confrontada com os materiais da disciplina: relações e multiplicidades no modelo de classes; componentes, portas, interfaces fornecidas e requeridas no modelo de componentes.
-4. As observações de acessibilidade registradas no **SIG/NFR da Entrega 1** foram mantidas como preocupação do modelo. Detalhes da arquitetura interna que não podem ser observados foram identificados como conceituais.
-
-**Registro da colaboração:** inserir aqui, se disponíveis, os links de atas, gravações e versões intermediárias que mostrem como cada integrante colaborou neste foco.
-
-### Modelo Estático
-
-#### Diagrama de Classes
-
-O modelo de classes apresenta conceitos ligados ao catálogo e às promoções, à compra e às funcionalidades de clube e cartão-presente. A imagem abaixo corresponde à **aba de visão geral**, que organiza essas áreas e indica onde encontrar os diagramas no arquivo editável.
-
-![Visão geral auxiliar do modelo de classes da Subequipe 02](../../assets/images/Diagrama_classes_subequipe2.jpg)
-
-**Atenção:** a imagem acima é um mapa auxiliar, não o Diagrama de Classes UML. Os diagramas de classes propriamente ditos estão nas **abas 2, 3 e 4** de `Modelo_Estatico_Decathlon.drawio`. Para apresentar esse segundo modelo estático no GitPages, publicar o arquivo editável e inserir também as imagens exportadas dessas abas.
-
-Antes de publicar, conferir as regras específicas registradas no modelo, como validade e quantidade de cartões-presente, e indicar sua fonte ou tratá-las como hipóteses de modelagem.
-
-#### Diagrama de Componentes
-
-O modelo organiza **Loja Virtual Decathlon**, **Estoque** e **Pedidos e Pagamento**, com componentes como Busca e Catálogo, Carrinho, Autenticação, Controle de Estoque, Checkout e Pedidos, Pagamento e Clientes. As portas e interfaces indicam serviços oferecidos ou necessários nas relações entre esses componentes.
-
-![Diagrama de Componentes da Subequipe 02](../../assets/images/Diagrama_componentes_subequipe2.jpg)
-
-**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Componentes, caso ele seja publicado no repositório.
-
-**Justificativa da dupla modelagem:** Classes detalha entidades e relações do domínio; Componentes apresenta módulos conceituais e suas interfaces. A presença dos dois modelos vai além do mínimo de um diagrama estático.
+| Foto | Nome | GitHub |
+| :---: | :--- | :---: |
+| <img src="https://github.com/Diaxiz.png" width="80" style="border-radius: 50%;" alt="Foto de Diassis"> | **Diassis Bezerra Nascimento** | [@Diaxiz](https://github.com/Diaxiz) |
+| <img src="https://github.com/NayraNery127.png" width="80" style="border-radius: 50%;" alt="Foto de Nayra"> | **Nayra Silva Nery** | [@NayraNery127](https://github.com/NayraNery127) |
+| <img src="https://github.com/uires2023.png" width="80" style="border-radius: 50%;" alt="Foto de Uires"> | **Uires Carlos de Oliveira** | [@uires2023](https://github.com/uires2023) |
 
 ---
 
-### FOCO_02: Modelagem Dinâmica
+### Fluxo de Trabalho & Metodologia
 
-**Entrega mínima:** um modelo dinâmico na notação UML. A subequipe escolheu apresentar **Diagrama de Sequência e Diagrama de Atividades**.
+Para orientar a modelagem, a subequipe retomou o **Rich Picture**, o **SIG/NFR de Acessibilidade** e o **BPMN** produzidos na Entrega 1. Os três integrantes construíram e revisaram os modelos em conjunto, comparando o escopo e a notação com os materiais da disciplina. O relatório da Entrega 2 está organizado nos três focos exigidos: Modelagem Estática, Modelagem Dinâmica e IA Generativa.
 
-### Participantes no Foco_02
+#### Práticas Adotadas
 
-| Nome do membro | Participação no foco | Evidência |
-| :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades. | Inserir link de commit ou histórico. |
-| Nayra Silva Nery | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades. | Inserir link de commit ou histórico. |
-| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos Diagramas de Sequência e de Atividades, incluindo ajustes de mensagens e caminhos alternativos. | Inserir link de commit ou histórico. |
+- **Co-criação dos modelos:** os três integrantes participaram da elaboração e da revisão dos Diagramas de Classes, Componentes, Sequência e Atividades.
+- **Divisão modular da documentação:** o relatório apresenta separadamente os modelos estáticos (Foco 01), os modelos dinâmicos (Foco 02) e os pontos de vista individuais sobre IA (Foco 03).
+- **Revisão conjunta:** os diagramas foram examinados quanto ao escopo, à clareza e aos elementos UML. O Diagrama de Componentes apresenta portas e interfaces; o de Sequência apresenta mensagens e caminhos alternativos; o de Atividades representa a navegação por modalidade. No arquivo de Classes, a primeira aba é uma visão geral auxiliar e as demais apresentam os diagramas de classes.
+- **Uso crítico de IA generativa:** a IA apoiou a preparação e a revisão de rascunhos. Cada integrante deve registrar individualmente como a utilizou, como conferiu as sugestões, quais limitações encontrou e o que aprendeu.
+- **Evidências e rastreabilidade:** os artefatos da Entrega 1 ajudam a justificar as escolhas da Entrega 2. Os links de commits, versões, atas e gravações devem ser acrescentados quando existirem, para demonstrar as contribuições individuais.
 
-### Metodologia do Foco_02
+#### Rastro de reuniões
 
-1. Os três integrantes construíram e revisaram os modelos dinâmicos em conjunto. O **BPMN da Entrega 1** serviu de referência para identificar tarefas, decisões e caminhos alternativos da busca até a compra.
-2. No Diagrama de Sequência foram representadas mensagens entre Cliente, Interface da Loja, Catálogo, Estoque, Carrinho, Checkout e Pedidos e Pagamento. O modelo inclui repetição da visualização de produtos e alternativas de disponibilidade e pagamento.
-3. No Diagrama de Atividades foram representadas as ações do usuário e do sistema na **navegação por modalidade**, até a seleção de uma categoria, campanha ou item.
-4. Os dois modelos foram analisados conforme sua finalidade e a notação apresentada nos materiais de modelagem dinâmica da disciplina.
+Registrar somente reuniões realizadas e suas evidências disponíveis.
 
-**Registro da colaboração:** inserir aqui, se disponíveis, atas, gravações e links de versões dos modelos produzidas pelos integrantes.
-
-### Modelo Dinâmico
-
-#### Diagrama de Sequência — Busca, Carrinho e Compra
-
-O cliente pesquisa um produto; a interface consulta o catálogo e o estoque; o cliente visualiza detalhes e tenta adicionar um item ao carrinho. Havendo disponibilidade, inicia o checkout. O pagamento aprovado conduz à atualização do estoque e à confirmação do pedido; a indisponibilidade do item e a recusa do pagamento são caminhos alternativos.
-
-![Diagrama de Sequência da Subequipe 02](../../assets/images/Diagrama_sequencia_subequipe2.jpg)
-
-**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Sequência, caso ele seja publicado no repositório.
-
-#### Diagrama de Atividades — Navegação por Modalidade
-
-O usuário acessa a página inicial, escolhe uma modalidade esportiva e pode explorar outra modalidade, selecionar uma categoria, abrir uma campanha ou refinar resultados antes de visualizar um item. As raias separam ações do **Usuário** e do **Sistema**.
-
-![Diagrama de Atividades da Subequipe 02](../../assets/images/Diagrama_atividades_subequipe2.jpeg)
-
-**Arquivo editável:** inserir o link para o `.drawio` do Diagrama de Atividades, caso ele seja publicado no repositório.
-
-**Delimitação dos cenários:** o Diagrama de Atividades termina na navegação/visualização do item; o Diagrama de Sequência acompanha também carrinho e pagamento. Essa diferença de recorte deve ser explicada na apresentação.
+| Data | Pauta / Objetivo | Ata da Reunião | Gravação |
+| :---: | :--- | :---: | :---: |
+| A registrar | Construção e revisão dos modelos UML da Subequipe 02 | Inserir link, se houver | Inserir link, se houver |
 
 ---
 
-### FOCO_03: IA Generativa
+### Matriz Geral de Contribuições
 
-**Entrega mínima:** pontos de vista **individuais** de todos os integrantes sobre o uso da IA generativa e as lições aprendidas, com validação e senso crítico.
+Consolidado da participação informada pelo grupo. Os três integrantes colaboraram na elaboração e na revisão dos **quatro diagramas**. No Foco 03, o ponto de vista e as lições aprendidas devem ser escritos e confirmados por cada pessoa.
 
-### Participantes no Foco_03
-
-| Nome do membro | Lições aprendidas | Uso da IA generativa (senso crítico) |
-| :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | **Preencher pelo integrante:** descrever o que aprendeu com a modelagem estática e dinâmica e com a revisão dos modelos. | **Preencher pelo integrante:** informar quais ferramentas usou, para quê, como validou as respostas e quais erros ou limitações encontrou. |
-| Nayra Silva Nery | **Preencher pela integrante:** descrever o que aprendeu ao modelar e avaliar a navegação, os diagramas e a notação UML. | **Preencher pela integrante:** informar como usou a IA, como comparou as sugestões com os artefatos e as fontes da disciplina e o que precisou corrigir. |
-| Uires Carlos de Oliveira | Aprendi a distinguir a visão estrutural dos componentes da ordem das mensagens em um Diagrama de Sequência. Também percebi que os elementos UML e as afirmações sobre o funcionamento da loja precisam de conferência com as aulas e com a engenharia reversa. | Usei IA para interpretar as orientações da entrega, criar rascunhos e revisar os Diagramas de Componentes e de Sequência e a documentação. Comparei as sugestões com os slides, os exemplos da professora e os artefatos da Entrega 1. A IA ajudou a organizar o trabalho, mas sugeriu simplificações e estruturas que precisei revisar; ela não conhece a arquitetura interna real da Decathlon. **Revisar este relato antes da publicação.** |
-
-### Metodologia do Foco_03
-
-O apoio da IA foi tratado como **rascunho e revisão**. Para validar uma sugestão, os integrantes devem confrontá-la com a notação UML dos materiais da disciplina, as evidências observadas na engenharia reversa e os demais diagramas do grupo. Cada relato acima deve representar a experiência **do próprio integrante**; ninguém deve publicar um ponto de vista atribuído a outra pessoa sem sua revisão.
-
-### Limitações e Lições Gerais
-
-- A IA pode produzir relações UML imprecisas ou acrescentar regras de negócio que não foram verificadas.
-- Diagramas gerados ou revisados com IA exigem leitura humana dos símbolos, dos fluxos alternativos e da legibilidade.
-- Os modelos não revelam a implementação interna da Decathlon; sua finalidade é explicar uma proposta conceitual baseada nas observações do grupo.
+| Membro | Foco Principal | Artefato(s) Assumido(s) | Commits & Evidências |
+| :--- | :--- | :--- | :---: |
+| **Diassis Bezerra Nascimento** | Focos 01 e 02; relato individual no Foco 03 | Classes, Componentes, Sequência e Atividades — elaboração e revisão conjuntas; registrar seu ponto de vista sobre IA. | Inserir links dos commits e do relato |
+| **Nayra Silva Nery** | Focos 01 e 02; relato individual no Foco 03 | Classes, Componentes, Sequência e Atividades — elaboração e revisão conjuntas; registrar seu ponto de vista sobre IA. | Inserir links dos commits e do relato |
+| **Uires Carlos de Oliveira** | Focos 01 e 02; relato individual no Foco 03 | Classes, Componentes, Sequência e Atividades — elaboração e revisão conjuntas; revisar e publicar seu ponto de vista sobre IA. | Inserir links dos commits e do relato |
 
 ---
 
-## Versionamentos
+### Referências Bibliográficas
 
-Os três integrantes participaram da **elaboração e revisão dos quatro diagramas**. Complementar o registro com as datas, versões e links que comprovem as contribuições de cada pessoa. O relato do Foco 03 continua individual.
+1. **Materiais da disciplina:** aulas de Modelagem Estática UML e Modelagem Dinâmica UML. Inserir título, autoria e links das versões consultadas.
+2. **Subequipe 02:** Rich Picture, SIG/NFR de Acessibilidade e BPMN produzidos na Entrega 1. Inserir links para os artefatos no repositório.
 
-| Nome do membro | Contribuição | Data | Comprovação |
-| :--- | :--- | :---: | :--- |
-| Diassis Bezerra Nascimento | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; acrescentar sua contribuição individual sobre IA. | Inserir data dos commits | Inserir links dos commits |
-| Nayra Silva Nery | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; acrescentar sua contribuição individual sobre IA. | Inserir data dos commits | Inserir links dos commits |
-| Uires Carlos de Oliveira | Elaboração e revisão conjunta dos modelos estáticos e dinâmicos; revisão dos diagramas com apoio de IA e relato individual. | Inserir data dos commits | Inserir links dos commits |
+As obras citadas no modelo da Subequipe 03 — Fowler, Larman e Pressman/Maxim — devem ser acrescentadas aqui somente se também tiverem sido efetivamente consultadas pela Subequipe 02.
 
-### Quadro de Participações e Commits
+---
 
-| Integrante | Foco 01 — Estático | Foco 02 — Dinâmico | Foco 03 — IA generativa |
-| :--- | :--- | :--- | :--- |
-| Diassis Bezerra Nascimento | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Inserir relato e link |
-| Nayra Silva Nery | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Inserir relato e link |
-| Uires Carlos de Oliveira | Cocriação e revisão de Classes e Componentes; inserir link | Cocriação e revisão de Sequência e Atividades; inserir link | Revisar o relato acima e inserir link |
-
-## Referências
-
-1. Materiais da disciplina sobre **Modelagem Estática UML** e **Modelagem Dinâmica UML**. Inserir título, autoria, páginas utilizadas e link disponibilizado pela professora.
-2. Subequipe 02. **Artefatos da Entrega 1:** Rich Picture, SIG/NFR de acessibilidade e BPMN de busca, carrinho e compra. Inserir links das páginas do projeto.
-3. Acrescentar apenas livros, páginas ou especificações **efetivamente consultados** pelos integrantes para fundamentar decisões de modelagem. Informar autor, título, edição/data e endereço quando aplicável.
+> **Histórico de Versões**
+>
+> | Versão | Data | Descrição | Autores | Revisor |
+> | :---: | :---: | :--- | :--- | :---: |
+> | 0.1 | 17/09/2026 | Rascunho da página Visão Geral e Gestão da Subequipe 02, com apoio de IA. | Uires Carlos de Oliveira | Diassis Bezerra Nascimento |
+> | 0.2 | 17/09/2026 | Inclusão dos perfis GitHub informados pela equipe. | Autoria a confirmar pelo grupo | Nayra Silva Nery |
+> | 0.3 | 18/09/2026 | Adequação ao modelo de Visão Geral e Gestão e registro da elaboração conjunta dos quatro diagramas. | Diassis Bezerra Nascimento | Nayra Silva Nery |
 
 ## Apresentação
 
